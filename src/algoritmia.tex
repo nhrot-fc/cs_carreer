@@ -8,39 +8,44 @@
 \curso{INTRODUCCIÓN A ALGORITMOS}
 \codigo{INFXXX}
 \semestre{2025-1}
-
-% --- Configurar encabezado ---
-\configurarEncabezado
+\profesor{Dr. Juan Pérez}
+\creditos{4}
+\horas{5}
+\prerequisitos{Ninguno}
 
 % --- START OF DOCUMENT ---
 \begin{document}
 
-% --- Generar portada ---
+% --- Generar portada con el nuevo estilo ---
 \portadaSilabo
 
 % --- I. INFORMACIÓN GENERAL ---
-\section*{I. INFORMACIÓN GENERAL}
-\begin{tabular}{@{} >{\bfseries}l @{\hspace{1em}} l @{}}
-    Clave             & : INFXXX \\ % Placeholder
-    Créditos          & : 4,00 \\
+\section{INFORMACIÓN GENERAL}
+\begin{tabularx}{\textwidth}{@{} >{\color{pucpGris}\bfseries}l @{\hspace{1em}} X @{}}
+    Clave             & : \textcolor{pucpRojo}{\textbf{\@codigo}} \\
+    Créditos          & : \@creditos \\
     Tipo              & : Obligatorio \\
     Horas de dictado  & : \\
     \multicolumn{1}{@{}l@{\hspace{2em}}}{Clase} & : 3,00 horas semanales \\
     \multicolumn{1}{@{}l@{\hspace{2em}}}{Laboratorio} & : 2,00 horas semanales \\
     Horario           & : Lunes y Miércoles de 14:00 a 17:00 \\
-    Profesor(es)      & : Dr. Juan Pérez \\
+    Profesor(es)      & : \@profesor \\
     Departamento      & : Ciencias de la Computación \\
-    Requisitos        & : Ninguno \\
-\end{tabular}
+    Requisitos        & : \@prerequisitos \\
+\end{tabularx}
 \vspace{0.5cm}
 
 % --- II. SUMILLA / DESCRIPCIÓN DEL CURSO ---
-\section*{II. SUMILLA} % Or DESCRIPCIÓN DEL CURSO
-\textit{Este curso proporciona una introducción completa a los conceptos fundamentales del diseño y análisis de algoritmos. Se explorarán técnicas esenciales para la resolución eficiente de problemas computacionales, incluyendo el análisis de eficiencia mediante notación asintótica, estrategias de diseño como divide y vencerás, algoritmos voraces y programación dinámica. Además, se cubrirán estructuras de datos fundamentales y algoritmos de ordenamiento y búsqueda, sentando las bases para el desarrollo de software robusto y eficiente.}
+\section{SUMILLA}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Descripción General del Curso}]
+Este curso proporciona una introducción completa a los conceptos fundamentales del diseño y análisis de algoritmos. Se explorarán técnicas esenciales para la resolución eficiente de problemas computacionales, incluyendo el análisis de eficiencia mediante notación asintótica, estrategias de diseño como divide y vencerás, algoritmos voraces y programación dinámica. Además, se cubrirán estructuras de datos fundamentales y algoritmos de ordenamiento y búsqueda, sentando las bases para el desarrollo de software robusto y eficiente.
+\end{tcolorbox}
 \vspace{0.5cm}
 
 % --- III. OBJETIVOS DE APRENDIZAJE / COMPETENCIAS ---
-\section*{III. OBJETIVOS DE APRENDIZAJE} % Or COMPETENCIAS
+\section{OBJETIVOS Y COMPETENCIAS}
+
+\begin{objetivos}
 Al finalizar el curso, el estudiante estará en capacidad de:
 \begin{itemize}[leftmargin=*]
     \item Comprender y aplicar la notación asintótica para analizar la eficiencia de los algoritmos.
@@ -50,135 +55,211 @@ Al finalizar el curso, el estudiante estará en capacidad de:
     \item Implementar y analizar algoritmos de búsqueda básicos como Breadth First Search (BFS) y Depth First Search (DFS).
     \item Resolver problemas de optimización aplicando las técnicas algorítmicas adecuadas.
 \end{itemize}
+\end{objetivos}
+
+\begin{competencias}
+El curso contribuye al desarrollo de las siguientes competencias profesionales:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Pensamiento algorítmico:} Capacidad para formular soluciones computacionales eficientes.
+    \item \textbf{Análisis formal:} Habilidad para evaluar algoritmos mediante técnicas matemáticas formales.
+    \item \textbf{Implementación técnica:} Destreza para codificar soluciones algorítmicas en lenguajes de programación.
+    \item \textbf{Optimización:} Capacidad para mejorar el rendimiento de soluciones computacionales.
+\end{itemize}
+\end{competencias}
 \vspace{0.5cm}
 
 % --- IV. CONTENIDO / PROGRAMA ANALÍTICO ---
-\section*{IV. CONTENIDO (o PROGRAMA ANALÍTICO)}
-El curso se divide en las siguientes unidades temáticas:
+\section{CONTENIDO DEL CURSO}
 
-\subsection*{UNIDAD 1: Fundamentos}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 1: Fundamentos}]
 \begin{itemize}[leftmargin=*]
-    \item Introducción (1,00 horas)
-    \item Notación asintótica (2,00 horas)
-    \item Análisis y diseño de algoritmos (4,00 horas)
-    \item Divide y vencerás (4,00 horas)
-    \item Teorema Maestro (2,00 horas)
+    \item \textbf{Tema 1.1:} Introducción (1,00 horas)
+    \item \textbf{Tema 1.2:} Notación asintótica (2,00 horas)
+    \item \textbf{Tema 1.3:} Análisis y diseño de algoritmos (4,00 horas)
+    \item \textbf{Tema 1.4:} Divide y vencerás (4,00 horas)
+    \item \textbf{Tema 1.5:} Teorema Maestro (2,00 horas)
 \end{itemize}
-\textbf{Total horas Unidad 1:} 13,00 horas
+\textbf{Duración total:} 13,00 horas
+\end{tcolorbox}
 
-\subsection*{UNIDAD 2: Ordenamiento}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 2: Ordenamiento}]
 \begin{itemize}[leftmargin=*]
-    \item Insertion Sort, Bubble Sort (1,00 horas)
-    \item Quick Sort, Merge Sort (2,00 horas)
+    \item \textbf{Tema 2.1:} Insertion Sort, Bubble Sort (1,00 horas)
+    \item \textbf{Tema 2.2:} Quick Sort, Merge Sort (2,00 horas)
 \end{itemize}
-\textbf{Total horas Unidad 2:} 3,00 horas
+\textbf{Duración total:} 3,00 horas
+\end{tcolorbox}
 
-\subsection*{UNIDAD 3: Estructuras de Datos}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 3: Estructuras de Datos}]
 \begin{itemize}[leftmargin=*]
-    \item Esenciales (Linked List, Stack, Queue, Heap) (4,00 horas)
-    \item Hash Tables (STL) (3,00 horas)
-    \item Binary Trees (BST, RBT, AVL) (4,00 horas)
+    \item \textbf{Tema 3.1:} Esenciales (Linked List, Stack, Queue, Heap) (4,00 horas)
+    \item \textbf{Tema 3.2:} Hash Tables (STL) (3,00 horas)
+    \item \textbf{Tema 3.3:} Binary Trees (BST, RBT, AVL) (4,00 horas)
 \end{itemize}
-\textbf{Total horas Unidad 3:} 11,00 horas
+\textbf{Duración total:} 11,00 horas
+\end{tcolorbox}
 
-\subsection*{UNIDAD 4: Búsqueda básica}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 4: Búsqueda básica}]
 \begin{itemize}[leftmargin=*]
-    \item Breadth First Search (BFS) (3,00 horas)
-    \item Depth First Search (DFS) (3,00 horas)
+    \item \textbf{Tema 4.1:} Breadth First Search (BFS) (3,00 horas)
+    \item \textbf{Tema 4.2:} Depth First Search (DFS) (3,00 horas)
 \end{itemize}
-\textbf{Total horas Unidad 4:} 6,00 horas
+\textbf{Duración total:} 6,00 horas
+\end{tcolorbox}
 
-\subsection*{UNIDAD 5: Optimización}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 5: Optimización}]
 \begin{itemize}[leftmargin=*]
-    \item Algoritmos voraces (3,00 horas)
-    \item Programación dinámica (6,00 horas)
+    \item \textbf{Tema 5.1:} Algoritmos voraces (3,00 horas)
+    \item \textbf{Tema 5.2:} Programación dinámica (6,00 horas)
 \end{itemize}
-\textbf{Total horas Unidad 5:} 9,00 horas
+\textbf{Duración total:} 9,00 horas
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+% Diagrama visual de la relación entre unidades
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (fund) at (0,0) {Fundamentos};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (ord) at (-3,-2) {Ordenamiento};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (est) at (0,-2) {Estructuras de Datos};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (bus) at (3,-2) {Búsqueda};
+\node[draw=pucpRojo, fill=pucpRojo!10, rounded corners, minimum width=3cm, minimum height=1cm] (opt) at (0,-4) {Optimización};
+
+\draw[->, thick, pucpGris] (fund) -- (ord);
+\draw[->, thick, pucpGris] (fund) -- (est);
+\draw[->, thick, pucpGris] (fund) -- (bus);
+\draw[->, thick, pucpGris] (ord) -- (opt);
+\draw[->, thick, pucpGris] (est) -- (opt);
+\draw[->, thick, pucpGris] (bus) -- (opt);
+\end{tikzpicture}
+\end{center}
+
 \vspace{0.5cm}
 
 % --- V. METODOLOGÍA ---
-\section*{V. METODOLOGÍA}
-\textit{El curso se desarrollará mediante clases teóricas expositivas, donde se presentarán los conceptos y técnicas algorítmicas. Se complementará con sesiones prácticas de laboratorio para la implementación y experimentación de los algoritmos estudiados. Se fomentará la resolución de problemas y el análisis de casos. Se realizarán discusiones grupales y se asignarán trabajos prácticos para reforzar el aprendizaje.}
+\section{METODOLOGÍA}
+\begin{tcolorbox}[colback=pucpGris!5,colframe=pucpGris,title=\textbf{Enfoque Metodológico}]
+El curso se desarrolla mediante una combinación de:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Clases teóricas expositivas:} Presentación de conceptos y técnicas algorítmicas.
+    \item \textbf{Sesiones prácticas de laboratorio:} Implementación y experimentación con algoritmos estudiados.
+    \item \textbf{Resolución de problemas:} Aplicación de técnicas para resolver problemas algorítmicos complejos.
+    \item \textbf{Análisis de casos:} Estudio de algoritmos en aplicaciones reales.
+    \item \textbf{Discusiones grupales:} Debate sobre estrategias de optimización algorítmica.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\draw[fill=pucpRojo!10, draw=pucpRojo, thick, rounded corners] (0,0) rectangle (2,1) node[pos=.5] {Teoría};
+\draw[fill=pucpAzul!10, draw=pucpAzul, thick, rounded corners] (3,0) rectangle (5,1) node[pos=.5] {Práctica};
+\draw[fill=pucpDorado!10, draw=pucpDorado, thick, rounded corners] (6,0) rectangle (8,1) node[pos=.5] {Evaluación};
+\draw[->, thick, color=pucpGris] (2.1,0.5) -- (2.9,0.5);
+\draw[->, thick, color=pucpGris] (5.1,0.5) -- (5.9,0.5);
+\end{tikzpicture}
+\end{center}
+
+Se utilizará la plataforma virtual institucional para distribución de materiales, entregas de trabajos y comunicación fuera del horario de clases.
+\end{tcolorbox}
 \vspace{0.5cm}
 
 % --- VI. SISTEMA DE EVALUACIÓN ---
-\section*{VI. SISTEMA DE EVALUACIÓN}
+\section{SISTEMA DE EVALUACIÓN}
+
 La nota final (NF) se calculará de la siguiente manera:
 
 \tablaEvaluacion{
-    Prácticas Calificadas (PC) & Promedio de PCs & 30\% \\ % Placeholder
-    Laboratorios (Lab) & Promedio de Labs & 20\% \\ % Placeholder
-    Examen Parcial (EP) & & 20\% \\ % Placeholder
-    Examen Final (EF) & & 30\% \\ % Placeholder
+    Prácticas Calificadas (PC) & Promedio de 3 PCs & 30\% \\
+    Laboratorios (Lab) & Promedio de 8 Labs & 20\% \\
+    Examen Parcial (EP) & Evaluación escrita (Unidades 1-3) & 20\% \\
+    Examen Final (EF) & Evaluación escrita (Unidades 1-5) & 30\% \\
 }
 
-\textit{Para aprobar el curso se requiere una nota mínima de 11 sobre 20. Es obligatoria la asistencia a las sesiones de laboratorio. La entrega de trabajos fuera de fecha tendrá una penalización de 2 puntos por día de retraso.}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Políticas de Evaluación}]
+\begin{itemize}[leftmargin=*]
+    \item Para aprobar el curso se requiere una nota mínima de 11 sobre 20.
+    \item Es obligatoria la asistencia a las sesiones de laboratorio.
+    \item La entrega de trabajos fuera de fecha tendrá una penalización de 2 puntos por día de retraso.
+    \item Los exámenes no rendidos se califican con nota cero (0).
+    \item Casos de plagio serán sancionados según el reglamento de disciplina de la universidad.
+\end{itemize}
+\end{tcolorbox}
 \vspace{0.5cm}
 
 % --- VII. CRONOGRAMA / CALENDARIO ---
-\section*{VII. CRONOGRAMA} % O CALENDARIO
-% Ejemplo de tabla de cronograma (Placeholder - ajustar según el calendario real del semestre)
-\begin{longtable}{p{2cm} p{12cm}}
-    \toprule
-    \textbf{Semana} & \textbf{Unidad, Tema o Actividad} \\ %
-    \midrule
-    \endfirsthead
-    \toprule
-    \textbf{Semana} & \textbf{Unidad, Tema o Actividad} \\
-    \midrule
-    \endhead
-    \bottomrule
-    \endfoot
-    1 & Unidad 1: Fundamentos - Introducción, Notación asintótica (inicio) \\ % Placeholder
-    2 & Unidad 1: Fundamentos - Notación asintótica (fin), Análisis y diseño de algoritmos (inicio) \\ % Placeholder
-    3 & Unidad 1: Fundamentos - Análisis y diseño de algoritmos (fin) \\ % Placeholder
-    4 & Unidad 1: Fundamentos - Divide y vencerás (inicio) \\ % Placeholder
-    5 & Unidad 1: Fundamentos - Divide y vencerás (fin), Teorema Maestro \\ % Placeholder
-    6 & Unidad 2: Ordenamiento - Insertion Sort, Bubble Sort, Quick Sort, Merge Sort \\ % Placeholder
-    7 & Unidad 3: Estructuras de Datos - Esenciales (Linked List, Stack, Queue, Heap) \\ % Placeholder
-    8 & \textbf{Examen Parcial} \\ % Placeholder
-    9 & Unidad 3: Estructuras de Datos - Hash Tables (STL) \\ % Placeholder
-    10 & Unidad 3: Estructuras de Datos - Binary Trees (BST, RBT, AVL) (inicio) \\ % Placeholder
-    11 & Unidad 3: Estructuras de Datos - Binary Trees (BST, RBT, AVL) (fin) \\ % Placeholder
-    12 & Unidad 4: Búsqueda básica - Breadth First Search (BFS) \\ % Placeholder
-    13 & Unidad 4: Búsqueda básica - Depth First Search (DFS) \\ % Placeholder
-    14 & Unidad 5: Optimización - Algoritmos voraces \\ % Placeholder
-    15 & Unidad 5: Optimización - Programación dinámica (inicio) \\ % Placeholder
-    16 & Unidad 5: Optimización - Programación dinámica (fin) / Repaso Final \\ % Placeholder
-    17 & \textbf{Examen Final} \\ % Placeholder
-\end{longtable}
-\vspace{0.5cm}
+\section{CRONOGRAMA DEL CURSO}
+
+\cronogramaCurso{
+1 & Unidad 1: Fundamentos - Introducción, Notación asintótica (inicio) & Laboratorio 1: Entorno de trabajo \\
+2 & Unidad 1: Fundamentos - Notación asintótica (fin), Análisis de algoritmos (inicio) & Laboratorio 2: Análisis empírico \\
+3 & Unidad 1: Fundamentos - Análisis de algoritmos (fin) & \textbf{Práctica Calificada 1} \\
+4 & Unidad 1: Fundamentos - Divide y vencerás (inicio) & Laboratorio 3: Implementación recursive \\
+5 & Unidad 1: Fundamentos - Divide y vencerás (fin), Teorema Maestro & Laboratorio 4: Análisis de complejidad \\
+6 & Unidad 2: Ordenamiento - Insertion Sort, Bubble Sort, Quick Sort, Merge Sort & \textbf{Práctica Calificada 2} \\
+7 & Unidad 3: Estructuras de Datos - Esenciales (Linked List, Stack, Queue, Heap) & Laboratorio 5: Implementación ED \\
+8 & \textbf{EXAMEN PARCIAL} & Evaluación escrita \\
+9 & Unidad 3: Estructuras de Datos - Hash Tables (STL) & Laboratorio 6: Hash tables \\
+10 & Unidad 3: Estructuras de Datos - Binary Trees (BST, RBT, AVL) & Asesoría de proyecto \\
+11 & Unidad 4: Búsqueda básica - Breadth First Search (BFS) & Laboratorio 7: Implementación BFS \\
+12 & Unidad 4: Búsqueda básica - Depth First Search (DFS) & \textbf{Práctica Calificada 3} \\
+13 & Unidad 5: Optimización - Algoritmos voraces & Laboratorio 8: Greedy algorithms \\
+14 & Unidad 5: Optimización - Programación dinámica (inicio) & Avance de proyecto final \\
+15 & Unidad 5: Optimización - Programación dinámica (fin) / Repaso & Presentación preliminar \\
+16 & \textbf{EXAMEN FINAL} & Evaluación escrita \\
+17 & Presentación de proyectos finales & Entrega final de proyecto \\
+}
 
 % --- VIII. BIBLIOGRAFÍA ---
-\section*{VIII. BIBLIOGRAFÍA}
-\subsection*{Bibliografía Obligatoria} % Placeholder - Añadir libros específicos
-\begin{itemize}[leftmargin=*]
+\section{BIBLIOGRAFÍA}
+
+\begin{bibliografiaCurso}
     \item Cormen, T. H., Leiserson, C. E., Rivest, R. L., \& Stein, C. (2009). \textit{Introduction to Algorithms} (3rd ed.). MIT Press.
     \item Sedgewick, R., \& Wayne, K. (2011). \textit{Algorithms} (4th ed.). Addison-Wesley Professional.
-\end{itemize}
-
-\subsection*{Bibliografía Complementaria} % Placeholder - Añadir libros específicos
-\begin{itemize}[leftmargin=*]
     \item Kleinberg, J., \& Tardos, É. (2005). \textit{Algorithm Design}. Addison-Wesley.
     \item Skiena, S. S. (2008). \textit{The Algorithm Design Manual} (2nd ed.). Springer.
-\end{itemize}
-\textit{Nota: Se utiliza el estilo de citación APA 7ma edición.}
+    \item Dasgupta, S., Papadimitriou, C., \& Vazirani, U. (2006). \textit{Algorithms}. McGraw-Hill Education.
+\end{bibliografiaCurso}
+
+% --- IX. ACERCA DEL DOCENTE ---
+\section{INFORMACIÓN DEL DOCENTE}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{Perfil del Docente}]
+\begin{minipage}{0.25\textwidth}
+  \centering
+  % Imagen representativa del docente (silueta genérica)
+  \begin{tikzpicture}
+    \fill[pucpGris!30] (0,0) circle (1.2);
+    \fill[pucpGris!50] (0,-0.2) circle (0.8);
+    \fill[pucpGris!30] (0,1.5) circle (0.6);
+  \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.75\textwidth}
+  \begin{tabularx}{\textwidth}{>{\color{pucpGris}\bfseries}l X}
+    Nombre & Dr. Juan Pérez \\
+    Correo Electrónico & jperez@pucp.edu.pe \\
+    Horario de Asesoría & Miércoles 10:00 - 11:00 \\
+    Formación & Doctor en Ciencias de la Computación, Universidad de Stanford \\
+    Especialización & Algoritmos de optimización y aprendizaje automático \\
+    Investigación & Análisis de algoritmos, computación de alto rendimiento \\
+  \end{tabularx}
+\end{minipage}
+\end{tcolorbox}
 \vspace{0.5cm}
 
-% --- IX. ACERCA DEL DOCENTE (Opcional) ---
-\section*{IX. ACERCA DEL DOCENTE} % Placeholder
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Nombre del Profesor:} Dr. Juan Pérez
-    \item \textbf{Correo Electrónico:} jperez@example.edu
-    \item \textbf{Horario de Asesoría:} Miércoles 10:00 - 11:00
-    \item \textbf{Formación:} Doctor en Ciencias de la Computación, Universidad de Stanford
-    \item \textbf{Especialización:} Algoritmos de optimización y aprendizaje automático
-\end{itemize}
-\vspace{0.5cm}
+% --- X. POLÍTICA CONTRA EL PLAGIO ---
+\section{POLÍTICA INSTITUCIONAL CONTRA EL PLAGIO}
 
-% --- X. POLÍTICA CONTRA EL PLAGIO (Opcional pero recomendado) ---
-\section*{X. POLÍTICA CONTRA EL PLAGIO}
-\textit{El plagio y cualquier forma de deshonestidad académica serán sancionados de acuerdo con el reglamento de la institución. Todos los trabajos presentados deben ser originales. Se espera que los estudiantes citen adecuadamente todas las fuentes utilizadas. Para más detalles, consultar el reglamento estudiantil de la universidad.}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Integridad Académica}]
+Para la corrección y evaluación de todos los trabajos del curso se va a tomar en cuenta el debido respeto a los derechos de autor, castigando severamente cualquier indicio de plagio con la nota CERO (00).
+
+Estas medidas serán independientes del proceso administrativo de sanción que la facultad estime conveniente de acuerdo a cada caso en particular. Se recomienda revisar el Reglamento de Disciplina de la PUCP, disponible en la página web institucional.
+
+La originalidad de los trabajos es un valor esencial de la comunidad académica. Se espera que todos los estudiantes citen adecuadamente las fuentes utilizadas y presenten trabajos que reflejen su propio análisis y reflexión.
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+\node[inner sep=0pt] at (0,0) {\includegraphics[width=3cm]{../images/PUCP3.png}};
+\end{tikzpicture}
+\end{center}
 
 \end{document}
-% --- END OF DOCUMENT ---

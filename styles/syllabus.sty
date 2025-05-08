@@ -1,5 +1,5 @@
 % Archivo de estilo personalizado para silabos
-\ProvidesPackage{syllabus}[2025/05/07 v1.0 Estilo personalizado para silabos]
+\ProvidesPackage{syllabus}[2025/05/07 v1.1 Estilo personalizado para silabos PUCP]
 
 % Paquetes requeridos
 \RequirePackage[utf8]{inputenc}
@@ -13,20 +13,40 @@
 \RequirePackage{array}
 \RequirePackage{longtable}
 \RequirePackage{booktabs}
+\RequirePackage{colortbl}    % Para usar \rowcolor en tablas
 \RequirePackage{enumitem}
 \RequirePackage{fancyhdr}
+\RequirePackage{xcolor}      % Para colores institucionales
+\RequirePackage{tikz}        % Para mejores decoraciones y diseño
+\RequirePackage{titlesec}    % Para estilizar secciones
+\RequirePackage{tcolorbox}   % Para crear cajas de texto con estilo
 \RequirePackage{hyperref}
+\RequirePackage{caption}     % Para personalizar leyendas
+\RequirePackage{tabularx}    % Mejores tablas
+\RequirePackage{microtype}   % Mejoras tipográficas sutiles
 
-% Configuración de hipervínculos
+% Colores institucionales PUCP
+\definecolor{pucpRojo}{RGB}{171,31,45}    % Rojo PUCP
+\definecolor{pucpGris}{RGB}{83,86,90}     % Gris PUCP
+\definecolor{pucpAzul}{RGB}{0,75,135}     % Azul complementario
+\definecolor{pucpDorado}{RGB}{185,151,91} % Dorado para detalles
+
+% Configuración de hipervínculos con colores institucionales
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
+    linkcolor=pucpAzul,
+    filecolor=pucpRojo,
+    urlcolor=pucpAzul,
+    pdftitle={Sílabo PUCP},
+    pdfauthor={Pontificia Universidad Católica del Perú},
+    pdfsubject={Sílabo de curso},
+    pdfkeywords={PUCP, sílabo, curso},
 }
 
-% Ajuste para headheight que reporta error
-\setlength{\headheight}{16pt}
+% Ajuste para headheight que reporta error - Corregido a 26pt
+\setlength{\headheight}{26pt}
+% Compensar el aumento del headheight
+\addtolength{\topmargin}{-10pt}
 
 % Comandos personalizados para información del curso
 \newcommand{\universidad}[1]{\def\@universidad{#1}}
@@ -35,58 +55,144 @@
 \newcommand{\curso}[1]{\def\@curso{#1}}
 \newcommand{\codigo}[1]{\def\@codigo{#1}}
 \newcommand{\semestre}[1]{\def\@semestre{#1}}
+\newcommand{\profesor}[1]{\def\@profesor{#1}}
+\newcommand{\creditos}[1]{\def\@creditos{#1}}
+\newcommand{\horas}[1]{\def\@horas{#1}}
+\newcommand{\prerequisitos}[1]{\def\@prerequisitos{#1}}
 
-% Formato de secciones sin usar titlesec
-\newcommand{\formatSection}{\normalfont\Large\bfseries}
-\newcommand{\formatSubsection}{\normalfont\large\bfseries}
-\newcommand{\formatSubsubsection}{\normalfont\normalsize\bfseries}
+% Estilo mejorado para títulos de secciones
+\titleformat{\section}
+{\color{pucpRojo}\normalfont\Large\bfseries}
+{\color{pucpRojo}\thesection}{0.5em}{}[\titlerule]
 
-% Configuración de encabezado y pie de página
+\titleformat{\subsection}
+{\color{pucpGris}\normalfont\large\bfseries}
+{\color{pucpRojo}\thesubsection}{0.5em}{}
+
+\titleformat{\subsubsection}
+{\color{pucpGris}\normalfont\normalsize\bfseries}
+{\color{pucpRojo}\thesubsubsection}{0.5em}{}
+
+% Configuración de encabezado y pie de página con colores institucionales
 \pagestyle{fancy}
 \fancyhf{}
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{pucpRojo}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{pucpGris}\leaders\hrule height \footrulewidth\hfill}}
 \fancyfoot[C]{\thepage}
 
 % Comando para configurar el encabezado con información del curso
 \newcommand{\configurarEncabezado}{
-  \fancyhead[L]{\@universidad}
-  \fancyhead[R]{\@facultad}
+  \fancyhead[L]{\textcolor{pucpGris}{\@universidad}}
+  \fancyhead[R]{\textcolor{pucpGris}{\@facultad}}
+  \fancyfoot[L]{\textcolor{pucpGris}{Código: \@codigo}}
+  \fancyfoot[R]{\textcolor{pucpGris}{\@semestre}}
 }
 
 % Comando para generar la página de título del sílabo
 \newcommand{\portadaSilabo}{
-  \begin{center}
-    % Para logo, usar ruta absoluta o ajustar según la estructura del proyecto
-    % \includegraphics[width=3cm]{../images/logo.png}
-    % \vspace{0.5cm}
-    
-    {\Large \textbf{\@universidad}} \\
-    {\large \textbf{\@facultad}} \\
-    {\large \textbf{\@departamento}} \\
-    \vspace{0.5cm}
-    {\huge \textbf{\@curso}} \\
-    \vspace{0.2cm}
-    {\Large \textbf{\@codigo}} \\
-    \vspace{0.5cm}
-    {\large Semestre Academico: \@semestre} 
-    \vspace{1cm}
-  \end{center}
+  \begin{titlepage}
+    \begin{center}
+      % Logo PUCP - cambiado a formato JPG que es compatible con LaTeX
+      \includegraphics[width=5cm]{../images/PUCP.jpg}
+      \vspace{1cm}
+      
+      % Línea decorativa
+      \begin{tikzpicture}
+        \draw[line width=2pt, pucpRojo] (0,0) -- (\textwidth,0);
+      \end{tikzpicture}
+      \vspace{0.5cm}
+      
+      {\color{pucpRojo}\huge\textbf{SÍLABO DE CURSO}} \\
+      \vspace{1.5cm}
+      
+      {\Large \textbf{\@universidad}} \\
+      {\large \textbf{\@facultad}} \\
+      {\large \@departamento} \\
+      \vspace{1.5cm}
+      
+      \begin{tcolorbox}[colback=pucpRojo!10,colframe=pucpRojo,width=0.8\textwidth,arc=5mm]
+        \begin{center}
+          {\color{pucpRojo}\LARGE \textbf{\@curso}} \\
+          \vspace{0.3cm}
+          {\Large \textbf{\@codigo}} \\
+        \end{center}
+      \end{tcolorbox}
+      
+      \vspace{1cm}
+      
+      \begin{tabularx}{0.8\textwidth}{>{\color{pucpGris}\bfseries}l X}
+        Semestre Académico: & \@semestre \\
+        \ifx\@profesor\undefined\else Profesor(es): & \@profesor \\ \fi
+        \ifx\@creditos\undefined\else Créditos: & \@creditos \\ \fi
+        \ifx\@horas\undefined\else Horas semanales: & \@horas \\ \fi
+        \ifx\@prerequisitos\undefined\else Prerrequisitos: & \@prerequisitos \\ \fi
+      \end{tabularx}
+      
+      \vfill
+      
+      % Línea decorativa
+      \begin{tikzpicture}
+        \draw[line width=2pt, pucpRojo] (0,0) -- (\textwidth,0);
+      \end{tikzpicture}
+    \end{center}
+  \end{titlepage}
+  \configurarEncabezado
+}
+
+% Estilos para entornos
+\newenvironment{objetivos}{%
+  \begin{tcolorbox}[colback=pucpAzul!5,colframe=pucpAzul,title=\textbf{Objetivos del curso}]
+}{%
+  \end{tcolorbox}
+}
+
+\newenvironment{competencias}{%
+  \begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Competencias}]
+}{%
+  \end{tcolorbox}
 }
 
 % Comando para crear tablas de evaluación con estilo consistente
 \newcommand{\tablaEvaluacion}[1]{
-  \begin{center}
-  \begin{tabular}{l l c}
-    \toprule
-    \textbf{Tipo de Evaluacion} & \textbf{Siglas/Descripcion} & \textbf{Peso (\%)} \\
-    \midrule
-    #1
-    \midrule
-    \textbf{TOTAL} & & \textbf{100\%} \\
-    \bottomrule
-  \end{tabular}
-  \end{center}
+  \begin{tcolorbox}[colback=white,colframe=pucpGris,title=\textbf{Sistema de Evaluación}]
+    \begin{center}
+    \begin{tabular}{l l c}
+      \toprule
+      \rowcolor{pucpGris!20}\textbf{Tipo de Evaluación} & \textbf{Descripción} & \textbf{Peso (\%)} \\
+      \midrule
+      #1
+      \midrule
+      \textbf{TOTAL} & & \textbf{100\%} \\
+      \bottomrule
+    \end{tabular}
+    \end{center}
+  \end{tcolorbox}
+}
+
+% Comando para crear tabla con el cronograma del curso
+\newcommand{\cronogramaCurso}[1]{
+  \begin{tcolorbox}[colback=white,colframe=pucpDorado,title=\textbf{Cronograma del Curso}]
+    \begin{center}
+    \begin{longtable}{|c|p{10cm}|p{4cm}|}
+      \hline
+      \rowcolor{pucpDorado!20}\textbf{Semana} & \textbf{Contenido} & \textbf{Actividades} \\
+      \hline
+      #1
+      \hline
+    \end{longtable}
+    \end{center}
+  \end{tcolorbox}
+}
+
+% Comando para crear bibliografía con estilo
+\newenvironment{bibliografiaCurso}{%
+  \begin{tcolorbox}[colback=pucpGris!5,colframe=pucpGris,title=\textbf{Bibliografía}]
+    \begin{enumerate}[label={[\arabic*]}]
+}{%
+    \end{enumerate}
+  \end{tcolorbox}
 }
 
 \endinput

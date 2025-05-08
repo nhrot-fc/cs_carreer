@@ -1,159 +1,231 @@
 \documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
 \usepackage{../styles/syllabus}
 
 % --- Información del curso ---
-\universidad{NOMBRE DE LA INSTITUCIÓN}
-\facultad{NOMBRE DE LA FACULTAD}
-\departamento{NOMBRE DEL DEPARTAMENTO}
+\universidad{PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ}
+\facultad{FACULTAD DE CIENCIAS E INGENIERÍA}
+\departamento{DEPARTAMENTO DE INGENIERÍA}
 \curso{NOMBRE DEL CURSO}
 \codigo{CÓDIGO DEL CURSO}
-\semestre{AÑO-SEMESTRE}
-
-% --- Configurar encabezado ---
-\configurarEncabezado
+\semestre{2025-1}
+\profesor{NOMBRE DEL PROFESOR}
+\creditos{4}
+\horas{6}
+\prerequisitos{CÓDIGO-REQUISITO}
 
 % --- START OF DOCUMENT ---
 \begin{document}
 
-% --- Generar portada ---
+% --- Generar portada con el nuevo estilo ---
 \portadaSilabo
 
 % --- I. INFORMACIÓN GENERAL ---
-\section*{I. INFORMACIÓN GENERAL}
-\begin{tabular}{@{} >{\bfseries}l @{\hspace{1em}} l @{}}
-    Clave             & : CÓDIGO\_CURSO \\
-    Créditos          & : NÚMERO\_CRÉDITOS \\
+\section{INFORMACIÓN GENERAL}
+
+\noindent
+\begin{tabular}{@{} >{\bfseries\color{pucpGris}}l @{\hspace{1em}} l @{}}
+    Clave             & : \textcolor{pucpRojo}{\textbf{\@codigo}} \\
+    Créditos          & : \@creditos \\
     Tipo              & : Obligatorio/Electivo \\
     Horas de dictado  & : \\
-    \multicolumn{1}{@{}l@{\hspace{2em}}}{Clase} & : XX horas semanales \\
-    \multicolumn{1}{@{}l@{\hspace{2em}}}{Práctica} & : XX horas (semanales/quincenales) \\
-    \multicolumn{1}{@{}l@{\hspace{2em}}}{Laboratorio} & : XX horas (semanales/quincenales) \\
-    Horario           & : DÍA(S) de HH:MM a HH:MM \\
-    Profesor(es)      & : NOMBRE(S) DEL PROFESOR(ES) \\
-    Departamento      & : NOMBRE\_DEPARTAMENTO (si aplica) \\
-    Requisitos        & : CÓDIGO(S)\_REQUISITO(S) (o Ninguno) \\
+    Clase             & : 4 horas semanales \\
+    Práctica          & : 2 horas semanales \\
+    Laboratorio       & : -- horas \\
+    Horario           & : Lunes y Miércoles de 10:00 a 12:00 \\
+    Profesor(es)      & : \@profesor \\
+    Requisitos        & : \@prerequisitos (o Ninguno) \\
 \end{tabular}
+
 \vspace{0.5cm}
 
 % --- II. SUMILLA / DESCRIPCIÓN DEL CURSO ---
-\section*{II. SUMILLA} % Or DESCRIPCIÓN DEL CURSO
-\textit{Escriba aquí la sumilla o descripción general del curso. Este es un resumen conciso de los contenidos y propósitos del curso.}
+\section{SUMILLA}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Descripción General del Curso}]
+Este es un curso que introduce a los estudiantes en los conceptos fundamentales de la disciplina. Se espera que al finalizar, los alumnos cuenten con una base sólida que les permita continuar profundizando en el área de estudio.
+
+El curso abarca desde los principios teóricos hasta aplicaciones prácticas, utilizando metodologías interactivas y proyectos colaborativos para facilitar un aprendizaje significativo.
+\end{tcolorbox}
 \vspace{0.5cm}
 
 % --- III. OBJETIVOS DE APRENDIZAJE / COMPETENCIAS ---
-\section*{III. OBJETIVOS DE APRENDIZAJE} % Or COMPETENCIAS
+\section{OBJETIVOS Y COMPETENCIAS}
+
+\begin{objetivos}
 Al finalizar el curso, el estudiante estará en capacidad de:
 \begin{itemize}[leftmargin=*]
-    \item \textit{Objetivo de aprendizaje 1.}
-    \item \textit{Objetivo de aprendizaje 2.}
-    \item \textit{Objetivo de aprendizaje 3.}
-    % Añadir más objetivos si es necesario
+    \item Comprender los conceptos fundamentales de la disciplina y su aplicación en contextos reales.
+    \item Desarrollar habilidades analíticas para resolver problemas complejos utilizando métodos apropiados.
+    \item Aplicar conocimientos teóricos en la implementación de soluciones prácticas a casos de estudio.
+    \item Evaluar críticamente soluciones alternativas y proponer mejoras basadas en criterios técnicos.
 \end{itemize}
-Estos objetivos contribuyen al logro de los siguientes resultados del programa (si aplica):
+\end{objetivos}
+
+\begin{competencias}
+Estos objetivos contribuyen al desarrollo de las siguientes competencias:
 \begin{itemize}[leftmargin=*]
-    \item \textit{Resultado del programa 1.}
-    \item \textit{Resultado del programa 2.}
-    % Añadir más resultados si es necesario
+    \item \textbf{Competencia técnica:} Dominio de conceptos y herramientas específicas de la disciplina.
+    \item \textbf{Competencia analítica:} Capacidad para analizar problemas complejos y desarrollar soluciones.
+    \item \textbf{Competencia comunicativa:} Habilidad para comunicar ideas técnicas de manera efectiva.
+    \item \textbf{Competencia colaborativa:} Capacidad para trabajar en equipo y contribuir a proyectos grupales.
 \end{itemize}
+\end{competencias}
 \vspace{0.5cm}
 
 % --- IV. CONTENIDO / PROGRAMA ANALÍTICO ---
-\section*{IV. CONTENIDO (o PROGRAMA ANALÍTICO)}
-El curso se divide en las siguientes unidades temáticas:
+\section{CONTENIDO DEL CURSO}
 
-% Ejemplo de Unidad
-\subsection*{UNIDAD 1: Nombre de la Unidad 1}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 1: Fundamentos Teóricos}]
 \begin{itemize}[leftmargin=*]
-    \item Tema 1.1: Descripción breve del tema.
-    \item Tema 1.2: Descripción breve del tema.
-    % ... más temas
+    \item \textbf{Tema 1.1:} Introducción a los conceptos básicos de la disciplina.
+    \item \textbf{Tema 1.2:} Evolución histórica y desarrollos recientes en el campo.
+    \item \textbf{Tema 1.3:} Marcos teóricos contemporáneos y su aplicación.
 \end{itemize}
-\textbf{Duración aproximada:} XX horas
+\textbf{Duración aproximada:} 3 semanas
+\end{tcolorbox}
 
-\subsection*{UNIDAD 2: Nombre de la Unidad 2}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 2: Metodologías de Análisis}]
 \begin{itemize}[leftmargin=*]
-    \item Tema 2.1: Descripción breve del tema.
-    \item Tema 2.2: Descripción breve del tema.
-    % ... más temas
+    \item \textbf{Tema 2.1:} Métodos cuantitativos para análisis de datos.
+    \item \textbf{Tema 2.2:} Diseño de experimentos y validación de resultados.
+    \item \textbf{Tema 2.3:} Herramientas computacionales para análisis avanzado.
 \end{itemize}
-\textbf{Duración aproximada:} XX horas
+\textbf{Duración aproximada:} 4 semanas
+\end{tcolorbox}
 
-% Añadir más unidades según sea necesario
-\vspace{0.5cm}
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 3: Aplicaciones Prácticas}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 3.1:} Estudios de caso en contextos reales.
+    \item \textbf{Tema 3.2:} Desarrollo de proyectos aplicados.
+    \item \textbf{Tema 3.3:} Evaluación y optimización de soluciones.
+\end{itemize}
+\textbf{Duración aproximada:} 5 semanas
+\end{tcolorbox}
 
 % --- V. METODOLOGÍA ---
-\section*{V. METODOLOGÍA}
-\textit{Describa aquí la metodología de enseñanza-aprendizaje que se utilizará en el curso. Por ejemplo: clases magistrales, aprendizaje basado en proyectos, estudio de casos, laboratorios, etc.}
+\section{METODOLOGÍA}
+\begin{tcolorbox}[colback=pucpGris!5,colframe=pucpGris,title=\textbf{Enfoque Metodológico}]
+El curso se desarrolla mediante una combinación de:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Clases magistrales:} Presentación de conceptos teóricos con ejemplos prácticos.
+    \item \textbf{Talleres prácticos:} Aplicación guiada de conceptos en ejercicios estructurados.
+    \item \textbf{Aprendizaje basado en proyectos:} Desarrollo de un proyecto integrador durante el semestre.
+    \item \textbf{Discusiones grupales:} Análisis crítico de casos y lecturas asignadas.
+    \item \textbf{Laboratorios:} Sesiones prácticas con herramientas y software especializado.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\draw[fill=pucpRojo!10, draw=pucpRojo, thick, rounded corners] (0,0) rectangle (2,1) node[pos=.5] {Teoría};
+\draw[fill=pucpAzul!10, draw=pucpAzul, thick, rounded corners] (3,0) rectangle (5,1) node[pos=.5] {Práctica};
+\draw[fill=pucpDorado!10, draw=pucpDorado, thick, rounded corners] (6,0) rectangle (8,1) node[pos=.5] {Proyecto};
+\draw[->, thick, color=pucpGris] (2.1,0.5) -- (2.9,0.5);
+\draw[->, thick, color=pucpGris] (5.1,0.5) -- (5.9,0.5);
+\end{tikzpicture}
+\end{center}
+
+Se utilizará la plataforma virtual institucional para distribución de materiales, entregas de trabajos y comunicación fuera del horario de clases.
+\end{tcolorbox}
 \vspace{0.5cm}
 
 % --- VI. SISTEMA DE EVALUACIÓN ---
-\section*{VI. SISTEMA DE EVALUACIÓN}
+\section{SISTEMA DE EVALUACIÓN}
+
 La nota final (NF) se calculará de la siguiente manera:
 
 \tablaEvaluacion{
-    Práctica Calificada 1 & PC1 & XX\% \\
-    Examen Parcial & EP & XX\% \\
-    Trabajo Final & TF & XX\% \\
-    Participación en Clase & PA & XX\% \\
+    Práctica Calificada 1 & Evaluación de temas de Unidad 1 & 15\% \\
+    Examen Parcial & Evaluación de Unidades 1 y 2 & 25\% \\
+    Práctica Calificada 2 & Evaluación de temas de Unidad 3 & 15\% \\
+    Proyecto Final & Desarrollo e implementación de proyecto aplicado & 30\% \\
+    Participación & Contribuciones en clase y actividades virtuales & 15\% \\
 }
 
-\textit{Detallar aquí cualquier consideración adicional sobre la evaluación, como políticas sobre trabajos grupales, plagio, asistencia, etc.}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Políticas del Curso}]
+\begin{itemize}[leftmargin=*]
+    \item La asistencia a clases es obligatoria. Se permite un máximo de 30\% de inasistencias para aprobar el curso.
+    \item No se aceptarán entregas fuera de plazo salvo justificación médica o caso de fuerza mayor documentado.
+    \item Los trabajos grupales requieren la participación equitativa de todos los integrantes.
+    \item Cualquier forma de plagio resultará en la calificación de cero (0) en la evaluación correspondiente.
+\end{itemize}
+\end{tcolorbox}
 \vspace{0.5cm}
 
 % --- VII. CRONOGRAMA / CALENDARIO ---
-\section*{VII. CRONOGRAMA} % O CALENDARIO
-\begin{longtable}{p{2cm} p{12cm}}
-    \toprule
-    \textbf{Semana} & \textbf{Unidad, Tema o Actividad} \\
-    \midrule
-    \endfirsthead
-    \toprule
-    \textbf{Semana} & \textbf{Unidad, Tema o Actividad} \\
-    \midrule
-    \endhead
-    \bottomrule
-    \endfoot
-    1 & \textit{Unidad X. Tema Y / Introducción al curso} \\
-    2 & \textit{Unidad X. Tema Z} \\
-    3 & \textit{Unidad A. Tema B / Laboratorio 1} \\
-    % ... continuar hasta la última semana
-    8 & \textit{Examen Parcial} \\
-    % ...
-    16 & \textit{Examen Final / Entrega Proyecto Final} \\
-\end{longtable}
-\vspace{0.5cm}
+\section{CRONOGRAMA DEL CURSO}
+
+\cronogramaCurso{
+1 & Presentación del curso. Introducción a conceptos básicos & Formación de grupos de trabajo \\
+2 & Unidad 1: Tema 1.1 - Conceptos fundamentales & Taller práctico 1 \\
+3 & Unidad 1: Tema 1.2 - Evolución histórica & Lectura y discusión \\
+4 & Unidad 1: Tema 1.3 - Marcos teóricos & \textbf{Práctica Calificada 1} \\
+5 & Unidad 2: Tema 2.1 - Métodos cuantitativos & Taller de análisis de datos \\
+6 & Unidad 2: Tema 2.2 - Diseño de experimentos & Laboratorio práctico \\
+7 & Unidad 2: Tema 2.3 - Herramientas computacionales & Entrega de avance de proyecto \\
+8 & \textbf{EXAMEN PARCIAL} & Evaluación de Unidades 1 y 2 \\
+9 & Retroalimentación del examen parcial & Asesoría para proyectos \\
+10 & Unidad 3: Tema 3.1 - Estudios de caso & Análisis de casos reales \\
+11 & Unidad 3: Tema 3.2 - Desarrollo de proyectos & Taller práctico 2 \\
+12 & Unidad 3: Tema 3.3 - Optimización de soluciones & \textbf{Práctica Calificada 2} \\
+13 & Avance de proyectos & Asesoría grupal \\
+14 & Integración de conceptos & Presentación preliminar de proyectos \\
+15 & Taller integrador & Últimos ajustes a proyectos \\
+16 & \textbf{Presentación final de proyectos} & Evaluación final \\
+}
 
 % --- VIII. BIBLIOGRAFÍA ---
-\section*{VIII. BIBLIOGRAFÍA}
-\subsection*{Bibliografía Obligatoria}
-\begin{itemize}[leftmargin=*]
-    \item Apellido, N. (Año). \textit{Título del Libro en cursiva} (Edición). Ciudad: Editorial.
-    % Ejemplo: Coulouris, G., Dollimore, J., Kindberg, T., & Blair, G. (2011). Distributed Systems: Concepts and Design (5th ed.). Pearson.
-    \item \textit{Otro recurso obligatorio.}
-\end{itemize}
+\section{BIBLIOGRAFÍA}
 
-\subsection*{Bibliografía Complementaria}
-\begin{itemize}[leftmargin=*]
-    \item Apellido, N. (Año). \textit{Título del Artículo}. Nombre de la Revista, Volumen(Número), pp-pp.
-    \item \textit{Otro recurso complementario.}
-\end{itemize}
-\textit{Nota: Se recomienda seguir un estilo de citación consistente (APA, IEEE, etc.).}
-\vspace{0.5cm}
+\begin{bibliografiaCurso}
+    \item Apellido, N. (2023). \textit{Fundamentos Teóricos y Aplicaciones Prácticas}. Lima: Editorial PUCP.
+    \item Autor, A. y Coautor, B. (2022). \textit{Métodos Avanzados para el Análisis de Datos}. Barcelona: Editorial Académica.
+    \item Investigador, C. (2021). ``Tendencias Contemporáneas en la Disciplina''. \textit{Revista de Estudios Especializados}, 45(2), 123-145.
+    \item Experto, D. et al. (2020). \textit{Manual de Implementación de Soluciones Prácticas}. México: Editorial Técnica.
+    \item Referente, E. (2019). \textit{Casos de Éxito y Lecciones Aprendidas}. Disponible en: \url{https://www.ejemplo-recurso.edu/publicaciones}
+\end{bibliografiaCurso}
 
-% --- IX. ACERCA DEL DOCENTE (Opcional) ---
-\section*{IX. ACERCA DEL DOCENTE}
-\textit{Breve reseña del profesor o profesores, incluyendo formación, áreas de especialización, y correo electrónico de contacto.}
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Nombre del Profesor:} [Nombre Completo]
-    \item \textbf{Correo Electrónico:} [email@example.com]
-    \item \textbf{Horario de Asesoría:} [Día, HH:MM - HH:MM]
-\end{itemize}
-\vspace{0.5cm}
+% --- IX. ACERCA DEL DOCENTE ---
+\section{INFORMACIÓN DEL DOCENTE}
 
-% --- X. POLÍTICA CONTRA EL PLAGIO (Opcional pero recomendado) ---
-\section*{X. POLÍTICA CONTRA EL PLAGIO}
-\textit{Incluir aquí la política institucional o del curso respecto al plagio y la honestidad académica.}
-% Ejemplo: "Para la corrección y evaluación de todos los trabajos del curso se va a tomar en cuenta el debido respeto a los derechos de autor, castigando severamente cualquier indicio de plagio con la nota CERO (00). Estas medidas serán independientes del proceso administrativo de sanción que la facultad estime conveniente de acuerdo a cada caso en particular."
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{Perfil del Docente}]
+\begin{minipage}{0.25\textwidth}
+  \centering
+  % Imagen representativa del docente (silueta genérica)
+  \begin{tikzpicture}
+    \fill[pucpGris!30] (0,0) circle (1.2);
+    \fill[pucpGris!50] (0,-0.2) circle (0.8);
+    \fill[pucpGris!30] (0,1.5) circle (0.6);
+  \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.75\textwidth}
+  \noindent
+  \begin{tabular}{>{\bfseries\color{pucpGris}}l p{9cm}}
+    Nombre & NOMBRE DEL PROFESOR \\
+    Formación & Doctor en Ciencias por la Universidad de Ejemplo, con especialización en el área de estudio \\
+    Experiencia & 15 años de experiencia docente y profesional en el campo \\
+    Contacto & profesor@pucp.edu.pe \\
+    Asesoría & Miércoles de 14:00 a 16:00 (previa coordinación por correo) \\
+    Oficina & Pabellón A, Oficina 305 \\
+  \end{tabular}
+\end{minipage}
+\end{tcolorbox}
+
+% --- X. POLÍTICA CONTRA EL PLAGIO ---
+\section{POLÍTICA INSTITUCIONAL CONTRA EL PLAGIO}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Integridad Académica}]
+Para la corrección y evaluación de todos los trabajos del curso se va a tomar en cuenta el debido respeto a los derechos de autor, castigando severamente cualquier indicio de plagio con la nota CERO (00). 
+
+Estas medidas serán independientes del proceso administrativo de sanción que la facultad estime conveniente de acuerdo a cada caso en particular. Se recomienda revisar el Reglamento de Disciplina de la PUCP, disponible en la página web institucional.
+
+La originalidad de los trabajos es un valor esencial de la comunidad académica. Se espera que todos los estudiantes citen adecuadamente las fuentes utilizadas y presenten trabajos que reflejen su propio análisis y reflexión.
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+\node[inner sep=0pt] at (0,0) {\includegraphics[width=3cm]{../images/PUCP3.png}};
+\end{tikzpicture}
+\end{center}
 
 \end{document}
-% --- END OF DOCUMENT ---
