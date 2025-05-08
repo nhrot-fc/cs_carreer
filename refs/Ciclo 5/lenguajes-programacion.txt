@@ -1,0 +1,38 @@
+Descripción General del Curso:
+El curso "Lenguajes de Programación" tiene como objetivo principal explorar la diversidad de los lenguajes de programación a través del estudio de sus principios de diseño, criterios de evaluación y, fundamentalmente, los principales paradigmas de programación. Los estudiantes analizarán y compararán los paradigmas estructurado, funcional, orientado a objetos y lógico, comprendiendo sus conceptos fundamentales, ventajas, desventajas y áreas de aplicación típicas. A través de la teoría y la práctica, se busca desarrollar la capacidad de aprender nuevos lenguajes y elegir el paradigma más adecuado para resolver diferentes tipos de problemas computacionales.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Introducción a los paradigmas (Total: 2,00 horas teóricas)
+
+Fundamentos (2,00 horas): Conceptos de lenguajes de programación, evolución histórica, criterios para el diseño y evaluación de lenguajes (legibilidad, facilidad de escritura, fiabilidad, costo), y una introducción general a los diferentes paradigmas de programación.
+Laboratorio: Este capítulo cuenta con 3,00 horas de laboratorio semanales.
+Programación Estructurada (Total: 10,00 horas teóricas)
+
+Fundamentos (4,00 horas): Principios de la programación estructurada, teorema de la estructura, diseño descendente (top-down design) y modularización.
+Control de flujo (3,00 horas): Estudio detallado de las estructuras de control de secuencia, selección (if-then-else, switch-case) e iteración (while, for, do-while).
+Abstracción procedural (3,00 horas): Concepto de procedimientos y funciones, paso de parámetros, alcance de variables (scope), recursividad y la importancia de la modularidad para la organización del código.
+Programación Funcional (Total: 10,00 horas teóricas)
+
+Funciones e inmutabilidad (4,00 horas): Conceptos clave como funciones de primera clase y de orden superior, funciones puras, transparencia referencial, inmutabilidad de datos y su impacto en la concurrencia.
+Técnicas y herramientas funcionales (3,00 horas): Aplicación de técnicas como map, filter, reduce (fold/accumulate), comprensión de listas, recursión como principal herramienta de iteración y evaluación perezosa (lazy evaluation).
+Tipos de datos avanzados (3,00 horas): Estudio de sistemas de tipos, inferencia de tipos, tipos de datos algebraicos (como listas y tuplas), y correspondencia de patrones (pattern matching).
+Programación Orientada a Objetos (POO) (Total: 10,00 horas teóricas)
+
+Clases y Objetos (5,00 horas): Principios de la POO: abstracción, encapsulamiento (modificadores de acceso), clases, objetos, constructores, destructores, métodos y atributos.
+Herencia y Polimorfismo (5,00 horas): Mecanismos de herencia (simple y múltiple), superclases y subclases, sobreescritura de métodos (overriding), polimorfismo (subtipo y paramétrico), clases abstractas e interfaces.
+Programación Lógica (Total: 10,00 horas teóricas)
+
+Representación en lógica (3,00 horas): Introducción a la lógica de predicados como base para la programación lógica. Representación del conocimiento mediante hechos (facts) y reglas (rules), cláusulas de Horn.
+Inferencia y resolución de consultas (4,00 horas): Mecanismos de inferencia, unificación, resolución SLD (Selective Linear Definite clause resolution) y el proceso de backtracking en la ejecución de consultas.
+Lenguajes y aplicaciones (3,00 horas): Visión general de lenguajes de programación lógica como Prolog, sus características distintivas y campos de aplicación (ej. inteligencia artificial, sistemas expertos, procesamiento de lenguaje natural).
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Lenguajes de Programación", es necesario haber aprobado el siguiente curso:
+
+Fundamentos de Programación:
+Relevancia: Este curso previo es esencial ya que proporciona las bases sobre las cuales se construye el estudio de los diversos paradigmas. Los estudiantes deben tener una comprensión sólida de los conceptos básicos de la programación, tales como variables, tipos de datos, estructuras de control (condicionales, bucles), funciones o procedimientos, y la lógica algorítmica. La familiaridad con al menos un lenguaje de programación (generalmente de tipo imperativo o estructurado) y la experiencia en la escritura, compilación/interpretación y depuración de programas son cruciales para poder abordar el análisis comparativo de diferentes lenguajes y paradigmas, así como para realizar las implementaciones prácticas que el curso "Lenguajes de Programación" demandará.

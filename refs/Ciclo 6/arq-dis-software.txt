@@ -1,0 +1,35 @@
+Descripción General del Curso:
+El curso "Arquitectura y Diseño de Software" se enfoca en los principios, patrones y prácticas para diseñar y construir sistemas de software robustos, escalables y mantenibles. Los estudiantes aprenderán a traducir requisitos en decisiones de diseño y arquitectura, utilizando herramientas como UML y aplicando principios fundamentales como SOLID. Se explorarán diversos estilos arquitectónicos, desde monolitos hasta microservicios y arquitecturas orientadas a eventos, así como consideraciones clave como la escalabilidad, resiliencia y el diseño para la nube (Cloud-Native). Además, se cubrirán aspectos de ingeniería de requisitos para asegurar que la arquitectura y el diseño satisfagan las necesidades funcionales y no funcionales del sistema.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Diseño (Total: 8,00 horas teóricas)
+
+Notación UML (2,00 horas): Introducción al Lenguaje Unificado de Modelado (UML) y sus diagramas más importantes (ej. diagramas de clases, secuencia, casos de uso) como herramienta para visualizar, especificar, construir y documentar el diseño de software.
+Patrones de diseño (4,00 horas): Estudio de patrones de diseño de software (ej. patrones GoF - Gang of Four: creacionales, estructurales, de comportamiento) que proporcionan soluciones probadas a problemas comunes de diseño.
+Principios SOLID (2,00 horas): Comprensión y aplicación de los cinco principios SOLID del diseño orientado a objetos (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) para crear software más flexible y mantenible.
+Arquitectura (Total: 14,00 horas teóricas)
+
+Monolítica (3,00 horas): Análisis de la arquitectura monolítica, sus características, ventajas, desventajas y casos de uso apropiados.
+Microservicios (3,00 horas): Estudio de la arquitectura de microservicios, principios de diseño, beneficios (escalabilidad, independencia tecnológica), desafíos (complejidad, comunicación entre servicios) y patrones asociados.
+MVC, CQRS, Event-Driven (2,00 horas): Exploración de patrones arquitectónicos como Modelo-Vista-Controlador (MVC), Command Query Responsibility Segregation (CQRS) y Arquitecturas Orientadas a Eventos (Event-Driven Architecture - EDA).
+Escalabilidad y resiliencia (3,00 horas): Técnicas y estrategias para diseñar arquitecturas que puedan escalar horizontal o verticalmente y que sean resilientes ante fallos (ej. redundancia, balanceo de carga, fault tolerance).
+Arquitecturas Cloud-Native (3,00 horas): Principios y prácticas para diseñar y construir aplicaciones que aprovechen al máximo las capacidades de las plataformas en la nube (ej. contenedores, orquestación, serverless).
+Ingeniería de Requisitos (Total: 6,00 horas teóricas)
+
+Historias de usuario, casos de uso (3,00 horas): Técnicas para la elicitación, análisis y documentación de requisitos funcionales, como la redacción de historias de usuario y la modelización de casos de uso.
+Rendimiento, seguridad, disponibilidad (3,00 horas): Identificación y especificación de requisitos no funcionales (atributos de calidad) cruciales como el rendimiento, la seguridad y la disponibilidad, y cómo estos influyen en las decisiones de arquitectura y diseño.
+Total de Horas Teóricas del Curso: 28,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Arquitectura y Diseño de Software", se requiere:
+
+A la par de Fundamentos de Bases de Datos (cursar simultáneamente):
+Relevancia: La mayoría de las aplicaciones de software interactúan con sistemas de bases de datos para la persistencia de datos. Por lo tanto, comprender los fundamentos de las bases de datos es crucial al tomar decisiones de diseño y arquitectura de software.
+Persistencia de Datos: El diseño de cómo una aplicación almacena, recupera y gestiona los datos es una parte integral de la arquitectura del software. Conocer los modelos de bases de datos (relacionales, NoSQL), lenguajes de consulta (como SQL) y los principios de diseño de bases de datos es fundamental.
+Elección de Tecnologías: La selección de un sistema de gestión de bases de datos adecuado (SQL vs. NoSQL, centralizado vs. distribuido) es una decisión arquitectónica importante que depende de los requisitos del sistema y de las características de las bases de datos disponibles.
+Integración con la Arquitectura: Patrones arquitectónicos como CQRS pueden implicar el uso de diferentes modelos o almacenes de datos para operaciones de lectura y escritura, lo que requiere un buen entendimiento de las bases de datos. En arquitecturas de microservicios, la gestión de datos por servicio es un desafío clave.
+Rendimiento y Escalabilidad: El diseño de la base de datos (esquemas, índices, estrategias de consulta) impacta directamente el rendimiento y la escalabilidad del software. Estos son atributos de calidad que se consideran en la arquitectura. Cursar "Fundamentos de Bases de Datos" de manera simultánea permite a los estudiantes aplicar los conceptos de gestión de datos directamente en el contexto del diseño y la arquitectura de las aplicaciones que están aprendiendo a construir.

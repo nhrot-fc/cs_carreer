@@ -1,0 +1,50 @@
+Descripción General del Curso:
+El curso "Algoritmia y Estructuras de Datos" está diseñado para proporcionar a los estudiantes un conocimiento profundo de los principios fundamentales del diseño y análisis de algoritmos, así como la implementación y uso de estructuras de datos esenciales. Los estudiantes aprenderán a evaluar la eficiencia de los algoritmos y a seleccionar las estructuras de datos más adecuadas para resolver problemas computacionales complejos. El curso combina clases teóricas con sesiones prácticas de laboratorio para reforzar los conceptos aprendidos.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos (Total: 3,00 horas teóricas)
+
+Introducción (1,00 hora): Presentación de los conceptos básicos de algoritmos, su importancia y el papel que juegan en la computación.
+Notación asintótica (2,00 horas): Estudio de las notaciones (O, Ω, Θ) para analizar la eficiencia y el rendimiento de los algoritmos en términos de tiempo y espacio.
+Este módulo cuenta con 2,00 horas de laboratorio semanales dedicadas específicamente a los fundamentos.
+Análisis y diseño de algoritmos (Total: 10,00 horas teóricas)
+
+Análisis y diseño de algoritmos (4,00 horas): Metodologías y técnicas para diseñar algoritmos eficientes y analizar su correctitud y complejidad.
+Divide y vencerás (4,00 horas): Estudio de la técnica de diseño de algoritmos "Divide y Vencerás", aplicada a problemas como la ordenación y la búsqueda.
+Teorema Maestro (2,00 horas): Aplicación del Teorema Maestro para resolver recurrencias comunes que surgen en el análisis de algoritmos recursivos del tipo "Divide y Vencerás".
+Ordenamiento (Total: 3,00 horas teóricas)
+
+Insertion Sort, Bubble Sort (1,00 hora): Estudio y análisis de algoritmos de ordenamiento básicos.
+Quick Sort, Merge Sort (2,00 horas): Estudio y análisis de algoritmos de ordenamiento eficientes basados en la técnica "Divide y Vencerás".
+Estructuras de Datos Esenciales (Total: 4,00 horas teóricas)
+
+Linked List, Stack, Queue, Heap (4,00 horas): Introducción, implementación y aplicación de estructuras de datos lineales fundamentales (listas enlazadas, pilas, colas) y estructuras de datos basadas en árboles como los montículos (heaps).
+Hash Tables (STL) (Total: 3,00 horas teóricas)
+
+Hash Tables (STL) (3,00 horas): Estudio de las tablas hash, funciones hash, manejo de colisiones y su implementación utilizando la Standard Template Library (STL) de C++.
+Binary Trees (Total: 4,00 horas teóricas)
+
+BST, RBT, AVL (4,00 horas): Estudio de árboles binarios de búsqueda (BST) y árboles autobalanceables como los árboles Rojo-Negro (RBT) y los árboles AVL, incluyendo sus operaciones y análisis de eficiencia.
+Búsqueda básica (Total: 6,00 horas teóricas)
+
+Breadth First Search (BFS) (3,00 horas): Estudio del algoritmo de búsqueda en anchura, sus aplicaciones en grafos y árboles, y análisis de su complejidad.
+Depth First Search (DFS) (3,00 horas): Estudio del algoritmo de búsqueda en profundidad, sus aplicaciones (como la ordenación topológica y la detección de ciclos), y análisis de su complejidad.
+Optimización (Total: 9,00 horas teóricas)
+
+Algoritmos voraces (Greedy algorithms) (3,00 horas): Introducción a la estrategia de diseño de algoritmos voraces, demostración de correctitud y aplicación a problemas de optimización.
+Programación dinámica (6,00 horas): Estudio de la técnica de programación dinámica para resolver problemas de optimización complejos, identificando subproblemas superpuestos y subestructura óptima.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Algoritmia y Estructuras de Datos", es necesario haber aprobado los siguientes cursos:
+
+Estructuras Discretas:
+
+Relevancia: Este curso proporciona la base matemática necesaria para el análisis de algoritmos y la comprensión de estructuras de datos. Conceptos como lógica proposicional, teoría de conjuntos, relaciones, funciones, teoría de grafos y técnicas de conteo son fundamentales para formalizar y analizar las propiedades de los algoritmos y las estructuras de datos.
+Fundamentos de Programación:
+
+Relevancia: Este curso asegura que los estudiantes posean las habilidades básicas de programación, incluyendo la comprensión de tipos de datos, estructuras de control (condicionales, bucles), funciones, y idealmente, una introducción a la programación orientada a objetos. Estas habilidades son cruciales para poder implementar los algoritmos y las estructuras de datos que se estudian en "Algoritmia y Estructuras de Datos".

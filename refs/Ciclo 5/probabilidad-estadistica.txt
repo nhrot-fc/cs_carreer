@@ -1,0 +1,40 @@
+Descripción General del Curso:
+El curso "Probabilidad y Estadística" tiene como objetivo proporcionar a los estudiantes una sólida comprensión de los principios fundamentales de la teoría de la probabilidad y la estadística matemática. Los estudiantes aprenderán a modelar la incertidumbre y la variabilidad, analizar datos, y tomar decisiones basadas en evidencia estadística. El curso cubre desde los conceptos básicos de probabilidad, variables aleatorias y sus distribuciones, hasta temas más avanzados como teoremas de límite, estadística descriptiva, inferencia estadística (estimación y pruebas de hipótesis).
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Probabilidad (Total: 8,00 horas teóricas)
+
+Conceptos y sigma-álgebra (4,00 horas): Introducción a la teoría de la probabilidad, espacios muestrales, eventos, axiomas de probabilidad, y el concepto de sigma-álgebras como base matemática para la definición de eventos.
+Probabilidad Condicional (4,00 horas): Estudio de la probabilidad condicional, independencia de eventos, Teorema de la Probabilidad Total y Teorema de Bayes, y sus aplicaciones.
+Sesiones de Prácticas (PC): Este capítulo cuenta con 2,00 horas de Prácticas Calificadas quincenales.
+Variables aleatorias y distribuciones (Total: 11,00 horas teóricas)
+
+VA discretas y continuas (3,00 horas): Definición y clasificación de variables aleatorias (discretas y continuas), funciones de probabilidad (masa o densidad) y funciones de distribución acumulada.
+Esperanza y Varianza (3,00 horas): Cálculo e interpretación de la esperanza matemática (valor esperado), varianza, desviación estándar y otros momentos de variables aleatorias. Propiedades de la esperanza y la varianza.
+Modelos de distribución (5,00 horas): Estudio de las principales distribuciones de probabilidad discretas (Bernoulli, Binomial, Poisson, Geométrica, Hipergeométrica) y continuas (Uniforme, Normal, Exponencial, Gamma, Chi-cuadrado, t-Student, F).
+Vectores aleatorios (Total: 12,00 horas teóricas)
+
+Distribución conjunta, marginal y condicional (4,00 horas): Extensión de los conceptos de variables aleatorias al caso multivariado. Estudio de funciones de distribución conjunta, marginal y condicional para vectores aleatorios. Covarianza y correlación.
+Esperanza Condicional (4,00 horas): Definición, cálculo y propiedades de la esperanza condicional. Aplicaciones en predicción y modelado.
+Modelos Multivariados (4,00 horas): Introducción a distribuciones multivariadas importantes, como la distribución normal multivariada.
+Límite y convergencia (Total: 6,00 horas teóricas)
+
+Teoremas importantes (6,00 horas): Estudio de resultados fundamentales de la teoría de la probabilidad, como la Ley de los Grandes Números (débil y fuerte) y el Teorema del Límite Central, y sus implicaciones en la estadística.
+Estadística descriptiva e inferencia (Total: 8,00 horas teóricas)
+
+Muestreo y Estadística Descriptiva (4,00 horas): Técnicas de muestreo, organización y resumen de datos mediante tablas, gráficos y medidas descriptivas (media, mediana, moda, cuantiles, rango, varianza muestral).
+Estimación Puntual y por Intervalos (4,00 horas): Métodos para estimar parámetros poblacionales desconocidos a partir de datos muestrales. Propiedades de los estimadores (insesgadez, eficiencia, consistencia). Construcción e interpretación de intervalos de confianza.
+Pruebas de hipótesis (Total: 4,00 horas teóricas)
+
+Aplicaciones básicas (4,00 horas): Formulación de hipótesis estadísticas (nula y alternativa). Metodología para la realización de pruebas de hipótesis para medias, proporciones y varianzas. Conceptos de nivel de significancia, valor p, y tipos de error (I y II).
+Total de Horas Teóricas del Curso: 49,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Probabilidad y Estadística", es necesario haber aprobado el siguiente curso:
+
+Cálculo en varias variables:
+Relevancia: Este curso es fundamental para el estudio de variables aleatorias continuas y, especialmente, vectores aleatorios. El manejo de funciones de densidad de probabilidad y funciones de distribución acumulada para una o más variables continuas requiere un buen dominio del cálculo diferencial e integral en varias dimensiones. Conceptos como integrales múltiples son indispensables para calcular probabilidades, esperanzas, varianzas y covarianzas en el contexto de distribuciones continuas multivariadas. Además, algunas técnicas de optimización vistas en cálculo pueden ser útiles en temas avanzados de estimación estadística.

@@ -1,0 +1,46 @@
+A continuación, se presenta una descripción completa del curso "Circuitos Digitales", junto con sus dependencias, basándose en la información proporcionada.
+
+Nombre del Curso: Circuitos Digitales
+Créditos: 3,00 (inferido del título "Circuitos Digitales3,00")
+Horas de Laboratorio: Para el capítulo de "Fundamentos y repaso", se especifican 2,00 horas de laboratorio cada quince días (Quincenal). La tabla indica un "Total 2,50" en la columna de Lab, lo que sugiere un promedio de 2,50 horas de laboratorio semanales para el curso en su conjunto.
+
+Descripción General del Curso:
+El curso "Circuitos Digitales" introduce a los estudiantes los principios, análisis y diseño de los circuitos electrónicos digitales. Se exploran los componentes fundamentales de los sistemas digitales, desde las puertas lógicas básicas hasta sistemas secuenciales más complejos como memorias y dispositivos lógicos programables. El curso tiene un fuerte componente práctico, con sesiones de laboratorio diseñadas para reforzar la comprensión teórica y desarrollar habilidades en el diseño y la implementación de circuitos digitales.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos y repaso (Total: 2,00 horas teóricas)
+
+Puertas lógicas y sistemas de numeración (2,00 horas): Repaso de conceptos básicos, incluyendo sistemas de numeración (binario, hexadecimal), álgebra de Boole, y las funciones y símbolos de las puertas lógicas fundamentales (AND, OR, NOT, NAND, NOR, XOR, XNOR).
+Laboratorio: Este módulo cuenta con 2,00 horas de laboratorio quincenales.
+Circuitos Combinacionales (Total: 6,00 horas teóricas)
+
+Aritméticos y multiplexores (3,00 horas): Diseño y análisis de circuitos combinacionales para operaciones aritméticas (sumadores, restadores, comparadores) y dispositivos de selección de datos como multiplexores y demultiplexores.
+Codificadores y decodificadores (3,00 horas): Estudio de codificadores, decodificadores, y sus aplicaciones en sistemas digitales, como la conversión de códigos y el direccionamiento de memoria.
+Circuitos Secuenciales (Total: 18,00 horas teóricas)
+
+Latches (3,00 horas): Introducción a los elementos de memoria básicos, como los latches SR, D, y su funcionamiento.
+Flip-Flops (3,00 horas): Estudio de los flip-flops (SR, D, JK, T) disparados por flanco, su comportamiento y aplicaciones como unidades de memoria de un bit.
+Modelo Mealy y Moore (3,00 horas): Comprensión de los modelos de máquinas de estados finitos (FSM) de Mealy y Moore para el diseño de circuitos secuenciales síncronos.
+Análisis y diseño (4,00 horas): Metodologías para el análisis de circuitos secuenciales existentes y el diseño de nuevos circuitos secuenciales a partir de especificaciones, incluyendo diagramas de estado y tablas de transición.
+Registros (2,00 horas): Estudio de registros de almacenamiento, registros de desplazamiento (serie, paralelo) y sus aplicaciones.
+Contadores síncronos (3,00 horas): Diseño y análisis de contadores síncronos (ascendentes, descendentes, de módulo N) y asíncronos.
+Memoria y lógica programable (Total: 9,00 horas teóricas)
+
+Memoria de acceso aleatorio (RAM) (3,00 horas): Estudio de los diferentes tipos de memoria RAM (SRAM, DRAM), su estructura interna, y cómo operan.
+Memoria de solo lectura (ROM) (3,00 horas): Estudio de los diferentes tipos de memoria ROM (PROM, EPROM, EEPROM), sus aplicaciones y características.
+Dispositivos lógicos programables (PLD) (3,00 horas): Introducción a los PLDs como PAL, PLA, CPLDs y FPGAs, y su uso en la implementación de lógica digital personalizada.
+Total de Horas Teóricas del Curso: 35,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Circuitos Digitales", es necesario haber aprobado los siguientes cursos:
+
+Física 3:
+
+Relevancia: Este curso usualmente cubre temas de electricidad, magnetismo y fundamentos de electrónica. Estos conocimientos son esenciales para entender el comportamiento físico de los componentes electrónicos que conforman los circuitos digitales, como los transistores operando como interruptores, los niveles de voltaje que representan los valores lógicos (0 y 1), y los principios básicos de semiconductores.
+Estructuras Discretas:
+
+Relevancia: Proporciona la base matemática indispensable para el diseño y análisis de circuitos digitales. El álgebra de Boole es el fundamento matemático de la lógica digital. La teoría de conjuntos, las relaciones, las funciones y, especialmente, la teoría de grafos (útil para representar máquinas de estado) son cruciales para formalizar los problemas de diseño lógico y para entender el funcionamiento de los circuitos secuenciales y combinacionales.

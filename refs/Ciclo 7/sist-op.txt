@@ -1,0 +1,56 @@
+A continuación, se presenta una descripción completa del curso "Sistemas Operativos", junto con sus dependencias, basándose en la información proporcionada.
+
+Nombre del Curso: Sistemas Operativos
+Créditos: 4,50 (inferido del título "Sistemas Operativos4,50")
+Horas de Laboratorio: Para el capítulo de "Fundamentos", se especifican 3,00 horas de laboratorio semanales. Estas sesiones prácticas iniciales son cruciales para comprender la interacción con el sistema operativo y sus componentes básicos.
+
+Descripción General del Curso:
+El curso "Sistemas Operativos" proporciona un estudio en profundidad de los principios, diseño e implementación de los sistemas operativos modernos. Se exploran las funciones esenciales que un sistema operativo desempeña como gestor de recursos de la computadora (CPU, memoria, dispositivos de E/S, archivos) y como una máquina extendida que provee una interfaz amigable al usuario y a las aplicaciones. Los temas clave incluyen la estructura de los sistemas operativos, la gestión de procesos y concurrencia, la planificación del procesador, la gestión de memoria física y virtual, los sistemas de archivos, y los mecanismos de seguridad y protección.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos (Total: 10,00 horas teóricas)
+
+Introducción (1,00 hora): Definición, objetivos, evolución histórica y componentes principales de un sistema operativo.
+Funciones y Tipos (2,00 horas): Descripción de las principales funciones de un sistema operativo (gestión de procesos, memoria, E/S, archivos, seguridad) y clasificación de los sistemas operativos (monousuario, multiusuario, monotarea, multitarea, tiempo real, distribuidos, etc.).
+Llamadas al sistema (3,00 horas): Concepto de llamadas al sistema (system calls) como interfaz entre los procesos de usuario y el núcleo del sistema operativo. Tipos comunes de llamadas al sistema.
+Estructura de sistemas operativos (4,00 horas): Diferentes enfoques para la estructuración de un sistema operativo, como sistemas monolíticos, por capas, microkernels, máquinas virtuales y sistemas cliente-servidor.
+Laboratorio: Este capítulo cuenta con 3,00 horas de laboratorio semanales.
+Procesos (Total: 15,00 horas teóricas)
+
+Modelo y estados de procesos (5,00 horas): Concepto de proceso, bloque de control de procesos (PCB), hilos (threads), estados de un proceso (nuevo, listo, en ejecución, bloqueado, terminado) y transiciones entre estados.
+Comunicación entre procesos (IPC) (6,00 horas): Mecanismos para la comunicación y sincronización entre procesos, como memoria compartida, paso de mensajes, tuberías (pipes), señales, semáforos y monitores. Problemas clásicos de concurrencia (ej. productor-consumidor, lectores-escritores).
+Planificación y despacho de procesos (4,00 horas): Criterios y algoritmos de planificación de la CPU (FCFS, SJF, Prioridades, Round Robin, multinivel). Concepto de dispatcher.
+Memoria (Total: 7,00 horas teóricas)
+
+Memoría física y virtual (4,00 horas): Técnicas de gestión de memoria principal (contigua, no contigua). Concepto de memoria virtual, paginación, segmentación, tablas de páginas, y algoritmos de reemplazo de páginas (FIFO, LRU, Óptimo).
+Caching (3,00 horas): Principios de la memoria caché y su aplicación en la jerarquía de memoria para mejorar el rendimiento. Coherencia de caché.
+Sistemas de archivos (Total: 8,00 horas teóricas)
+
+Archivos (2,00 horas): Concepto de archivo, atributos, operaciones sobre archivos, tipos de archivos y métodos de acceso (secuencial, directo).
+Directorios (2,00 horas): Estructura de directorios (jerárquica, grafo acíclico), operaciones sobre directorios y organización lógica del sistema de archivos.
+Implementación (4,00 horas): Aspectos de la implementación de sistemas de archivos, como la asignación de espacio en disco (contigua, enlazada, indexada), gestión del espacio libre, y fiabilidad (backups, consistencia).
+Seguridad y protección (Total: 2,00 horas teóricas)
+
+Métodos y dispositivos (2,00 horas): Objetivos de la seguridad y protección en sistemas operativos. Mecanismos de protección como dominios de protección, matrices de acceso, listas de control de acceso (ACLs). Amenazas comunes y técnicas de seguridad (autenticación, cifrado básico).
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Sistemas Operativos", es necesario haber aprobado los siguientes cursos:
+
+Organización y Arquitectura de Computadoras:
+
+Relevancia: Un sistema operativo gestiona directamente el hardware de la computadora. Por lo tanto, es crucial entender la arquitectura subyacente:
+CPU y Memoria: Conocimientos sobre el funcionamiento de la CPU (incluyendo modos de ejecución, interrupciones, registros), la jerarquía de memoria (caché, RAM), y la Unidad de Gestión de Memoria (MMU) son fundamentales para comprender cómo el SO gestiona los procesos y la memoria.
+Dispositivos de E/S: Entender cómo funcionan los dispositivos de entrada/salida y los mecanismos de comunicación con la CPU (como interrupciones y DMA) es vital para estudiar la gestión de E/S por parte del SO.
+Interfaz Hardware-Software: La arquitectura define la interfaz con la que el SO debe trabajar para controlar y abstraer el hardware.
+Algoritmos Avanzados:
+
+Relevancia: Los sistemas operativos utilizan una gran variedad de algoritmos y estructuras de datos para gestionar recursos de manera eficiente y justa.
+Algoritmos de Planificación: La planificación de la CPU, el reemplazo de páginas en memoria virtual, y la planificación de E/S en disco son ejemplos donde se aplican algoritmos complejos cuya eficiencia es crítica.
+Gestión de Concurrencia: El diseño e implementación de mecanismos de sincronización (semáforos, mutex, monitores) y la prevención/detección de interbloqueos (deadlocks) requieren un buen entendimiento de algoritmos y estructuras de datos para la concurrencia.
+Estructuras de Datos: El SO utiliza internamente estructuras de datos sofisticadas (ej. tablas de procesos, tablas de páginas, inodos en sistemas de archivos). Una formación en algoritmos avanzados ayuda a comprender su diseño y análisis.
+Análisis de Rendimiento: La capacidad de analizar la complejidad y el rendimiento de los algoritmos es esencial para tomar decisiones de diseño en un sistema operativo que impactan directamente en el rendimiento global del sistema computacional. Una sólida base en estos dos cursos previos es indispensable para abordar con éxito los complejos mecanismos y conceptos que se estudian en "Sistemas Operativos".

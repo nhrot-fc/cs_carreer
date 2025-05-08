@@ -1,0 +1,38 @@
+Descripción General del Curso:
+El curso "Series y Transformadas" está diseñado para equipar a los estudiantes con las herramientas matemáticas fundamentales para el análisis de señales y sistemas lineales, tanto en tiempo continuo como discreto. Se enfoca en el estudio de números y funciones complejas, y principalmente en el desarrollo y aplicación de las transformadas de Laplace, Zeta y Fourier, así como las Series de Fourier. Estas herramientas son esenciales en diversas áreas de la ingeniería y las ciencias aplicadas para resolver ecuaciones diferenciales, analizar la respuesta en frecuencia de sistemas y procesar señales.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Señales (Total: 6,00 horas teóricas)
+
+Números complejos y planos complejos (2,00 horas): Estudio del álgebra de los números complejos, su representación en el plano complejo (forma polar y rectangular), operaciones y propiedades fundamentales.
+Funciones complejas (4,00 horas): Introducción a las funciones de variable compleja, límites, continuidad, derivadas (condiciones de Cauchy-Riemann) e integrales de funciones complejas, conceptos básicos para entender las transformadas.
+Sesiones de Prácticas (PC): Este capítulo cuenta con 3,00 horas de Prácticas Calificadas semanales.
+Sistemas (Total: 6,00 horas teóricas)
+
+Sistemas LTI (3,00 horas): Conceptos de sistemas, con énfasis en Sistemas Lineales e Invariantes en el Tiempo (LTI). Propiedades como la causalidad, estabilidad y la convolución como herramienta para determinar la salida de un sistema LTI.
+Respuestas (3,00 horas): Análisis de la respuesta de los sistemas LTI a diferentes entradas, incluyendo la respuesta al impulso y la respuesta al escalón, y su relación con la función de transferencia del sistema.
+Transformadas (Total: 12,00 horas teóricas)
+
+Transformada de Laplace (6,00 horas): Definición, propiedades y pares de Transformadas de Laplace. Aplicaciones en la resolución de ecuaciones diferenciales lineales con coeficientes constantes y en el análisis de sistemas LTI en el dominio de la frecuencia compleja (dominio s). Región de convergencia.
+Transformada Zeta (6,00 horas): Definición, propiedades y pares de Transformadas Zeta. Aplicaciones en el análisis de señales y sistemas de tiempo discreto. Relación con la Transformada de Laplace. Región de convergencia.
+Fourier (Total: 18,00 horas teóricas)
+
+Series de Fourier (6,00 horas): Representación de señales periódicas mediante Series de Fourier (trigonométricas y complejas). Cálculo de coeficientes, convergencia y propiedades. Espectro de señales periódicas.
+Transformada de Fourier (6,00 horas): Extensión de las Series de Fourier a señales no periódicas. Definición, propiedades y pares de Transformadas de Fourier. Análisis espectral de señales continuas.
+Análisis de Fourier (6,00 horas): Aplicaciones avanzadas del análisis de Fourier, incluyendo la Transformada de Fourier de tiempo discreto (DTFT), relación con la Transformada Z, y posiblemente una introducción a la Transformada Rápida de Fourier (FFT) y sus implicaciones en el procesamiento digital de señales.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Series y Transformadas", es necesario haber aprobado el siguiente curso:
+
+Cálculo Aplicado:
+Relevancia: Un sólido fundamento en cálculo es indispensable para este curso. Específicamente:
+El manejo de números complejos y funciones de variable compleja se basa en conceptos de límites, derivadas e integrales extendidos al dominio complejo.
+El cálculo de coeficientes de las Series de Fourier y la derivación de las Transformadas de Fourier y Laplace implican la evaluación de integrales definidas e impropias de funciones reales y complejas.
+La comprensión de la convergencia de series e integrales es crucial para entender cuándo y cómo estas representaciones y transformadas son válidas.
+La resolución de ecuaciones diferenciales, una aplicación clave de la Transformada de Laplace, requiere conocimientos previos de cálculo diferencial e integral.
+En general, la capacidad analítica y de manipulación algebraica desarrollada en cursos de cálculo es fundamental para abordar los problemas y demostraciones en "Series y Transformadas".

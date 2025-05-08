@@ -1,0 +1,37 @@
+Descripción General del Curso:
+El curso "Fundamentos de Bases de Datos" introduce a los estudiantes los conceptos esenciales del diseño, implementación y uso de sistemas de bases de datos relacionales. Los estudiantes aprenderán a modelar la realidad mediante el Modelo Entidad-Relación, a normalizar los diseños para asegurar la integridad de los datos, y a utilizar el Lenguaje de Consulta Estructurado (SQL) para definir, manipular y consultar datos. Además, el curso proporciona una introducción a los aspectos físicos del almacenamiento de datos y las técnicas básicas de optimización de consultas. El objetivo es que los estudiantes adquieran las habilidades necesarias para diseñar bases de datos eficientes y interactuar con ellas de manera efectiva.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Modelo Entidad-Relación (Total: 6,00 horas teóricas)
+
+Entidades, atributos y relaciones (2,00 horas): Introducción al modelado conceptual de datos. Definición de entidades, tipos de atributos (simples, compuestos, monovaluados, multivaluados, derivados), y los diferentes tipos de relaciones entre entidades.
+Cardinalidades (2,00 horas): Especificación de las restricciones de cardinalidad (uno a uno, uno a muchos, muchos a muchos) en las relaciones y su representación en los diagramas Entidad-Relación. Entidades débiles.
+Normalización (2,00 horas): Estudio del proceso de normalización para reducir la redundancia y mejorar la integridad de los datos. Formas normales (1NF, 2NF, 3NF, BCNF) y el concepto de dependencias funcionales.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+SQL Básico (Total: 12,00 horas teóricas)
+
+DDL: CREATE, ALTER, DROP (2,00 horas): Lenguaje de Definición de Datos (DDL) en SQL para crear, modificar y eliminar objetos de la base de datos como tablas, vistas e índices. Definición de tipos de datos y restricciones (claves primarias, foráneas, unique, check, not null).
+DML: SELECT, INSERT, UPDATE, DELETE (3,00 horas): Lenguaje de Manipulación de Datos (DML) en SQL. Consultas básicas con la sentencia SELECT (cláusulas FROM, WHERE). Inserción (INSERT), actualización (UPDATE) y eliminación (DELETE) de datos.
+Joins: INNER, LEFT, RIGHT (3,00 horas): Combinación de datos de múltiples tablas utilizando diferentes tipos de JOIN (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN).
+Subconsultas y funciones de agregación (4,00 horas): Uso de subconsultas (escalares, de una columna, correlacionadas) para realizar consultas complejas. Funciones de agregación (COUNT, SUM, AVG, MIN, MAX) y la cláusula GROUP BY y HAVING para agrupar y filtrar datos.
+Almacenamiento y Optimización (Total: 10,00 horas teóricas)
+
+Storage: Discos, páginas, buffer pool (4,00 horas): Introducción a cómo se almacenan los datos físicamente. Organización en discos, concepto de páginas de datos, y el rol del buffer pool (caché de disco) en la gestión de E/S.
+Índices: B-Tree vs. Hash (4,00 horas): Estudio de las estructuras de datos utilizadas para la indexación (principalmente Árboles B/B+ y Tablas Hash) con el fin de acelerar la recuperación de datos. Ventajas y desventajas de cada tipo.
+Optimización de joins y predicados (2,00 horas): Conceptos básicos sobre cómo los Sistemas Gestores de Bases de Datos (SGBD) optimizan las consultas, incluyendo la optimización de operaciones de join y la evaluación eficiente de predicados en la cláusula WHERE.
+Total de Horas Teóricas del Curso: 28,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Fundamentos de Bases de Datos", es necesario haber aprobado el siguiente curso:
+
+Fundamentos de Programación:
+Relevancia: Un curso de fundamentos de programación desarrolla habilidades esenciales que son transferibles y beneficiosas para el aprendizaje de bases de datos:
+Pensamiento Lógico y Algorítmico: La programación fomenta la capacidad de pensar de manera lógica y secuencial, lo cual es crucial para el diseño de bases de datos (ej., al definir relaciones y normalizar) y para la construcción de consultas SQL complejas.
+Comprensión de Datos: Aunque a un nivel diferente, la programación implica trabajar con variables, tipos de datos y estructuras de datos simples (como arreglos o listas), lo que proporciona una base para entender cómo se organizan y manipulan los datos en una base de datos.
+Abstracción: Tanto la programación como el modelado de bases de datos requieren la capacidad de abstraer conceptos del mundo real en modelos formales (código o esquemas de bases de datos).
+Contexto de Aplicación: La mayoría de las aplicaciones desarrolladas mediante programación necesitan interactuar con bases de datos. Tener una base en programación ayuda a los estudiantes a comprender el propósito y la utilidad de las bases de datos desde la perspectiva del desarrollador de software.
+Resolución de Problemas: Las habilidades para descomponer problemas y encontrar soluciones, desarrolladas en la programación, son aplicables al diseño de esquemas de bases de datos y a la optimización de consultas.

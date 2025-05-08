@@ -1,0 +1,51 @@
+A continuación, se presenta una descripción completa del curso "Algoritmos Avanzados", junto con sus dependencias, basándose en la información proporcionada.
+
+Nombre del Curso: Algoritmos Avanzados
+Créditos: 4,00 (inferido del título "Algoritmos Avanzados4,00")
+Horas de Laboratorio: Para el capítulo de "Strings", se especifican 2,00 horas de laboratorio semanales. Estas sesiones permiten la implementación y experimentación con los algoritmos de procesamiento de cadenas de texto.
+
+Descripción General del Curso:
+El curso "Algoritmos Avanzados" profundiza en el diseño, análisis e implementación de algoritmos y estructuras de datos más sofisticados para resolver problemas computacionales complejos. Se exploran técnicas avanzadas para el manejo de cadenas de texto (strings), estructuras de datos especializadas, algoritmos en grafos con mayor detalle, y se introduce el estudio de la complejidad computacional. Una parte significativa del curso se dedica al diseño de algoritmos de aproximación y metaheurísticas para abordar problemas NP-duros, donde encontrar soluciones óptimas en tiempo polinomial es improbable.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Strings (Total: 5,00 horas teóricas)
+
+Hashing avanzado (aplicado a strings) (2,00 horas): Técnicas de hashing específicas para cadenas de texto, incluyendo funciones hash rodantes y su aplicación en la búsqueda y comparación eficiente de subcadenas.
+Algoritmos de Matching (KMP, Rabin-Karp) (3,00 horas): Estudio de algoritmos eficientes para la búsqueda de patrones en texto, como Knuth-Morris-Pratt (KMP) y Rabin-Karp, analizando su complejidad y casos de uso.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio semanales.
+Estructuras de Datos Avanzadas (Total: 7,00 horas teóricas)
+
+Trie (2,00 horas): Estudio de los árboles de prefijos (Tries), sus variantes (ej. Patricia Trie, Radix Trie), operaciones y aplicaciones en problemas de búsqueda de cadenas, autocompletado y diccionarios.
+B/B+ Trees (3,00 horas): Comprensión de los árboles B y B+, estructuras de datos de árbol balanceado optimizadas para sistemas que manejan grandes cantidades de datos almacenados en discos, como bases de datos y sistemas de archivos.
+Graphs (2,00 horas): Revisión y profundización en conceptos de teoría de grafos, incluyendo diferentes representaciones y propiedades avanzadas que sirven de base para los algoritmos subsiguientes.
+Algoritmos en Grafos (Total: 10,00 horas teóricas)
+
+Representacion de Grafos (1,00 hora): Discusión detallada de diversas formas de representar grafos (matrices de adyacencia, listas de adyacencia) y sus implicaciones en la eficiencia espacial y temporal de los algoritmos.
+BFS, DFS, Topological Sort (3,00 horas): Aplicaciones avanzadas y análisis más profundo de la Búsqueda en Anchura (BFS), Búsqueda en Profundidad (DFS) y Ordenamiento Topológico, incluyendo su uso en la detección de ciclos y la resolución de dependencias.
+Minimum Spanning Trees (MST) (3,00 horas): Estudio de algoritmos para encontrar el Árbol de Recubrimiento Mínimo en grafos ponderados, como los algoritmos de Prim y Kruskal, y sus análisis de correctitud y complejidad.
+Caminos más cortos (3,00 horas): Algoritmos para encontrar los caminos más cortos entre nodos en un grafo, incluyendo el algoritmo de Dijkstra (para pesos no negativos), Bellman-Ford (para pesos negativos y detección de ciclos negativos) y Floyd-Warshall (para todos los pares de nodos).
+Problemas Computacionalmente Complejos (Total: 4,00 horas teóricas)
+
+Clasificación PTAS/FPTAS (2,00 horas): Introducción a la teoría de la complejidad computacional (clases P, NP, NP-completo, NP-duro). Definición y análisis de esquemas de aproximación en tiempo polinomial (PTAS) y esquemas de aproximación totalmente en tiempo polinomial (FPTAS).
+Casos: Vertex Cover, TSP Métrico, Set Cover (2,00 horas): Estudio de problemas NP-duros clásicos como el Problema de la Cobertura de Vértices (Vertex Cover), el Problema del Viajante de Comercio (TSP) en su variante métrica, y el Problema de la Cobertura de Conjuntos (Set Cover).
+Aproximación y Metaheurísticas (Total: 16,00 horas teóricas)
+
+Búsqueda Local y Simulated Annealing (3,00 horas): Introducción a las técnicas de búsqueda local para optimización y el algoritmo de Recocido Simulado (Simulated Annealing) como una metaheurística para escapar de óptimos locales.
+Algoritmos Genéticos (Operadores/Selección) (3,00 horas): Fundamentos de los algoritmos genéticos, incluyendo la representación de soluciones, operadores genéticos (selección, cruce, mutación) y su aplicación en problemas de optimización.
+Optimización por Inteligencia Colectiva (PSO, ACO, ABC) (4,00 horas): Estudio de metaheurísticas inspiradas en la naturaleza, como la Optimización por Enjambre de Partículas (PSO), la Optimización por Colonia de Hormigas (ACO) y el Algoritmo de la Colonia de Abejas Artificiales (ABC).
+Aplicaciones a Problemas NP-Duros (6,00 horas): Aplicación práctica de las diversas técnicas de aproximación y metaheurísticas estudiadas para encontrar soluciones de buena calidad a los problemas NP-duros previamente analizados y otros problemas de optimización combinatoria.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Algoritmos Avanzados", es necesario haber aprobado el siguiente curso:
+
+Algoritmia y estructura de datos:
+Relevancia: Este curso es un prerrequisito fundamental, ya que "Algoritmos Avanzados" se construye directamente sobre los conocimientos adquiridos en él. Se espera que los estudiantes tengan un dominio sólido de:
+Estructuras de datos fundamentales: Listas, pilas, colas, montículos (heaps), tablas hash, árboles binarios de búsqueda.
+Análisis de algoritmos: Notación asintótica (O, Ω, Θ), análisis de recurrencias, y comprensión de la eficiencia de los algoritmos.
+Algoritmos básicos: Técnicas de ordenamiento (Quicksort, Mergesort), algoritmos de búsqueda, y una introducción a los algoritmos en grafos como BFS y DFS.
+Conceptos de complejidad: Una introducción a la diferencia entre problemas tratables e intratables (P vs NP) es usualmente parte de un primer curso de algoritmia y es esencial para comprender los temas de problemas computacionalmente complejos y algoritmos de aproximación. Sin esta base, los estudiantes encontrarían extremadamente difícil seguir el ritmo y la profundidad de los temas tratados en "Algoritmos Avanzados".

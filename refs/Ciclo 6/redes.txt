@@ -1,0 +1,42 @@
+Descripción General del Curso:
+El curso "Redes de Computadoras" introduce a los estudiantes los conceptos fundamentales y las tecnologías subyacentes a las redes de datos. Se exploran los principios de la comunicación de datos, los modelos de arquitectura de redes (con énfasis en TCP/IP), los diferentes tipos de redes (LAN cableadas e inalámbricas), los protocolos clave en cada capa, y aspectos de gestión y seguridad de redes. El curso tiene como objetivo proporcionar una comprensión sólida de cómo se diseñan, implementan y operan las redes de computadoras, preparando a los estudiantes para trabajar con tecnologías de red y comprender su evolución, incluyendo temas actuales como IPv6, virtualización y computación en la nube.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica:
+
+Fundamentos (Total: 4,00 horas teóricas)
+
+Introducción a las redes de datos (Subtema, 3,00 horas indicativas): Conceptos básicos de redes, tipos de redes, topologías, componentes de una red, y modelos de referencia como OSI y TCP/IP.
+Medios de transmisión y cableado estructurado (Subtema, 3,00 horas indicativas): Diferentes medios de transmisión (cobre, fibra óptica, inalámbricos), sus características, y los estándares para el cableado estructurado en edificios. (Nota: El capítulo tiene asignadas 4,00 horas, mientras que los subtemas detallados sugieren una cobertura más amplia).
+LAN (Redes de Área Local) (Total: 9,00 horas teóricas)
+
+Inalámbricas (3,00 horas): Tecnologías de LAN inalámbricas, con énfasis en los estándares IEEE 802.11 (Wi-Fi), seguridad en redes inalámbricas y configuración.
+Cableadas (3,00 horas): Tecnologías de LAN cableadas, principalmente Ethernet (IEEE 802.3), incluyendo sus diferentes velocidades, tipos de medios y el funcionamiento de los switches.
+Interconexión de redes (3,00 horas): Dispositivos de interconexión como repetidores, hubs, puentes, switches y routers a nivel de LAN y principios de segmentación de redes.
+Arquitectura (Total: 6,00 horas teóricas)
+
+Redes TCP/IP (3,00 horas): Profundización en el modelo de arquitectura TCP/IP, analizando las funciones y protocolos de cada una de sus capas (Enlace, Internet, Transporte, Aplicación).
+Subredes y superredes (3,00 horas): Técnicas de direccionamiento IP, incluyendo la creación de subredes (subnetting) para la gestión eficiente de direcciones IP y el uso de superredes (CIDR - Classless Inter-Domain Routing).
+Protocolos (Total: 15,00 horas teóricas)
+
+IPv6 (3,00 horas): Características del Protocolo de Internet versión 6 (IPv6), su formato de direcciones, coexistencia con IPv4 y mecanismos de transición.
+Virtualización y computación en la nube (3,00 horas): Conceptos de virtualización de redes y los protocolos y arquitecturas de red que soportan los modelos de computación en la nube (IaaS, PaaS, SaaS).
+Capa de transporte (3,00 horas): Estudio detallado de los protocolos de la capa de transporte, principalmente TCP (Transmission Control Protocol) y UDP (User Datagram Protocol), sus mecanismos (control de flujo, control de congestión en TCP) y aplicaciones.
+Capa de aplicación (6,00 horas): Funcionamiento de protocolos comunes de la capa de aplicación como HTTP/HTTPS (web), DNS (resolución de nombres), FTP (transferencia de archivos), SMTP/POP3/IMAP (correo electrónico), entre otros.
+Gestión de redes (Total: 6,00 horas teóricas)
+
+Seguridad (3,00 horas): Introducción a los conceptos fundamentales de seguridad en redes, amenazas comunes (malware, phishing, DoS), y mecanismos de defensa básicos (firewalls, VPNs, IDS/IPS).
+Monitoreo (3,00 horas): Herramientas y técnicas para la monitorización del rendimiento de la red, detección de fallos y gestión de la configuración de dispositivos de red (ej. SNMP).
+Total de Horas Teóricas del Curso: 40,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Redes de Computadoras", se requiere:
+
+A la par de Organización y Arquitectura de Computadoras (cursar simultáneamente):
+Relevancia: La comprensión de la organización interna de una computadora es crucial para entender cómo los sistemas finales procesan y transmiten datos a través de una red.
+Componentes Hardware: El conocimiento de la CPU, la memoria, los buses del sistema y las interfaces de E/S (como las tarjetas de red), estudiados en "Organización y Arquitectura de Computadoras", ayuda a entender cómo se manejan los paquetes de red a nivel de hardware.
+Interacción Software-Hardware: La forma en que el sistema operativo y los controladores de dispositivos interactúan con el hardware de red es un concepto que se solapa entre ambos cursos.
+Procesamiento de Datos: Entender cómo la CPU ejecuta instrucciones y gestiona la memoria es fundamental para apreciar el procesamiento que realizan los protocolos de red en un host.
+Capas Inferiores del Modelo OSI/TCP-IP: La capa física y parte de la capa de enlace de datos de los modelos de red tienen una fuerte dependencia del hardware y de los principios de transmisión de señales eléctricas o lumínicas, conceptos que se pueden relacionar con los fundamentos de la arquitectura de computadoras. Cursar ambos cursos de manera simultánea permite una visión más integrada de cómo los sistemas informáticos funcionan individualmente y cómo se comunican entre sí.

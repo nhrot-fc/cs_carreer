@@ -1,0 +1,46 @@
+Descripción General del Curso:
+El curso "Organización y Arquitectura de Computadoras" explora la estructura y funcionamiento interno de los sistemas de cómputo. Se estudian los componentes hardware fundamentales, su interconexión y cómo se organizan para ejecutar instrucciones de software. El curso abarca desde los modelos arquitectónicos básicos, el diseño del conjunto de instrucciones (ISA), la unidad central de procesamiento (CPU), la jerarquía de memoria, hasta los sistemas de entrada/salida (E/S) y una introducción a las arquitecturas paralelas y la evaluación del rendimiento. El objetivo es que los estudiantes comprendan cómo las decisiones de diseño arquitectónico impactan el rendimiento y la funcionalidad de una computadora.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos (Total: 4,00 horas teóricas)
+
+Modelos Von Neumann y Harvard (2,00 horas): Estudio de las arquitecturas computacionales clásicas, sus características distintivas, ventajas y desventajas.
+Componentes principales (2,00 horas): Identificación y descripción de los bloques funcionales básicos de una computadora: Unidad Central de Procesamiento (CPU), Memoria Principal, y módulos de Entrada/Salida (E/S).
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio semanales.
+Instrucciones (Total: 8,00 horas teóricas)
+
+Representación y tipos de instrucciones (4,00 horas): Análisis del lenguaje máquina, formatos de instrucción, tipos de operandos, y clasificación de las instrucciones (transferencia de datos, aritmético-lógicas, control de flujo). Introducción al concepto de Conjunto de Instrucciones (ISA).
+Modos de direccionamiento (4,00 horas): Estudio de las diversas formas en que los operandos son especificados en las instrucciones (inmediato, directo, indirecto, por registro, indexado, etc.).
+CPU (Unidad Central de Procesamiento) (Total: 10,00 horas teóricas)
+
+Componentes funcionales (4,00 horas): Descripción detallada de los componentes internos de la CPU, como la Unidad Aritmético-Lógica (ALU), registros (de propósito general, program counter, instruction register, etc.) y la interconexión interna (buses internos).
+Unidad de control (3,00 horas): Diseño y funcionamiento de la unidad de control, responsable de la decodificación de instrucciones y la generación de señales de control. Se exploran enfoques como el control cableado (hardwired) y microprogramado.
+Pipeline (Segmentación) (3,00 horas): Introducción a la técnica de segmentación (pipelining) para mejorar el rendimiento de la CPU mediante la superposición de la ejecución de múltiples instrucciones. Riesgos de segmentación y técnicas para mitigarlos.
+Memoria (Total: 10,00 horas teóricas)
+
+Jerarquía de memoria y localidad (3,00 horas): Estudio del sistema de memoria multinivel (registros, caché, memoria principal, almacenamiento secundario) y el principio de localidad (temporal y espacial) que justifica su diseño.
+Caché (3,00 horas): Funcionamiento de la memoria caché, incluyendo su organización (mapeo directo, asociativo, asociativo por conjuntos), algoritmos de reemplazo (LRU, FIFO), y políticas de escritura (write-through, write-back).
+Principal y Virtual (4,00 horas): Características de la memoria principal (RAM). Introducción a la memoria virtual, incluyendo conceptos como paginación, segmentación, tablas de páginas y el Translation Lookaside Buffer (TLB).
+I/O (Entrada/Salida) (Total: 9,00 horas teóricas)
+
+Módulos y Técnicas (3,00 horas): Estudio de los módulos de E/S y las diferentes técnicas para manejar la transferencia de datos: E/S programada, E/S controlada por interrupciones y Acceso Directo a Memoria (DMA).
+Arquitecturas paralelas (3,00 horas): Introducción a conceptos de arquitecturas paralelas y cómo pueden influir o interactuar con los sistemas de E/S o como una extensión del diseño computacional.
+Buses (3,00 horas): Tipos de buses del sistema (datos, direcciones, control), su jerarquía, protocolos de comunicación y mecanismos de arbitraje.
+Comparación (Total: 1,00 hora teórica)
+
+Rendimiento (1,00 hora): Métricas para la evaluación del rendimiento de computadoras (MIPS, MFLOPS, tiempo de respuesta, throughput), factores que lo afectan y uso de benchmarks.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Organización y Arquitectura de Computadoras", es necesario haber aprobado los siguientes cursos:
+
+Circuitos Digitales:
+
+Relevancia: Este curso es fundamental ya que proporciona la base sobre cómo se construyen los componentes físicos de una computadora. El conocimiento de puertas lógicas, álgebra de Boole, circuitos combinacionales (como sumadores y multiplexores) y secuenciales (como registros y contadores) es esencial para entender el funcionamiento de la ALU, la unidad de control, las unidades de memoria y la lógica de interconexión dentro de la CPU y otros subsistemas.
+Algoritmia y estructura de datos:
+
+Relevancia: Este curso ayuda a comprender la perspectiva del software y cómo este interactúa con el hardware. El conocimiento sobre cómo se representan los datos en memoria, cómo se ejecutan las secuencias de instrucciones (algoritmos), y cómo las estructuras de datos se almacenan y acceden es crucial para entender el diseño del conjunto de instrucciones (ISA), los modos de direccionamiento, la organización de la memoria (caché, memoria virtual) y el impacto general de la arquitectura en la eficiencia del software.

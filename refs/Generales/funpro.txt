@@ -1,0 +1,29 @@
+Descripción General del Curso:
+El curso "Fundamentos de Programación" está diseñado para introducir a los estudiantes en el mundo de la programación y el desarrollo de algoritmos. Proporciona las bases teóricas y prácticas necesarias para comprender cómo resolver problemas utilizando un lenguaje de programación. Los estudiantes aprenderán a diseñar soluciones lógicas a través de herramientas como diagramas de flujo y pseudocódigo, y luego implementarán estas soluciones en el lenguaje de programación C, prestando especial atención al manejo de la memoria. El curso también se enfoca en desarrollar habilidades de resolución de problemas, depuración y pruebas de software.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Introducción a la Programación (Total: 8,00 horas teóricas)
+
+Introducción e historia (1,00 hora): Panorama general de la programación, su importancia en la actualidad y una breve reseña histórica de la evolución de los lenguajes y paradigmas.
+Diagramas de flujo y Pseudocódigo (3,00 horas): Herramientas para el diseño de algoritmos. Representación gráfica de la lógica de un programa (diagramas de flujo) y descripción de algoritmos en un lenguaje natural estructurado (pseudocódigo).
+Operaciones básicas (aritméticas, booleanas) (2,00 horas): Tipos de datos fundamentales, operadores aritméticos (suma, resta, multiplicación, división, módulo), operadores relacionales y lógicos (booleanos), y evaluación de expresiones.
+Entrada y Salida de datos (con formato) (2,00 horas): Instrucciones básicas para la interacción con el usuario, permitiendo la lectura de datos desde el teclado y la visualización de resultados en pantalla, incluyendo el formateo de la salida.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio semanales.
+Estructuras de Control y Funciones (Total: 7,00 horas teóricas)
+
+Controles de Flujo y Bucles (5,00 horas): Estudio de las estructuras de control selectivas o condicionales (if, if-else, switch) y las estructuras de control repetitivas o bucles (for, while, do-while) para dirigir el flujo de ejecución de un programa.
+Funciones y modularización (2,00 horas): Concepto de función como unidad modular de un programa. Definición, invocación, paso de parámetros (por valor y por referencia), valor de retorno y ámbito de las variables (scope) para promover la reutilización y organización del código.
+Programación en C y Manejo de Memoria (Total: 9,00 horas teóricas)
+
+Sintaxis básica de C (compilación, variables) (2,00 horas): Introducción al lenguaje de programación C. Estructura de un programa en C, proceso de compilación, declaración de variables, tipos de datos en C y directivas básicas del preprocesador.
+Arreglos y Punteros (5,00 horas): Estudio de arreglos (unidimensionales y multidimensionales) como colecciones de datos del mismo tipo. Introducción a los punteros, su aritmética, la relación entre arreglos y punteros, y su uso para el manejo directo de la memoria.
+Gestión de memoria (stack vs. heap, malloc/free) (2,00 horas): Comprensión de los diferentes segmentos de memoria (stack y heap). Asignación dinámica de memoria utilizando malloc, calloc, realloc y liberación de memoria con free para un manejo eficiente de los recursos.
+Resolución de Problemas (Total: 4,00 horas teóricas)
+
+Resolución de problemas (2,00 horas): Aplicación de técnicas y estrategias para el análisis de problemas y el desarrollo de soluciones algorítmicas eficientes. Descomposición de problemas complejos en subproblemas más simples.
+Depuración y Pruebas (2,00 horas): Técnicas para identificar y corregir errores en los programas (depuración). Introducción a la importancia de las pruebas de software, tipos de pruebas y diseño de casos de prueba para asegurar la correctitud del programa.
+Total de Horas Teóricas del Curso: 28,00 horas.
+

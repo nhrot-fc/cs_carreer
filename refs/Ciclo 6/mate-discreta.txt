@@ -1,0 +1,31 @@
+Descripción General del Curso:
+El curso "Matemáticas Discretas y Lógica Matemática" es un curso de nivel avanzado diseñado para proporcionar a los estudiantes una comprensión profunda de temas fundamentales y avanzados en lógica matemática y diversas áreas de la matemática discreta que son cruciales en la informática teórica. El curso explora los fundamentos de la lógica de primer orden, sus teoremas más importantes y sus limitaciones inherentes, como la indecidibilidad. Además, introduce estructuras algebraicas, teoría de códigos y teoría de dominios, herramientas matemáticas esenciales para el modelado y análisis en ciencias de la computación.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Lógica Matemática Avanzada (Total: 19,00 horas teóricas)
+
+Fundamentos Avanzados de lógica de Primer orden (3,00 horas): Profundización en la sintaxis y semántica de la lógica de predicados de primer orden, sistemas formales, teorías y modelos.
+Teoremas fundamentales de la lógica (6,00 horas): Estudio de resultados centrales como el Teorema de Completitud de Gödel, el Teorema de Compacidad, y los Teoremas de Löwenheim-Skolem, y sus implicaciones.
+Límites de la Formalización y decibilidad (6,00 horas): Exploración de los límites del poder expresivo y deductivo de los sistemas formales, incluyendo los Teoremas de Incompletitud de Gödel, el concepto de indecidibilidad (ej. Problema de la Detención - Halting Problem) y funciones recursivas.
+Aplicaciones y extensiones de la lógica (4,00 horas): Introducción a lógicas no clásicas y extensiones de la lógica de primer orden, como lógicas modales, lógicas temporales, o lógica intuicionista, y sus aplicaciones en la especificación y verificación de sistemas.
+Sesiones de Prácticas (PC): Este capítulo cuenta con 2,00 horas de Prácticas Calificadas (frecuencia no especificada).
+Matemática Discreta Avanzada (Total: 23,00 horas teóricas)
+
+Estructuras Algebraicas fundamentales (6,00 horas): Estudio avanzado de estructuras algebraicas como grupos, anillos, cuerpos (fields), retículos (lattices) y álgebras de Boole, con un enfoque en sus propiedades y aplicaciones en la computación.
+Introducción a la teoría de códigos (9,00 horas): Fundamentos de la teoría de códigos correctores de errores, incluyendo códigos lineales, códigos cíclicos, límites en los parámetros de los códigos (ej. cota de Hamming, cota de Singleton) y su importancia en la transmisión y almacenamiento fiable de datos.
+Introducción a la teoría de los dominios (8,00 horas): Presentación de la teoría de dominios como un marco matemático para la semántica denotacional de los lenguajes de programación, estudiando conjuntos parcialmente ordenados, funciones continuas y puntos fijos.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Matemáticas Discretas y Lógica Matemática", es necesario haber aprobado el siguiente curso:
+
+Estructuras Discretas:
+Relevancia: Este curso previo es absolutamente esencial. "Matemáticas Discretas y Lógica Matemática" profundiza y expande temas que se introducen en "Estructuras Discretas". Se espera que los estudiantes tengan una base sólida en:
+Lógica proposicional y de predicados básica: Comprensión de conectivas lógicas, cuantificadores, tablas de verdad, equivalencias lógicas y reglas de inferencia.
+Teoría de conjuntos: Operaciones con conjuntos, relaciones, funciones, y cardinalidad.
+Técnicas de demostración: Familiaridad con la demostración directa, por contradicción, por contraposición y, especialmente, la inducción matemática.
+Introducción a estructuras algebraicas: Conceptos iniciales de grupos, anillos o al menos las propiedades de operaciones binarias. Sin estos fundamentos, sería muy difícil abordar la complejidad y abstracción de los temas tratados en "Matemáticas Discretas y Lógica Matemática", como los teoremas de Gödel, la teoría de códigos avanzada o la teoría de dominios.
