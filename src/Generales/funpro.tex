@@ -1,0 +1,270 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+% Agregar la carpeta styles a la ruta de búsqueda de paquetes
+\makeatletter
+\def\input@path{{../../styles/}}
+\makeatother
+\usepackage{syllabus}
+
+% --- Información del curso ---
+\universidad{PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ}
+\facultad{FACULTAD DE CIENCIAS E INGENIERÍA}
+\departamento{DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN}
+\curso{FUNDAMENTOS DE PROGRAMACIÓN}
+\codigo{INF144}
+\semestre{2025-1}
+\profesor{Dr. Carlos Mendoza}
+\creditos{4}
+\horas{5}
+\prerequisitos{Ninguno}
+
+% --- START OF DOCUMENT ---
+\begin{document}
+
+% --- Generar portada con el nuevo estilo ---
+\portadaSilabo
+
+% --- I. INFORMACIÓN GENERAL ---
+\section{INFORMACIÓN GENERAL}
+\begin{tabularx}{\textwidth}{@{}>{\color{pucpGris}\bfseries}l@{\hspace{1em}}X@{}}
+    Clave             & : \textcolor{pucpRojo}{\textbf{\@codigo}} \\
+    Créditos          & : \@creditos \\
+    Tipo              & : Obligatorio \\
+    Horas de dictado  & : \\
+    \multicolumn{1}{@{}l@{\hspace{2em}}}{Clase} & : 3,00 horas semanales \\
+    \multicolumn{1}{@{}l@{\hspace{2em}}}{Laboratorio} & : 2,00 horas semanales \\
+    Horario           & : Lunes y Miércoles de 10:00 a 12:00 \\
+    Profesor(es)      & : \@profesor \\
+    Departamento      & : Ciencias de la Computación \\
+    Requisitos        & : \@prerequisitos
+\end{tabularx}
+\vspace{0.5cm}
+
+% --- II. SUMILLA / DESCRIPCIÓN DEL CURSO ---
+\section{SUMILLA}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Descripción General del Curso}]
+El curso "Fundamentos de Programación" introduce a los estudiantes en los conceptos básicos y esenciales de la programación de computadoras. Se exploran las herramientas fundamentales para el diseño de algoritmos, como diagramas de flujo y pseudocódigo, y se desarrollan habilidades para la resolución sistemática de problemas mediante el pensamiento algorítmico. El curso cubre operaciones básicas, estructuras de control, tipos de datos fundamentales, y mecanismos de entrada/salida, sentando las bases para cursos más avanzados de la carrera.
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- III. OBJETIVOS DE APRENDIZAJE / COMPETENCIAS ---
+\section{OBJETIVOS Y COMPETENCIAS}
+
+\begin{objetivos}
+Al finalizar el curso, el estudiante estará en capacidad de:
+\begin{itemize}[leftmargin=*]
+    \item Comprender la evolución histórica de la programación y su importancia en el contexto actual.
+    \item Diseñar algoritmos utilizando diagramas de flujo y pseudocódigo como herramientas de representación.
+    \item Implementar soluciones algorítmicas usando tipos de datos fundamentales y operaciones básicas.
+    \item Aplicar estructuras de control de secuencia, selección e iteración para resolver problemas.
+    \item Desarrollar programas que interactúen con el usuario mediante operaciones de entrada y salida.
+    \item Analizar y depurar programas simples identificando errores lógicos y sintácticos.
+\end{itemize}
+\end{objetivos}
+
+\begin{competencias}
+El curso contribuye al desarrollo de las siguientes competencias profesionales:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Pensamiento algorítmico:} Capacidad para formular soluciones computacionales paso a paso.
+    \item \textbf{Abstracción:} Habilidad para identificar aspectos esenciales de un problema y modelarlos en términos computacionales.
+    \item \textbf{Razonamiento lógico:} Destreza para construir secuencias lógicas de instrucciones que resuelvan problemas específicos.
+    \item \textbf{Comunicación técnica:} Capacidad para expresar soluciones algorítmicas en forma clara y precisa utilizando representaciones estándar.
+\end{itemize}
+\end{competencias}
+\vspace{0.5cm}
+
+% --- IV. CONTENIDO / PROGRAMA ANALÍTICO ---
+\section{CONTENIDO DEL CURSO}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 1: Introducción a la Programación}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 1.1:} Introducción e historia (1,00 hora)
+    \item \textbf{Tema 1.2:} Diagramas de flujo y Pseudocódigo (3,00 horas)
+\end{itemize}
+\textbf{Duración total:} 4,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 2: Conceptos Fundamentales}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 2.1:} Operaciones básicas (aritméticas, booleanas) (2,00 horas)
+    \item \textbf{Tema 2.2:} Entrada y Salida de datos (con formato) (2,00 horas)
+    \item \textbf{Tema 2.3:} Variables y Tipos de Datos (3,00 horas)
+\end{itemize}
+\textbf{Duración total:} 7,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 3: Estructuras de Control}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 3.1:} Estructuras secuenciales (2,00 horas)
+    \item \textbf{Tema 3.2:} Estructuras condicionales (if-else, switch) (3,00 horas)
+    \item \textbf{Tema 3.3:} Estructuras iterativas (for, while, do-while) (4,00 horas)
+\end{itemize}
+\textbf{Duración total:} 9,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 4: Modularización}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 4.1:} Funciones y procedimientos (4,00 horas)
+    \item \textbf{Tema 4.2:} Paso de parámetros (3,00 horas)
+    \item \textbf{Tema 4.3:} Ámbito de variables (2,00 horas)
+\end{itemize}
+\textbf{Duración total:} 9,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 5: Introducción a Estructuras de Datos}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 5.1:} Arreglos unidimensionales (3,00 horas)
+    \item \textbf{Tema 5.2:} Arreglos multidimensionales (3,00 horas)
+    \item \textbf{Tema 5.3:} Introducción a estructuras/registros (2,00 horas)
+\end{itemize}
+\textbf{Duración total:} 8,00 horas teóricas
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+% Diagrama visual de la relación entre unidades
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=4cm, minimum height=1cm] (intro) at (0,0) {Introducción a la Programación};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=4cm, minimum height=1cm] (fund) at (0,-1.5) {Conceptos Fundamentales};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=4cm, minimum height=1cm] (estr) at (0,-3) {Estructuras de Control};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=4cm, minimum height=1cm] (mod) at (0,-4.5) {Modularización};
+\node[draw=pucpRojo, fill=pucpRojo!10, rounded corners, minimum width=4cm, minimum height=1cm] (dat) at (0,-6) {Introducción a Estructuras de Datos};
+
+\draw[->, thick, pucpGris] (intro) -- (fund);
+\draw[->, thick, pucpGris] (fund) -- (estr);
+\draw[->, thick, pucpGris] (estr) -- (mod);
+\draw[->, thick, pucpGris] (mod) -- (dat);
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+
+% --- V. METODOLOGÍA ---
+\section{METODOLOGÍA}
+\begin{tcolorbox}[colback=pucpGris!5,colframe=pucpGris,title=\textbf{Enfoque Metodológico}]
+El curso se desarrolla mediante una combinación de:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Clases teóricas:} Presentación de conceptos fundamentales de programación con ejemplos prácticos.
+    \item \textbf{Sesiones de laboratorio:} Implementación de algoritmos y resolución de problemas en un entorno de programación.
+    \item \textbf{Resolución de problemas:} Ejercicios progresivos que refuerzan los conceptos aprendidos.
+    \item \textbf{Proyectos guiados:} Desarrollo de aplicaciones simples que integran los conceptos del curso.
+    \item \textbf{Demostraciones:} Ejemplificación de técnicas de depuración y buenas prácticas de programación.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\draw[fill=pucpRojo!10, draw=pucpRojo, thick, rounded corners] (0,0) rectangle (2,1) node[pos=.5] {Conceptos};
+\draw[fill=pucpAzul!10, draw=pucpAzul, thick, rounded corners] (3,0) rectangle (5,1) node[pos=.5] {Práctica};
+\draw[fill=pucpDorado!10, draw=pucpDorado, thick, rounded corners] (6,0) rectangle (8,1) node[pos=.5] {Aplicación};
+\draw[->, thick, color=pucpGris] (2.1,0.5) -- (2.9,0.5);
+\draw[->, thick, color=pucpGris] (5.1,0.5) -- (5.9,0.5);
+\end{tikzpicture}
+\end{center}
+
+Se utilizará la plataforma virtual institucional para distribución de materiales, entregas de trabajos y comunicación fuera del horario de clases.
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- VI. SISTEMA DE EVALUACIÓN ---
+\section{SISTEMA DE EVALUACIÓN}
+
+La nota final (NF) se calculará de la siguiente manera:
+
+\tablaEvaluacion{
+    Prácticas de Laboratorio (PL) & Promedio de prácticas semanales & 20\% \\
+    Prácticas Calificadas (PC) & Promedio de 3 evaluaciones escritas & 15\% \\
+    Proyecto de curso (PR) & Desarrollo de aplicación integradora & 15\% \\
+    Examen Parcial (EP) & Evaluación escrita (Unidades 1-3) & 25\% \\
+    Examen Final (EF) & Evaluación escrita integral & 25\% \\
+}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Políticas de Evaluación}]
+\begin{itemize}[leftmargin=*]
+    \item Para aprobar el curso se requiere una nota final mínima de 11 sobre 20.
+    \item Es obligatoria la asistencia a las sesiones de laboratorio.
+    \item La presentación del proyecto de curso es requisito indispensable para aprobar.
+    \item Los exámenes no rendidos se califican con nota cero (0).
+    \item Casos de plagio serán sancionados según el reglamento de disciplina de la universidad.
+    \item Las prácticas de laboratorio son evaluadas tanto por funcionalidad como por estilo y calidad de código.
+\end{itemize}
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- VII. CRONOGRAMA / CALENDARIO ---
+\section{CRONOGRAMA DEL CURSO}
+
+\cronogramaCurso{
+1 & Unidad 1: Introducción e historia & Instalación del entorno de desarrollo \\
+2 & Unidad 1: Diagramas de flujo y Pseudocódigo & Laboratorio: Diseño de algoritmos simples \\
+3 & Unidad 2: Operaciones básicas & \textbf{Práctica Calificada 1} \\
+4 & Unidad 2: Entrada y Salida de datos & Laboratorio: Implementación de E/S \\
+5 & Unidad 2: Variables y Tipos de Datos & Laboratorio: Manejo de variables y tipos \\
+6 & Unidad 3: Estructuras secuenciales & Introducción al proyecto de curso \\
+7 & Unidad 3: Estructuras condicionales & \textbf{Práctica Calificada 2} \\
+8 & \textbf{EXAMEN PARCIAL} & Evaluación escrita (Unidades 1-3) \\
+9 & Unidad 3: Estructuras iterativas & Laboratorio: Ciclos y repeticiones \\
+10 & Unidad 4: Funciones y procedimientos & Laboratorio: Implementación de funciones \\
+11 & Unidad 4: Paso de parámetros & Avance de proyecto (Primera revisión) \\
+12 & Unidad 4: Ámbito de variables & \textbf{Práctica Calificada 3} \\
+13 & Unidad 5: Arreglos unidimensionales & Laboratorio: Manipulación de vectores \\
+14 & Unidad 5: Arreglos multidimensionales & Laboratorio: Matrices y aplicaciones \\
+15 & Unidad 5: Introducción a estructuras/registros & \textbf{Presentación final de proyectos} \\
+16 & \textbf{EXAMEN FINAL} & Evaluación escrita integral \\
+}
+
+% --- VIII. BIBLIOGRAFÍA ---
+\section{BIBLIOGRAFÍA}
+
+\begin{bibliografiaCurso}
+    \item Deitel, P. J., \& Deitel, H. M. (2016). \textit{C How to Program} (8th ed.). Pearson.
+    \item Stroustrup, B. (2013). \textit{The C++ Programming Language} (4th ed.). Addison-Wesley.
+    \item Cormen, T. H., Leiserson, C. E., Rivest, R. L., \& Stein, C. (2009). \textit{Introduction to Algorithms} (3rd ed.). MIT Press.
+    \item Sebesta, R. W. (2015). \textit{Concepts of Programming Languages} (11th ed.). Pearson.
+    \item Kernighan, B. W., \& Ritchie, D. M. (1988). \textit{The C Programming Language} (2nd ed.). Prentice Hall.
+    \item Joyanes Aguilar, L. (2008). \textit{Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos} (4ta ed.). McGraw-Hill.
+\end{bibliografiaCurso}
+
+% --- IX. ACERCA DEL DOCENTE ---
+\section{INFORMACIÓN DEL DOCENTE}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{Perfil del Docente}]
+\begin{minipage}{0.25\textwidth}
+  \centering
+  % Imagen representativa del docente (silueta genérica)
+  \begin{tikzpicture}
+    \fill[pucpGris!30] (0,0) circle (1.2);
+    \fill[pucpGris!50] (0,-0.2) circle (0.8);
+    \fill[pucpGris!30] (0,1.5) circle (0.6);
+  \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.75\textwidth}
+  \begin{tabularx}{\textwidth}{>{\color{pucpGris}\bfseries}l X}
+    Nombre & Dr. Carlos Mendoza \\
+    Correo Electrónico & cmendoza@pucp.edu.pe \\
+    Horario de Asesoría & Martes y Jueves 14:00 - 15:00 \\
+    Formación & Doctor en Ciencias de la Computación, Universidad de Illinois \\
+    Especialización & Lenguajes de programación, algoritmos y educación en computación \\
+    Investigación & Métodos efectivos para la enseñanza de programación, lenguajes educativos \\
+  \end{tabularx}
+\end{minipage}
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- X. POLÍTICA CONTRA EL PLAGIO ---
+\section{POLÍTICA INSTITUCIONAL CONTRA EL PLAGIO}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Integridad Académica}]
+Para la corrección y evaluación de todos los trabajos del curso se va a tomar en cuenta el debido respeto a los derechos de autor, castigando severamente cualquier indicio de plagio con la nota CERO (00).
+
+Estas medidas serán independientes del proceso administrativo de sanción que la facultad estime conveniente de acuerdo a cada caso en particular. Se recomienda revisar el Reglamento de Disciplina de la PUCP, disponible en la página web institucional.
+
+La originalidad de los trabajos es un valor esencial de la comunidad académica. Se espera que todos los estudiantes citen adecuadamente las fuentes utilizadas y presenten trabajos que reflejen su propio análisis y reflexión.
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+\node[inner sep=0pt] at (0,0) {\includegraphics[width=3cm]{../../images/PUCP3.png}};
+\end{tikzpicture}
+\end{center}
+
+\end{document}

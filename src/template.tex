@@ -1,6 +1,10 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[T1]{fontenc}
-\usepackage{../styles/syllabus}
+% Agregar la carpeta styles a la ruta de búsqueda de paquetes
+\makeatletter
+\def\input@path{{../styles/}}
+\makeatother
+\usepackage{syllabus}
 
 % --- Información del curso ---
 \universidad{PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ}

@@ -1,0 +1,277 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+% Agregar la carpeta styles a la ruta de búsqueda de paquetes
+\makeatletter
+\def\input@path{{../../styles/}}
+\makeatother
+\usepackage{syllabus}
+
+% --- Información del curso ---
+\universidad{PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ}
+\facultad{FACULTAD DE CIENCIAS E INGENIERÍA}
+\departamento{DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN}
+\curso{ALGORITMOS AVANZADOS}
+\codigo{INF263}
+\semestre{2025-1}
+\profesor{Dra. Lucía Valencia}
+\creditos{4}
+\horas{6}
+\prerequisitos{Algoritmia y estructura de datos}
+
+% --- START OF DOCUMENT ---
+\begin{document}
+
+% --- Generar portada con el nuevo estilo ---
+\portadaSilabo
+
+% --- I. INFORMACIÓN GENERAL ---
+\section{INFORMACIÓN GENERAL}
+\begin{tabularx}{\textwidth}{@{}>{\color{pucpGris}\bfseries}l@{\hspace{1em}}X@{}}
+    Clave             & : \textcolor{pucpRojo}{\textbf{\@codigo}} \\
+    Créditos          & : \@creditos \\
+    Tipo              & : Obligatorio \\
+    Horas de dictado  & : \\
+    \multicolumn{1}{@{}l@{\hspace{2em}}}{Clase} & : 4,00 horas semanales \\
+    \multicolumn{1}{@{}l@{\hspace{2em}}}{Laboratorio} & : 2,00 horas semanales \\
+    Horario           & : Lunes y Jueves de 15:00 a 17:00 \\
+    Profesor(es)      & : \@profesor \\
+    Departamento      & : Ciencias de la Computación \\
+    Requisitos        & : \@prerequisitos
+\end{tabularx}
+\vspace{0.5cm}
+
+% --- II. SUMILLA / DESCRIPCIÓN DEL CURSO ---
+\section{SUMILLA}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Descripción General del Curso}]
+El curso "Algoritmos Avanzados" profundiza en el diseño, análisis e implementación de algoritmos y estructuras de datos más sofisticados para resolver problemas computacionales complejos. Se exploran técnicas avanzadas para el manejo de cadenas de texto (strings), estructuras de datos especializadas, algoritmos en grafos con mayor detalle, y se introduce el estudio de la complejidad computacional. Una parte significativa del curso se dedica al diseño de algoritmos de aproximación y metaheurísticas para abordar problemas NP-duros, donde encontrar soluciones óptimas en tiempo polinomial es improbable.
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- III. OBJETIVOS DE APRENDIZAJE / COMPETENCIAS ---
+\section{OBJETIVOS Y COMPETENCIAS}
+
+\begin{objetivos}
+Al finalizar el curso, el estudiante estará en capacidad de:
+\begin{itemize}[leftmargin=*]
+    \item Comprender y aplicar técnicas avanzadas de hashing para el procesamiento eficiente de cadenas de texto.
+    \item Implementar algoritmos eficientes de búsqueda de patrones como KMP y Rabin-Karp.
+    \item Utilizar estructuras de datos avanzadas como Tries y árboles B/B+ para resolver problemas específicos.
+    \item Analizar y aplicar algoritmos en grafos para problemas de recubrimiento mínimo y caminos más cortos.
+    \item Distinguir entre problemas tratables e intratables desde la perspectiva de la complejidad computacional.
+    \item Diseñar e implementar algoritmos de aproximación para problemas NP-duros.
+    \item Aplicar metaheurísticas como búsqueda local, algoritmos genéticos y optimización por inteligencia colectiva para encontrar soluciones de buena calidad a problemas complejos.
+\end{itemize}
+\end{objetivos}
+
+\begin{competencias}
+El curso contribuye al desarrollo de las siguientes competencias profesionales:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Diseño algorítmico avanzado:} Capacidad para diseñar algoritmos eficientes para problemas complejos.
+    \item \textbf{Análisis crítico:} Habilidad para evaluar algoritmos según su eficiencia y aplicabilidad.
+    \item \textbf{Resolución de problemas:} Destreza para identificar y aplicar técnicas algorítmicas apropiadas según el contexto.
+    \item \textbf{Optimización:} Capacidad para mejorar soluciones algorítmicas considerando restricciones de tiempo y espacio.
+    \item \textbf{Investigación aplicada:} Habilidad para explorar y adaptar técnicas algoritavas avanzadas a problemas específicos.
+\end{itemize}
+\end{competencias}
+\vspace{0.5cm}
+
+% --- IV. CONTENIDO / PROGRAMA ANALÍTICO ---
+\section{CONTENIDO DEL CURSO}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 1: Strings}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 1.1:} Hashing avanzado (aplicado a strings) (2,00 horas)
+    \item \textbf{Tema 1.2:} Algoritmos de Matching (KMP, Rabin-Karp) (3,00 horas)
+\end{itemize}
+\textbf{Duración total:} 5,00 horas teóricas \\
+\textbf{Laboratorio:} 2,00 horas semanales
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 2: Estructuras de Datos Avanzadas}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 2.1:} Trie (2,00 horas)
+    \item \textbf{Tema 2.2:} B/B+ Trees (3,00 horas)
+    \item \textbf{Tema 2.3:} Graphs (2,00 horas)
+\end{itemize}
+\textbf{Duración total:} 7,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 3: Algoritmos en Grafos}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 3.1:} Representación de Grafos (1,00 hora)
+    \item \textbf{Tema 3.2:} BFS, DFS, Topological Sort (3,00 horas)
+    \item \textbf{Tema 3.3:} Minimum Spanning Trees (MST) (3,00 horas)
+    \item \textbf{Tema 3.4:} Caminos más cortos (3,00 horas)
+\end{itemize}
+\textbf{Duración total:} 10,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 4: Problemas Computacionalmente Complejos}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 4.1:} Clasificación PTAS/FPTAS (2,00 horas)
+    \item \textbf{Tema 4.2:} Casos: Vertex Cover, TSP Métrico, Set Cover (2,00 horas)
+\end{itemize}
+\textbf{Duración total:} 4,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 5: Aproximación y Metaheurísticas}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 5.1:} Búsqueda Local y Simulated Annealing (3,00 horas)
+    \item \textbf{Tema 5.2:} Algoritmos Genéticos (Operadores/Selección) (3,00 horas)
+    \item \textbf{Tema 5.3:} Optimización por Inteligencia Colectiva (PSO, ACO, ABC) (4,00 horas)
+    \item \textbf{Tema 5.4:} Aplicaciones a Problemas NP-Duros (6,00 horas)
+\end{itemize}
+\textbf{Duración total:} 16,00 horas teóricas
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+% Diagrama visual de la relación entre unidades
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=5cm, minimum height=1cm] (string) at (-3,0) {Strings};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=5cm, minimum height=1cm] (estruct) at (3,0) {Estructuras de Datos Avanzadas};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=5cm, minimum height=1cm] (grafos) at (0,-2) {Algoritmos en Grafos};
+\node[draw=pucpRojo, fill=pucpRojo!10, rounded corners, minimum width=5cm, minimum height=1cm] (compl) at (-3,-4) {Problemas Computacionales Complejos};
+\node[draw=pucpRojo, fill=pucpRojo!10, rounded corners, minimum width=5cm, minimum height=1cm] (meta) at (3,-4) {Aproximación y Metaheurísticas};
+
+\draw[->, thick, pucpGris] (string) -- (grafos);
+\draw[->, thick, pucpGris] (estruct) -- (grafos);
+\draw[->, thick, pucpGris] (grafos) -- (compl);
+\draw[->, thick, pucpGris] (compl) -- (meta);
+\draw[->, thick, pucpGris, dashed] (string) to[bend right] (meta);
+\draw[->, thick, pucpGris, dashed] (estruct) to[bend left] (meta);
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+
+% --- V. METODOLOGÍA ---
+\section{METODOLOGÍA}
+\begin{tcolorbox}[colback=pucpGris!5,colframe=pucpGris,title=\textbf{Enfoque Metodológico}]
+El curso se desarrolla mediante una combinación de:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Clases teóricas:} Presentación de conceptos algorítmicos avanzados con análisis de su complejidad y aplicabilidad.
+    \item \textbf{Sesiones de laboratorio:} Implementación de algoritmos y estructuras de datos estudiados, con énfasis en la eficiencia.
+    \item \textbf{Resolución de problemas:} Ejercicios desafiantes que requieren la aplicación de las técnicas estudiadas.
+    \item \textbf{Competencias algorítmicas:} Sesiones prácticas donde los estudiantes compiten para resolver problemas en tiempo limitado.
+    \item \textbf{Proyecto de investigación:} Exploración de un tema específico relacionado con alguna de las técnicas algorítmicas avanzadas estudiadas.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\draw[fill=pucpRojo!10, draw=pucpRojo, thick, rounded corners] (0,0) rectangle (2,1) node[pos=.5] {Teoría};
+\draw[fill=pucpAzul!10, draw=pucpAzul, thick, rounded corners] (3,0) rectangle (5,1) node[pos=.5] {Análisis};
+\draw[fill=pucpDorado!10, draw=pucpDorado, thick, rounded corners] (6,0) rectangle (8,1) node[pos=.5] {Implementación};
+\draw[->, thick, color=pucpGris] (2.1,0.5) -- (2.9,0.5);
+\draw[->, thick, color=pucpGris] (5.1,0.5) -- (5.9,0.5);
+\end{tikzpicture}
+\end{center}
+
+Se utilizará la plataforma virtual institucional para distribución de materiales, entregas de trabajos y comunicación fuera del horario de clases.
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- VI. SISTEMA DE EVALUACIÓN ---
+\section{SISTEMA DE EVALUACIÓN}
+
+La nota final (NF) se calculará de la siguiente manera:
+
+\tablaEvaluacion{
+    Laboratorios (L) & Promedio de prácticas semanales & 20\% \\
+    Competencias Algorítmicas (CA) & 3 competencias durante el semestre & 15\% \\
+    Examen Parcial (EP) & Evaluación escrita (Unidades 1-3) & 25\% \\
+    Proyecto Final (PF) & Implementación y análisis de algoritmos avanzados & 15\% \\
+    Examen Final (EF) & Evaluación escrita integral & 25\% \\
+}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Políticas de Evaluación}]
+\begin{itemize}[leftmargin=*]
+    \item Para aprobar el curso se requiere una nota final mínima de 11 sobre 20.
+    \item La asistencia a las competencias algorítmicas es obligatoria.
+    \item Las entregas de laboratorio fuera de plazo tendrán una penalización de 20\% por día de retraso.
+    \item Para aprobar el curso, es indispensable completar y presentar el proyecto final.
+    \item Las evaluaciones no rendidas se califican con nota cero (0), sin posibilidad de recuperación.
+    \item Casos de plagio serán sancionados según el reglamento de disciplina de la universidad.
+\end{itemize}
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- VII. CRONOGRAMA / CALENDARIO ---
+\section{CRONOGRAMA DEL CURSO}
+
+\cronogramaCurso{
+1 & Unidad 1: Hashing avanzado aplicado a strings & Laboratorio: Implementación de funciones hash para strings \\
+2 & Unidad 1: Algoritmos de Matching (KMP, Rabin-Karp) & Laboratorio: Pattern matching en textos grandes \\
+3 & Unidad 2: Trie & \textbf{Competencia Algorítmica 1} \\
+4 & Unidad 2: B/B+ Trees & Laboratorio: Implementación de B-Trees \\
+5 & Unidad 2: Graphs y Unidad 3: Representación de Grafos & Laboratorio: Implementación de estructuras para grafos \\
+6 & Unidad 3: BFS, DFS, Topological Sort & Asignación de proyectos finales \\
+7 & Unidad 3: Minimum Spanning Trees (MST) & Laboratorio: Implementación de Prim y Kruskal \\
+8 & \textbf{EXAMEN PARCIAL} & Evaluación escrita (Unidades 1-3) \\
+9 & Unidad 3: Caminos más cortos & Laboratorio: Implementación de Dijkstra y Bellman-Ford \\
+10 & Unidad 4: Clasificación PTAS/FPTAS & \textbf{Competencia Algorítmica 2} \\
+11 & Unidad 4: Casos (Vertex Cover, TSP Métrico, Set Cover) & Primera revisión de proyectos \\
+12 & Unidad 5: Búsqueda Local y Simulated Annealing & Laboratorio: Implementación de Simulated Annealing \\
+13 & Unidad 5: Algoritmos Genéticos & \textbf{Competencia Algorítmica 3} \\
+14 & Unidad 5: Optimización por Inteligencia Colectiva & Laboratorio: Implementación de ACO o PSO \\
+15 & Unidad 5: Aplicaciones a Problemas NP-Duros & \textbf{Presentación de Proyectos Finales} \\
+16 & \textbf{EXAMEN FINAL} & Evaluación escrita integral \\
+}
+
+% --- VIII. BIBLIOGRAFÍA ---
+\section{BIBLIOGRAFÍA}
+
+\begin{bibliografiaCurso}
+    \item Cormen, T. H., Leiserson, C. E., Rivest, R. L., \& Stein, C. (2009). \textit{Introduction to Algorithms} (3rd ed.). MIT Press.
+    \item Skiena, S. S. (2020). \textit{The Algorithm Design Manual} (3rd ed.). Springer.
+    \item Sedgewick, R., \& Wayne, K. (2011). \textit{Algorithms} (4th ed.). Addison-Wesley Professional.
+    \item Kleinberg, J., \& Tardos, É. (2006). \textit{Algorithm Design}. Pearson.
+    \item Gonzalez, T. F. (2007). \textit{Handbook of Approximation Algorithms and Metaheuristics}. Chapman and Hall/CRC.
+    \item Talbi, E. G. (2009). \textit{Metaheuristics: From Design to Implementation}. Wiley.
+    \item Gusfield, D. (1997). \textit{Algorithms on Strings, Trees, and Sequences: Computer Science and Computational Biology}. Cambridge University Press.
+\end{bibliografiaCurso}
+
+% --- IX. ACERCA DEL DOCENTE ---
+\section{INFORMACIÓN DEL DOCENTE}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{Perfil del Docente}]
+\begin{minipage}{0.25\textwidth}
+  \centering
+  % Imagen representativa del docente (silueta genérica)
+  \begin{tikzpicture}
+    \fill[pucpGris!30] (0,0) circle (1.2);
+    \fill[pucpGris!50] (0,-0.2) circle (0.8);
+    \fill[pucpGris!30] (0,1.5) circle (0.6);
+  \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.75\textwidth}
+  \begin{tabularx}{\textwidth}{>{\color{pucpGris}\bfseries}l X}
+    Nombre & Dra. Lucía Valencia \\
+    Correo Electrónico & lvalencia@pucp.edu.pe \\
+    Horario de Asesoría & Viernes 14:00 - 16:00 \\
+    Formación & Doctora en Ciencias de la Computación, Universidad de California \\
+    Especialización & Algoritmos de aproximación y optimización combinatoria \\
+    Investigación & Metaheurísticas aplicadas a problemas de optimización, algoritmos para procesamiento de textos biológicos \\
+  \end{tabularx}
+\end{minipage}
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- X. POLÍTICA CONTRA EL PLAGIO ---
+\section{POLÍTICA INSTITUCIONAL CONTRA EL PLAGIO}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Integridad Académica}]
+Para la corrección y evaluación de todos los trabajos del curso se va a tomar en cuenta el debido respeto a los derechos de autor, castigando severamente cualquier indicio de plagio con la nota CERO (00).
+
+Estas medidas serán independientes del proceso administrativo de sanción que la facultad estime conveniente de acuerdo a cada caso en particular. Se recomienda revisar el Reglamento de Disciplina de la PUCP, disponible en la página web institucional.
+
+La originalidad de los trabajos es un valor esencial de la comunidad académica. Se espera que todos los estudiantes citen adecuadamente las fuentes utilizadas y presenten trabajos que reflejen su propio análisis y reflexión.
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+\node[inner sep=0pt] at (0,0) {\includegraphics[width=3cm]{../../images/PUCP3.png}};
+\end{tikzpicture}
+\end{center}
+
+\end{document}

@@ -1,12 +1,17 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage{../styles/syllabus}
+\usepackage[T1]{fontenc}
+% Agregar la carpeta styles a la ruta de búsqueda de paquetes
+\makeatletter
+\def\input@path{{../styles/}}
+\makeatother
+\usepackage{syllabus}
 
 % --- Información del curso ---
 \universidad{PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ}
 \facultad{FACULTAD DE CIENCIAS}
 \departamento{DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN}
 \curso{INTRODUCCIÓN A ALGORITMOS}
-\codigo{INFXXX}
+\codigo{INF2355}
 \semestre{2025-1}
 \profesor{Dr. Juan Pérez}
 \creditos{4}
@@ -21,7 +26,7 @@
 
 % --- I. INFORMACIÓN GENERAL ---
 \section{INFORMACIÓN GENERAL}
-\begin{tabularx}{\textwidth}{@{} >{\color{pucpGris}\bfseries}l @{\hspace{1em}} X @{}}
+\begin{tabularx}{\textwidth}{@{}>{\color{pucpGris}\bfseries}l@{\hspace{1em}}X@{}}
     Clave             & : \textcolor{pucpRojo}{\textbf{\@codigo}} \\
     Créditos          & : \@creditos \\
     Tipo              & : Obligatorio \\
@@ -31,7 +36,7 @@
     Horario           & : Lunes y Miércoles de 14:00 a 17:00 \\
     Profesor(es)      & : \@profesor \\
     Departamento      & : Ciencias de la Computación \\
-    Requisitos        & : \@prerequisitos \\
+    Requisitos        & : \@prerequisitos
 \end{tabularx}
 \vspace{0.5cm}
 

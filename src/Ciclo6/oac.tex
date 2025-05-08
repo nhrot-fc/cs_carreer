@@ -1,0 +1,282 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+% Agregar la carpeta styles a la ruta de búsqueda de paquetes
+\makeatletter
+\def\input@path{{../../styles/}}
+\makeatother
+\usepackage{syllabus}
+
+% --- Información del curso ---
+\universidad{PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ}
+\facultad{FACULTAD DE CIENCIAS E INGENIERÍA}
+\departamento{DEPARTAMENTO DE INGENIERÍA}
+\curso{ORGANIZACIÓN Y ARQUITECTURA DE COMPUTADORAS}
+\codigo{INF244}
+\semestre{2025-1}
+\profesor{Dr. Ricardo Navarro}
+\creditos{4}
+\horas{6}
+\prerequisitos{Circuitos Digitales, Algoritmia y estructura de datos}
+
+% --- START OF DOCUMENT ---
+\begin{document}
+
+% --- Generar portada con el nuevo estilo ---
+\portadaSilabo
+
+% --- I. INFORMACIÓN GENERAL ---
+\section{INFORMACIÓN GENERAL}
+\begin{tabularx}{\textwidth}{@{}>{\color{pucpGris}\bfseries}l@{\hspace{1em}}X@{}}
+    Clave             & : \textcolor{pucpRojo}{\textbf{\@codigo}} \\
+    Créditos          & : \@creditos \\
+    Tipo              & : Obligatorio \\
+    Horas de dictado  & : \\
+    \multicolumn{1}{@{}l@{\hspace{2em}}}{Clase} & : 4,00 horas semanales \\
+    \multicolumn{1}{@{}l@{\hspace{2em}}}{Laboratorio} & : 2,00 horas semanales \\
+    Horario           & : Martes y Jueves de 10:00 a 12:00 \\
+    Profesor(es)      & : \@profesor \\
+    Departamento      & : Ingeniería \\
+    Requisitos        & : \@prerequisitos
+\end{tabularx}
+\vspace{0.5cm}
+
+% --- II. SUMILLA / DESCRIPCIÓN DEL CURSO ---
+\section{SUMILLA}
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Descripción General del Curso}]
+El curso "Organización y Arquitectura de Computadoras" introduce a los estudiantes en el diseño y funcionamiento interno de los sistemas computacionales modernos. Se estudian los diferentes modelos arquitectónicos, componentes fundamentales de una computadora, y cómo estos elementos interactúan para ejecutar programas. El curso abarca desde los modelos conceptuales hasta los componentes físicos, incluyendo la Unidad Central de Procesamiento (CPU), memoria, sistemas de entrada/salida y buses del sistema. Se enfatiza en comprender cómo el diseño de hardware impacta en el rendimiento del software y cómo las decisiones arquitectónicas afectan la eficiencia general del sistema.
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- III. OBJETIVOS DE APRENDIZAJE / COMPETENCIAS ---
+\section{OBJETIVOS Y COMPETENCIAS}
+
+\begin{objetivos}
+Al finalizar el curso, el estudiante estará en capacidad de:
+\begin{itemize}[leftmargin=*]
+    \item Comprender y diferenciar los modelos arquitectónicos Von Neumann y Harvard, así como sus implicaciones en el diseño de computadoras.
+    \item Analizar y describir los componentes internos de la CPU, incluyendo ALU, registros, y unidad de control.
+    \item Entender los diferentes conjuntos de instrucciones y modos de direccionamiento utilizados en arquitecturas modernas.
+    \item Explicar la jerarquía de memoria, sus principios de funcionamiento y técnicas de optimización.
+    \item Analizar la operación de los sistemas de entrada/salida y buses del sistema.
+    \item Evaluar el rendimiento de arquitecturas computacionales utilizando métricas adecuadas.
+\end{itemize}
+\end{objetivos}
+
+\begin{competencias}
+El curso contribuye al desarrollo de las siguientes competencias profesionales:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Análisis de sistemas:} Capacidad para comprender sistemas complejos descomponiéndolos en sus componentes funcionales.
+    \item \textbf{Diseño digital:} Habilidad para aplicar principios de diseño digital en la evaluación de arquitecturas computacionales.
+    \item \textbf{Optimización:} Aptitud para identificar cuellos de botella y proponer mejoras en el rendimiento de sistemas.
+    \item \textbf{Integración hardware-software:} Comprensión de cómo las decisiones arquitectónicas afectan al desarrollo y ejecución del software.
+\end{itemize}
+\end{competencias}
+\vspace{0.5cm}
+
+% --- IV. CONTENIDO / PROGRAMA ANALÍTICO ---
+\section{CONTENIDO DEL CURSO}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 1: Introducción a la Arquitectura de Computadoras}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 1.1:} Modelos Von Neumann y Harvard (2,00 horas)
+    \item \textbf{Tema 1.2:} Componentes principales (2,00 horas)
+\end{itemize}
+\textbf{Duración total:} 4,00 horas teóricas \\
+\textbf{Laboratorio:} 2,00 horas semanales
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 2: Instrucciones}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 2.1:} Representación y tipos de instrucciones (4,00 horas)
+    \item \textbf{Tema 2.2:} Modos de direccionamiento (4,00 horas)
+\end{itemize}
+\textbf{Duración total:} 8,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 3: CPU (Unidad Central de Procesamiento)}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 3.1:} Componentes funcionales (4,00 horas)
+    \item \textbf{Tema 3.2:} Unidad de control (3,00 horas)
+    \item \textbf{Tema 3.3:} Pipeline (Segmentación) (3,00 horas)
+\end{itemize}
+\textbf{Duración total:} 10,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 4: Memoria}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 4.1:} Jerarquía de memoria y localidad (3,00 horas)
+    \item \textbf{Tema 4.2:} Caché (3,00 horas)
+    \item \textbf{Tema 4.3:} Principal y Virtual (4,00 horas)
+\end{itemize}
+\textbf{Duración total:} 10,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 5: I/O (Entrada/Salida)}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 5.1:} Módulos y Técnicas (3,00 horas)
+    \item \textbf{Tema 5.2:} Arquitecturas paralelas (3,00 horas)
+    \item \textbf{Tema 5.3:} Buses (3,00 horas)
+\end{itemize}
+\textbf{Duración total:} 9,00 horas teóricas
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{UNIDAD 6: Rendimiento}]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Tema 6.1:} Métricas y evaluación del rendimiento (1,00 hora)
+\end{itemize}
+\textbf{Duración total:} 1,00 hora teórica
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+% Diagrama visual de la relación entre unidades
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (intro) at (0,0) {Introducción};
+
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (instr) at (-4,-2) {Instrucciones};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (cpu) at (0,-2) {CPU};
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (mem) at (4,-2) {Memoria};
+
+\node[draw=pucpAzul, fill=pucpAzul!10, rounded corners, minimum width=3cm, minimum height=1cm] (io) at (-2,-4) {I/O};
+\node[draw=pucpRojo, fill=pucpRojo!10, rounded corners, minimum width=3cm, minimum height=1cm] (rend) at (2,-4) {Rendimiento};
+
+\draw[->, thick, pucpGris] (intro) -- (instr);
+\draw[->, thick, pucpGris] (intro) -- (cpu);
+\draw[->, thick, pucpGris] (intro) -- (mem);
+\draw[->, thick, pucpGris] (instr) -- (cpu);
+\draw[->, thick, pucpGris] (cpu) -- (io);
+\draw[->, thick, pucpGris] (mem) -- (io);
+\draw[->, thick, pucpGris] (cpu) -- (rend);
+\draw[->, thick, pucpGris] (mem) -- (rend);
+\draw[->, thick, pucpGris] (io) -- (rend);
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+
+% --- V. METODOLOGÍA ---
+\section{METODOLOGÍA}
+\begin{tcolorbox}[colback=pucpGris!5,colframe=pucpGris,title=\textbf{Enfoque Metodológico}]
+El curso se desarrolla mediante una combinación de:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Clases teóricas:} Exposición de conceptos fundamentales de arquitectura de computadoras.
+    \item \textbf{Sesiones de laboratorio:} Implementación práctica de conceptos utilizando simuladores y herramientas de diseño digital.
+    \item \textbf{Resolución de problemas:} Análisis y solución de casos relacionados con el rendimiento y diseño de arquitecturas.
+    \item \textbf{Proyectos prácticos:} Diseño de componentes simples de arquitectura e implementación en herramientas especializadas.
+    \item \textbf{Discusiones dirigidas:} Análisis de arquitecturas comerciales y tendencias actuales.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}
+\draw[fill=pucpRojo!10, draw=pucpRojo, thick, rounded corners] (0,0) rectangle (2,1) node[pos=.5] {Fundamentos};
+\draw[fill=pucpAzul!10, draw=pucpAzul, thick, rounded corners] (3,0) rectangle (5,1) node[pos=.5] {Simulación};
+\draw[fill=pucpDorado!10, draw=pucpDorado, thick, rounded corners] (6,0) rectangle (8,1) node[pos=.5] {Evaluación};
+\draw[->, thick, color=pucpGris] (2.1,0.5) -- (2.9,0.5);
+\draw[->, thick, color=pucpGris] (5.1,0.5) -- (5.9,0.5);
+\end{tikzpicture}
+\end{center}
+
+Se utilizará la plataforma virtual institucional para distribución de materiales, entregas de trabajos y comunicación fuera del horario de clases.
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- VI. SISTEMA DE EVALUACIÓN ---
+\section{SISTEMA DE EVALUACIÓN}
+
+La nota final (NF) se calculará de la siguiente manera:
+
+\tablaEvaluacion{
+    Laboratorios (L) & Promedio de prácticas de laboratorio & 20\% \\
+    Prácticas Calificadas (PC) & Promedio de 3 evaluaciones escritas & 25\% \\
+    Examen Parcial (EP) & Evaluación escrita (Unidades 1-3) & 25\% \\
+    Examen Final (EF) & Evaluación escrita (Todas las unidades) & 30\% \\
+}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Políticas de Evaluación}]
+\begin{itemize}[leftmargin=*]
+    \item Para aprobar el curso se requiere una nota final mínima de 11 sobre 20.
+    \item La asistencia a las sesiones de laboratorio es obligatoria.
+    \item La entrega tardía de informes de laboratorio tendrá una penalización de 2 puntos por día de retraso.
+    \item Los exámenes no rendidos se califican con nota cero (0).
+    \item Casos de plagio serán sancionados según el reglamento de disciplina de la universidad.
+\end{itemize}
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- VII. CRONOGRAMA / CALENDARIO ---
+\section{CRONOGRAMA DEL CURSO}
+
+\cronogramaCurso{
+1 & Unidad 1: Modelos Von Neumann y Harvard & Laboratorio: Introducción a los simuladores \\
+2 & Unidad 1: Componentes principales & Laboratorio: Análisis de arquitecturas básicas \\
+3 & Unidad 2: Representación y tipos de instrucciones (parte 1) & \textbf{Práctica Calificada 1} \\
+4 & Unidad 2: Representación y tipos de instrucciones (parte 2) & Laboratorio: Implementación de instrucciones básicas \\
+5 & Unidad 2: Modos de direccionamiento & Laboratorio: Análisis de modos de direccionamiento \\
+6 & Unidad 3: Componentes funcionales de la CPU & Laboratorio: Diseño de ALU simple \\
+7 & Unidad 3: Unidad de control & \textbf{Práctica Calificada 2} \\
+8 & \textbf{EXAMEN PARCIAL} & Evaluación escrita \\
+9 & Unidad 3: Pipeline (Segmentación) & Laboratorio: Simulación de pipeline \\
+10 & Unidad 4: Jerarquía de memoria y localidad & Laboratorio: Análisis de patrones de acceso a memoria \\
+11 & Unidad 4: Caché & Laboratorio: Simulación de memorias caché \\
+12 & Unidad 4: Memoria Principal y Virtual & \textbf{Práctica Calificada 3} \\
+13 & Unidad 5: Módulos y Técnicas de E/S & Laboratorio: Interfaces de E/S \\
+14 & Unidad 5: Arquitecturas paralelas y Buses & Laboratorio: Simulación de buses y protocolos \\
+15 & Unidad 6: Métricas y evaluación del rendimiento & Repaso y resolución de consultas \\
+16 & \textbf{EXAMEN FINAL} & Evaluación escrita \\
+}
+
+% --- VIII. BIBLIOGRAFÍA ---
+\section{BIBLIOGRAFÍA}
+
+\begin{bibliografiaCurso}
+    \item Patterson, D. A., \& Hennessy, J. L. (2017). \textit{Computer Organization and Design: The Hardware/Software Interface} (6th ed.). Morgan Kaufmann.
+    \item Stallings, W. (2016). \textit{Computer Organization and Architecture: Designing for Performance} (10th ed.). Pearson.
+    \item Tanenbaum, A. S. (2016). \textit{Structured Computer Organization} (6th ed.). Pearson.
+    \item Hamacher, C., Vranesic, Z., \& Zaky, S. (2011). \textit{Computer Organization} (6th ed.). McGraw-Hill.
+    \item Harris, D., \& Harris, S. (2015). \textit{Digital Design and Computer Architecture} (2nd ed.). Morgan Kaufmann.
+\end{bibliografiaCurso}
+
+% --- IX. ACERCA DEL DOCENTE ---
+\section{INFORMACIÓN DEL DOCENTE}
+
+\begin{tcolorbox}[colback=white,colframe=pucpAzul,title=\textbf{Perfil del Docente}]
+\begin{minipage}{0.25\textwidth}
+  \centering
+  % Imagen representativa del docente (silueta genérica)
+  \begin{tikzpicture}
+    \fill[pucpGris!30] (0,0) circle (1.2);
+    \fill[pucpGris!50] (0,-0.2) circle (0.8);
+    \fill[pucpGris!30] (0,1.5) circle (0.6);
+  \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.75\textwidth}
+  \begin{tabularx}{\textwidth}{>{\color{pucpGris}\bfseries}l X}
+    Nombre & Dr. Ricardo Navarro \\
+    Correo Electrónico & rnavarro@pucp.edu.pe \\
+    Horario de Asesoría & Miércoles 14:00 - 16:00 \\
+    Formación & Doctor en Ingeniería de Computadores, Universidad Politécnica de Madrid \\
+    Especialización & Arquitecturas avanzadas y sistemas empotrados \\
+    Investigación & Arquitecturas de alto rendimiento, sistemas embebidos y computación paralela \\
+  \end{tabularx}
+\end{minipage}
+\end{tcolorbox}
+\vspace{0.5cm}
+
+% --- X. POLÍTICA CONTRA EL PLAGIO ---
+\section{POLÍTICA INSTITUCIONAL CONTRA EL PLAGIO}
+
+\begin{tcolorbox}[colback=pucpRojo!5,colframe=pucpRojo,title=\textbf{Integridad Académica}]
+Para la corrección y evaluación de todos los trabajos del curso se va a tomar en cuenta el debido respeto a los derechos de autor, castigando severamente cualquier indicio de plagio con la nota CERO (00).
+
+Estas medidas serán independientes del proceso administrativo de sanción que la facultad estime conveniente de acuerdo a cada caso en particular. Se recomienda revisar el Reglamento de Disciplina de la PUCP, disponible en la página web institucional.
+
+La originalidad de los trabajos es un valor esencial de la comunidad académica. Se espera que todos los estudiantes citen adecuadamente las fuentes utilizadas y presenten trabajos que reflejen su propio análisis y reflexión.
+\end{tcolorbox}
+
+\begin{center}
+\begin{tikzpicture}
+\node[inner sep=0pt] at (0,0) {\includegraphics[width=3cm]{../../images/PUCP3.png}};
+\end{tikzpicture}
+\end{center}
+
+\end{document}
