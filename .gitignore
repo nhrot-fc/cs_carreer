@@ -1,0 +1,31 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+
+# Build directory
+build/*
+!build/.gitkeep
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# PDF files (uncomment if you don't want to version PDFs)
+# *.pdf

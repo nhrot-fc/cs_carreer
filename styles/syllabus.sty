@@ -1,0 +1,92 @@
+% Archivo de estilo personalizado para silabos
+\ProvidesPackage{syllabus}[2025/05/07 v1.0 Estilo personalizado para silabos]
+
+% Paquetes requeridos
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc} % Mejor soporte para caracteres acentuados
+\RequirePackage{lmodern}     % Fuentes que se ven mejor con T1 fontenc
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{graphicx}
+\RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\RequirePackage{array}
+\RequirePackage{longtable}
+\RequirePackage{booktabs}
+\RequirePackage{enumitem}
+\RequirePackage{fancyhdr}
+\RequirePackage{hyperref}
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+% Ajuste para headheight que reporta error
+\setlength{\headheight}{16pt}
+
+% Comandos personalizados para información del curso
+\newcommand{\universidad}[1]{\def\@universidad{#1}}
+\newcommand{\facultad}[1]{\def\@facultad{#1}}
+\newcommand{\departamento}[1]{\def\@departamento{#1}}
+\newcommand{\curso}[1]{\def\@curso{#1}}
+\newcommand{\codigo}[1]{\def\@codigo{#1}}
+\newcommand{\semestre}[1]{\def\@semestre{#1}}
+
+% Formato de secciones sin usar titlesec
+\newcommand{\formatSection}{\normalfont\Large\bfseries}
+\newcommand{\formatSubsection}{\normalfont\large\bfseries}
+\newcommand{\formatSubsubsection}{\normalfont\normalsize\bfseries}
+
+% Configuración de encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[C]{\thepage}
+
+% Comando para configurar el encabezado con información del curso
+\newcommand{\configurarEncabezado}{
+  \fancyhead[L]{\@universidad}
+  \fancyhead[R]{\@facultad}
+}
+
+% Comando para generar la página de título del sílabo
+\newcommand{\portadaSilabo}{
+  \begin{center}
+    % Para logo, usar ruta absoluta o ajustar según la estructura del proyecto
+    % \includegraphics[width=3cm]{../images/logo.png}
+    % \vspace{0.5cm}
+    
+    {\Large \textbf{\@universidad}} \\
+    {\large \textbf{\@facultad}} \\
+    {\large \textbf{\@departamento}} \\
+    \vspace{0.5cm}
+    {\huge \textbf{\@curso}} \\
+    \vspace{0.2cm}
+    {\Large \textbf{\@codigo}} \\
+    \vspace{0.5cm}
+    {\large Semestre Academico: \@semestre} 
+    \vspace{1cm}
+  \end{center}
+}
+
+% Comando para crear tablas de evaluación con estilo consistente
+\newcommand{\tablaEvaluacion}[1]{
+  \begin{center}
+  \begin{tabular}{l l c}
+    \toprule
+    \textbf{Tipo de Evaluacion} & \textbf{Siglas/Descripcion} & \textbf{Peso (\%)} \\
+    \midrule
+    #1
+    \midrule
+    \textbf{TOTAL} & & \textbf{100\%} \\
+    \bottomrule
+  \end{tabular}
+  \end{center}
+}
+
+\endinput
