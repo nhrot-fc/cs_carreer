@@ -1,0 +1,48 @@
+A continuación, se presenta una descripción completa del curso "Computación Paralela", junto con sus dependencias, basándose en la información proporcionada.
+
+Nombre del Curso: Computación Paralela
+Créditos: 3,00 (inferido del título "Computación Paralela3,00")
+Horas de Laboratorio: Para el capítulo de "Fundamentos", se especifican 2,00 horas de laboratorio cada quince días (Quincenal). Estas sesiones permitirán a los estudiantes aplicar los conceptos básicos y métricas de rendimiento del paralelismo.
+
+Descripción General del Curso:
+El curso "Computación Paralela" introduce a los estudiantes los conceptos, arquitecturas y técnicas de programación para desarrollar software que aproveche el poder de los sistemas computacionales con múltiples unidades de procesamiento. Se exploran los diferentes paradigmas del paralelismo, incluyendo la programación con memoria compartida, el paso de mensajes y el paralelismo de datos. Los estudiantes aprenderán a diseñar, implementar y analizar el rendimiento de aplicaciones paralelas utilizando estándares y herramientas como OpenMP, MPI y CUDA. El objetivo es capacitar a los estudiantes para desarrollar soluciones eficientes a problemas computacionalmente intensivos mediante el uso efectivo del hardware paralelo.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos (Total: 4,00 horas teóricas)
+
+Introducción al paralelismo (2,00 horas): Conceptos de computación paralela, motivaciones, tipos de paralelismo (a nivel de bit, instrucción, datos, tarea), y arquitecturas paralelas fundamentales (SISD, SIMD, MISD, MIMD, UMA, NUMA).
+Métricas de rendimiento paralelo (2,00 horas): Evaluación del rendimiento de programas paralelos, incluyendo speedup, eficiencia, costo, escalabilidad, Ley de Amdahl, Ley de Gustafson y métrica de isoeficiencia.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Memoria compartida (Total: 11,00 horas teóricas)
+
+Hilos y gestión de la concurrencia (3,00 horas): Modelo de programación con hilos (threads), creación y gestión de hilos, y los desafíos de la programación concurrente (condiciones de carrera, interbloqueos - deadlocks).
+Sincronización de hilos (3,00 horas): Mecanismos de sincronización para coordinar el acceso a recursos compartidos, como locks (mutexes), semáforos, variables de condición y barreras.
+Modelos de consistencia de memoria (2,00 horas): Comprensión de cómo los cambios en la memoria son visibles para diferentes hilos en sistemas de memoria compartida (ej. consistencia secuencial, consistencia relajada).
+Programación con OpenMP (3,00 horas): Introducción al estándar OpenMP para la programación paralela en arquitecturas de memoria compartida mediante directivas de compilador.
+Paso de mensajes (Total: 11,00 horas teóricas)
+
+Primitivas de comunicación punto a punto (3,00 horas): Modelo de programación de paso de mensajes. Operaciones básicas de envío y recepción (bloqueantes y no bloqueantes).
+Comunicación colectiva (3,00 horas): Operaciones de comunicación que involucran a un grupo de procesos, como broadcast, scatter, gather, reduce, y all-to-all.
+Topologías y patrones de comunicación (2,00 horas): Estudio de diferentes topologías de red de interconexión y patrones comunes de comunicación en algoritmos paralelos.
+Programación con MPI (Message Passing Interface) (3,00 horas): Introducción al estándar MPI para la programación paralela en arquitecturas de memoria distribuida y compartida.
+Paralelismo de Datos (Total: 9,00 horas teóricas)
+
+Conceptos, aplicaciones y arquitecturas (3,00 horas): Modelo de paralelismo de datos (SIMD - Single Instruction, Multiple Data). Aplicaciones típicas y arquitecturas que lo soportan (ej. procesadores vectoriales, GPUs).
+Directivas y extensiones de lenguaje (3,00 horas): Uso de directivas de compilador o extensiones de lenguaje para expresar el paralelismo de datos (ej. en OpenMP SIMD, o lenguajes específicos).
+Programación en CUDA (3,00 horas): Introducción a la arquitectura y modelo de programación CUDA (Compute Unified Device Architecture) para la programación de propósito general en GPUs de NVIDIA.
+Total de Horas Teóricas del Curso: 35,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Computación Paralela", es necesario haber aprobado el siguiente curso:
+
+Sistemas Operativos:
+Relevancia: Un curso de Sistemas Operativos proporciona la base conceptual y el entendimiento de los mecanismos subyacentes que son esenciales para la computación paralela:
+Procesos e Hilos: El SO gestiona los procesos e hilos, que son las unidades fundamentales de ejecución en muchos modelos de programación paralela, especialmente en sistemas de memoria compartida. Comprender su ciclo de vida, estados, y cómo el SO los planifica es crucial.
+Concurrencia y Sincronización: Los SO se enfrentan a problemas de concurrencia y proporcionan primitivas de sincronización (mutex, semáforos, etc.). La computación paralela extiende y aplica intensivamente estos conceptos para coordinar tareas paralelas.
+Gestión de Memoria: Entender la gestión de memoria virtual y física, los espacios de direcciones y la protección de memoria es fundamental para la programación en memoria compartida (para entender la consistencia de memoria y el uso de la caché) y en memoria distribuida (para la transferencia de datos).
+Comunicación Inter-Procesos (IPC): Los mecanismos de IPC que ofrece el SO (como tuberías, memoria compartida a nivel de SO, o colas de mensajes) son conceptualmente similares o incluso la base para algunas técnicas de comunicación en modelos de paso de mensajes.
+Llamadas al Sistema e Interfaz con el Hardware: Las bibliotecas de programación paralela interactúan con el SO a través de llamadas al sistema para la creación de hilos, manejo de la sincronización, y gestión de recursos. Un conocimiento del SO ayuda a entender esta interacción. La comprensión de cómo el sistema operativo maneja múltiples tareas y recursos es un prerrequisito indispensable para diseñar y programar aplicaciones que se ejecuten eficientemente en paralelo.

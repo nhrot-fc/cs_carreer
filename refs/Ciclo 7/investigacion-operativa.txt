@@ -1,0 +1,53 @@
+A continuación, se presenta una descripción completa del curso "Investigación Operativa", junto con sus dependencias, basándose en la información proporcionada.
+
+Nombre del Curso: Investigación Operativa
+Créditos: 4,50 (inferido del título "Investigación Operativa4,50")
+Sesiones de Prácticas Calificadas (PC): Para el capítulo de "Espacios euclídeos", se especifican 2,00 horas de Prácticas Calificadas (PC) cada quince días (Quincenal). Estas sesiones permiten afianzar los conceptos matemáticos fundamentales del curso.
+
+Descripción General del Curso:
+El curso "Investigación Operativa" se enfoca en la aplicación de métodos científicos y matemáticos avanzados para la toma de decisiones óptimas en sistemas complejos. Proporciona una sólida base teórica en conceptos de espacios euclídeos, análisis convexo y la teoría de poliedros, que son fundamentales para la programación matemática. Los estudiantes aprenderán a formular y resolver problemas de optimización lineal utilizando el algoritmo simplex, y explorarán aplicaciones en áreas como la teoría de juegos y el análisis envolvente de datos (DEA). Finalmente, se introducirán a la programación convexa y la dualidad, ampliando su capacidad para modelar y resolver una gama más amplia de problemas de optimización.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Espacios euclídeos (Total: 8,00 horas teóricas)
+
+Espacio euclideano e hiperplanos (4,00 horas): Estudio de las propiedades del espacio R 
+n
+ , incluyendo distancia euclidiana, producto interno, norma, ángulos, y la definición y propiedades de los hiperplanos.
+Convergencia, compacidad y continuidad (4,00 horas): Conceptos topológicos fundamentales en espacios euclídeos, como sucesiones convergentes, conjuntos compactos (Teorema de Heine-Borel) y funciones continuas, esenciales para el análisis en optimización.
+Sesiones de Prácticas (PC): Este capítulo cuenta con 2,00 horas de Prácticas Calificadas quincenales.
+Conjuntos convexos (Total: 8,00 horas teóricas)
+
+Conjuntos y cápsula convexa (4,00 horas): Definición y propiedades de los conjuntos convexos. Combinaciones convexas y la cápsula convexa (convex hull) de un conjunto. Teorema de Carathéodory.
+Separación y soporte (4,00 horas): Teoremas de separación de hiperplanos para conjuntos convexos (ej. Teorema de Hahn-Banach geométrico) y el concepto de hiperplanos de soporte.
+Politopos convexos (Total: 8,00 horas teóricas)
+
+Politopo convexo y poliedros (4,00 horas): Definición de politopos convexos como la cápsula convexa de un conjunto finito de puntos. Introducción a los poliedros como intersección de semi-espacios.
+Representación de poliedros (4,00 horas): Teorema de representación de poliedros (Teorema de Minkowski-Weyl), incluyendo vértices, aristas, caras, y la doble descripción (V-representación y H-representación).
+Programación lineal (Total: 8,00 horas teóricas)
+
+Desigualdades lineales (4,00 horas): Formulación de problemas de programación lineal. Interpretación geométrica de las soluciones factibles y óptimas. Formas estándar y canónica.
+Algoritmo simplex (4,00 horas): Desarrollo y comprensión del algoritmo simplex para resolver problemas de programación lineal. Conceptos de solución básica factible, optimalidad y casos especiales (degeneración, soluciones no acotadas, múltiples óptimos).
+Aplicaciones (Total: 8,00 horas teóricas)
+
+Teoría de juegos (4,00 horas): Introducción a la teoría de juegos, con énfasis en juegos de suma cero para dos personas. Concepto de estrategias puras y mixtas, valor del juego y puntos de silla. Relación con la programación lineal.
+Modelos DEA (Análisis Envolvente de Datos) (4,00 horas): Introducción al Análisis Envolvente de Datos como una técnica no paramétrica basada en programación lineal para medir la eficiencia relativa de unidades tomadoras de decisión (DMUs).
+Funciones convexas y optimización (Total: 8,00 horas teóricas)
+
+Programación convexa (4,00 horas): Definición de funciones convexas y sus propiedades. Formulación de problemas de programación convexa. Condiciones de optimalidad (condiciones de Karush-Kuhn-Tucker - KKT).
+Dualidad convexa (4,00 horas): Teoría de la dualidad en programación convexa. Problema dual de Lagrange, dualidad débil y fuerte, y su interpretación económica.
+Total de Horas Teóricas del Curso: 48,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Investigación Operativa", es necesario haber aprobado el siguiente curso:
+
+Probabilidad y Estadística:
+Relevancia: Un curso de Probabilidad y Estadística desarrolla la madurez matemática y las habilidades de razonamiento cuantitativo que son fundamentales para la Investigación Operativa. Específicamente:
+Modelado y Análisis de Datos: La estadística proporciona herramientas para recolectar, analizar e interpretar datos, que son a menudo el punto de partida para la formulación de modelos de investigación operativa.
+Comprensión de la Incertidumbre: Aunque gran parte del temario listado se centra en modelos determinísticos, muchos problemas del mundo real en Investigación Operativa involucran incertidumbre. La probabilidad es la base para el modelado estocástico (por ejemplo, en líneas de espera, inventarios estocásticos, o simulación).
+Fundamento para Decisiones: La teoría de la probabilidad es esencial para la toma de decisiones bajo incertidumbre, un área clave de la Investigación Operativa.
+Contexto para Aplicaciones: Algunas aplicaciones de la Investigación Operativa, como la Teoría de Juegos o ciertos modelos de decisión, pueden incorporar elementos probabilísticos o análisis estadístico de resultados.
+Interpretación de Resultados: Una base estadística ayuda a interpretar de manera crítica los datos de entrada a los modelos y los resultados obtenidos de las técnicas de optimización. La familiaridad con el lenguaje matemático y el rigor analítico promovidos en un curso de Probabilidad y Estadística son beneficiosos para abordar los temas teóricos de optimización y análisis convexo.

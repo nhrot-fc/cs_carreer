@@ -1,0 +1,63 @@
+Descripción General del Curso:
+El curso "Teoría de Compiladores" explora los principios, el diseño y la implementación de los compiladores, que son programas esenciales que traducen código escrito en un lenguaje de programación de alto nivel a un lenguaje de bajo nivel (como código máquina o ensamblador). Se estudian todas las fases principales de un compilador, incluyendo el análisis léxico, el análisis sintáctico, el análisis semántico (incluyendo la gestión de tablas de símbolos y la comprobación de tipos), la generación de código intermedio, la optimización de código y la generación de código final. Se hace hincapié en los fundamentos teóricos, como los lenguajes formales y la teoría de autómatas, así como en las técnicas algorítmicas y las herramientas utilizadas en la construcción de compiladores.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Introducción y Fundamentos Lingüísticos (Total: 4,00 horas teóricas)
+
+Introducción a compiladores e intérpretes (2,00 horas): Definición y funciones de compiladores e intérpretes. Estructura de un compilador (fases). Herramientas de construcción de compiladores.
+Repaso Lenguajes y gramáticas formales (2,00 horas): Revisión de conceptos de lenguajes formales (alfabetos, cadenas, lenguajes), gramáticas formales (jerarquía de Chomsky), y su importancia en la definición de lenguajes de programación.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Análisis léxico (Total: 6,00 horas teóricas)
+
+Conceptos y diseño del analizador léxico (2,00 horas): Rol del analizador léxico (scanner). Identificación de tokens, lexemas y patrones. Buffering de entrada.
+Repaso autómatas finitos y expresiones regulares (2,00 horas): Aplicación de expresiones regulares para la especificación de tokens y autómatas finitos (AFN, AFD) para su reconocimiento.
+Implementación y herramientas (2,00 horas): Técnicas para la implementación de analizadores léxicos. Uso de generadores de analizadores léxicos como Lex o Flex.
+Análisis sintáctico (Total: 6,00 horas teóricas)
+
+Rol del analizador sintáctico y gramáticas (2,00 horas): Función del analizador sintáctico (parser). Uso de Gramáticas Libres de Contexto (GLC) para especificar la estructura sintáctica de los lenguajes. Árboles de derivación y ambigüedad.
+Análisis sintáctico descendente y ascendente (4,00 horas): Métodos de análisis sintáctico descendente (predictivo, LL, ej. Recursive Descent) y ascendente (LR, ej. SLR, LALR, LR canónico). Construcción de tablas de análisis.
+Traducción dirigida por sintaxis y análisis semántico (Total: 9,00 horas teóricas)
+
+Fundamentos (3,00 horas): Concepto de Definiciones Dirigidas por Sintaxis (DDS) y Esquemas de Traducción Dirigidos por Sintaxis (ETDS). Atributos (sintetizados y heredados).
+Tabla de símbolos (3,00 horas): Diseño e implementación de tablas de símbolos para almacenar información sobre los identificadores (nombres, tipos, alcance).
+Comprobación de tipos (3,00 horas): Sistemas de tipos. Verificación de la compatibilidad de tipos en expresiones y asignaciones. Inferencia de tipos.
+Generación de código intermedio y entornos de ejecución (Total: 11,00 horas teóricas)
+
+Representaciones intermedias (4,00 horas): Ventajas y tipos de representaciones intermedias (RI), como árboles de sintaxis abstracta (AST), notación polaca, código de tres direcciones (tripletas, cuádruplas).
+Traducción a código intermedio (4,00 horas): Técnicas para traducir construcciones del lenguaje fuente (expresiones, sentencias de control) a código intermedio.
+Entornos de ejecución (3,00 horas): Organización de la memoria en tiempo de ejecución. Pila de activación (registros de activación). Gestión de la memoria estática, en pila (stack) y dinámica (heap). Introducción a la recolección de basura (garbage collection).
+Generación de código final (Total: 8,00 horas teóricas)
+
+Desafíos y diseño del generador (4,00 horas): Problemas en la generación de código máquina. Características de la máquina objetivo. Selección de instrucciones.
+Asignación de registros y planificación (4,00 horas): Importancia de la asignación eficiente de registros. Técnicas de asignación de registros. Planificación de instrucciones para optimizar el uso del pipeline del procesador.
+Optimización de código (Total: 5,00 horas teóricas)
+
+Principios y técnicas (2,00 horas): Criterios para la optimización de código. Optimizaciones independientes y dependientes de la máquina. Ámbito de las optimizaciones (locales, globales).
+Optimizaciones principales (3,00 horas): Ejemplos de técnicas de optimización como optimizaciones de mirilla (peephole), optimizaciones de bucles (loop unrolling, code motion), eliminación de subexpresiones comunes, y una introducción al análisis de flujo de datos.
+Total de Horas Teóricas del Curso: 49,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Teoría de Compiladores", es necesario haber aprobado los siguientes cursos:
+
+Matemática Discreta y Lógica Matemática:
+
+Relevancia: Este curso proporciona los fundamentos teóricos indispensables para la teoría de compiladores.
+Lenguajes Formales y Autómatas: Conceptos como expresiones regulares, autómatas finitos (para análisis léxico), gramáticas libres de contexto y autómatas de pila (para análisis sintáctico) son el núcleo de las primeras fases del compilador.
+Lógica y Teoría de la Demostración: Útil para entender la semántica de los lenguajes, la correctitud de las transformaciones y las pruebas de propiedades de los algoritmos del compilador.
+Teoría de Conjuntos, Relaciones y Funciones: Son herramientas matemáticas básicas utilizadas en toda la informática teórica, incluyendo la descripción de lenguajes y transformaciones.
+Algoritmos Avanzados:
+
+Relevancia: La construcción de un compilador implica el diseño e implementación de numerosos algoritmos eficientes.
+Diseño y Análisis de Algoritmos: Se necesitan algoritmos para el análisis sintáctico (ej. algoritmos LL y LR), la gestión de tablas de símbolos (ej. usando tablas hash), la optimización de código (ej. algoritmos de flujo de datos, algoritmos de grafos para asignación de registros).
+Estructuras de Datos: Un compilador utiliza diversas estructuras de datos complejas como árboles (árboles de sintaxis), tablas (tablas de símbolos, tablas de parsing), y grafos (grafos de flujo de control).
+Algoritmos de Grafos: Son especialmente importantes en las fases de optimización de código y generación de código final.
+Análisis de Complejidad: Es esencial para elegir los algoritmos adecuados para cada fase del compilador y asegurar que el compilador sea eficiente. Una sólida comprensión de estos prerrequisitos es crucial para abordar con éxito el diseño y la implementación de las diferentes fases de un compilador.
+
+
+
+
+

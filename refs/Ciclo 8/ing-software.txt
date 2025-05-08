@@ -1,0 +1,38 @@
+Descripción General del Curso:
+El curso "Ingeniería de Software" se enfoca en el estudio sistemático y disciplinado de los principios, metodologías y herramientas para el diseño, desarrollo, prueba, despliegue y mantenimiento de sistemas de software de alta calidad. Los estudiantes explorarán diversos modelos de ciclo de vida del software, con un énfasis particular en las metodologías ágiles. Se cubrirán aspectos cruciales de la gestión de proyectos de software, incluyendo la gestión de la configuración, la estimación, la planificación, el aseguramiento de la calidad del proceso y del producto, así como las actividades post-desarrollo como el despliegue y el mantenimiento. El objetivo es formar profesionales capaces de participar y gestionar eficazmente proyectos de software complejos.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos (Total: 9,00 horas teóricas)
+
+Conceptos generales (3,00 horas): Definición de Ingeniería de Software, sus objetivos, principios éticos y profesionales. Diferencias entre ingeniería de software y desarrollo de software. Crisis del software.
+Desarrollo de software ágil (6,00 horas): Introducción a los valores y principios del Manifiesto Ágil. Estudio de metodologías ágiles populares como Scrum (roles, artefactos, eventos), Kanban y Extreme Programming (XP).
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Gestión de software (Total: 18,00 horas teóricas)
+
+Metodologías y ciclo de vida (3,00 horas): Revisión de modelos tradicionales de ciclo de vida del software (ej. Cascada, Espiral, Modelo V) y su comparación con enfoques ágiles e iterativos.
+Gestión de configuración (3,00 horas): Importancia de la Gestión de la Configuración del Software (SCM). Control de versiones (ej. Git), gestión de líneas base (baselines) y gestión de cambios.
+Pruebas de software (3,00 horas): Principios de las pruebas de software. Niveles de prueba (unidad, integración, sistema, aceptación). Tipos de pruebas (funcionales, no funcionales). Estrategias y técnicas de diseño de casos de prueba.
+Estimación y cronograma de software (3,00 horas): Técnicas para la estimación del esfuerzo y tamaño del software (ej. puntos de función, COCOMO, Planning Poker). Creación y seguimiento de cronogramas de proyecto.
+Calidad de proceso software (3,00 horas): Concepto de calidad de proceso. Modelos de madurez y mejora de procesos (ej. CMMI, ISO 9001). Métricas de proceso.
+Calidad de producto software (3,00 horas): Atributos de calidad del software (ej. fiabilidad, usabilidad, mantenibilidad, eficiencia, seguridad). Métricas de producto. Aseguramiento de la calidad del software (SQA).
+Post-Desarrollo (Total: 15,00 horas teóricas)
+
+Despliegue de software (3,00 horas): Planificación y ejecución del despliegue. Estrategias de despliegue (ej. blue-green, canary). Gestión de la liberación (release management).
+Mantenimiento de software (6,00 horas): Tipos de mantenimiento (correctivo, adaptativo, perfectivo, preventivo). Leyes de Lehman sobre la evolución del software. Reingeniería y reingeniería inversa.
+Gestión del proyecto (6,00 horas): Aspectos generales de la gestión de proyectos de software, incluyendo planificación, organización de equipos, gestión de riesgos, comunicación, seguimiento y control del progreso del proyecto.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Ingeniería de Software", es necesario haber aprobado el siguiente curso:
+
+Desarrollo Web:
+Relevancia: Haber cursado "Desarrollo Web" proporciona una experiencia práctica invaluable que sirve como base para comprender los conceptos teóricos y los procesos de la Ingeniería de Software.
+Experiencia Práctica en el Ciclo de Vida: Los estudiantes que han desarrollado aplicaciones web han experimentado, al menos de forma intuitiva, varias fases del ciclo de vida del software (planificación, diseño, codificación, pruebas básicas, despliegue), lo que facilita la asimilación de los modelos y metodologías formales estudiados en Ingeniería de Software.
+Comprensión de la Complejidad del Software: El desarrollo de aplicaciones web modernas, con sus componentes de front-end, back-end, APIs y bases de datos, expone a los estudiantes a la complejidad inherente en muchos proyectos de software, justificando la necesidad de un enfoque de ingeniería.
+Familiaridad con Herramientas: El curso de Desarrollo Web introduce herramientas y tecnologías (como sistemas de control de versiones, entornos de desarrollo, servidores, bases de datos) que son relevantes en el contexto más amplio de la gestión de configuración y el despliegue de software.
+Contexto para la Calidad y las Pruebas: Los desafíos relacionados con la usabilidad, el rendimiento, la seguridad y la necesidad de probar las aplicaciones web proporcionan un contexto real para los temas de calidad de producto y pruebas de software.
+Trabajo en Proyectos (Potencial): Si el curso de Desarrollo Web incluyó proyectos, los estudiantes podrían haber tenido una primera aproximación al trabajo en equipo, la división de tareas y la gestión del tiempo, conceptos que se formalizan en la gestión de proyectos de software. Esta experiencia previa en la construcción de un producto de software concreto permite a los estudiantes apreciar mejor la importancia de los procesos, metodologías y técnicas de gestión que se enseñan en Ingeniería de Software para lograr proyectos exitosos.

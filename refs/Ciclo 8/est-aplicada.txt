@@ -1,0 +1,45 @@
+Descripción General del Curso:
+El curso "Estadística Aplicada" se enfoca en la aplicación de técnicas estadísticas avanzadas para el análisis de datos y la toma de decisiones en diversos campos. Partiendo de una base en probabilidad y estadística fundamental, este curso profundiza en pruebas de hipótesis más complejas, incluyendo pruebas no paramétricas y comparaciones múltiples. Se introduce el Análisis de Varianza (ANOVA) para comparar medias entre múltiples grupos, se desarrolla el modelo de regresión lineal para estudiar relaciones entre variables, y se presentan los principios fundamentales del diseño de experimentos. El objetivo es que los estudiantes adquieran la capacidad de seleccionar, aplicar e interpretar adecuadamente estas herramientas estadísticas para resolver problemas prácticos y realizar investigaciones.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Pruebas de Hipótesis Avanzadas y No Paramétricas (Total: 6,00 horas teóricas)
+
+Pruebas Chi-cuadrado, de normalidad y de independencia (2,00 horas): Aplicación de la prueba Chi-cuadrado para bondad de ajuste y tablas de contingencia (pruebas de independencia). Pruebas para evaluar la normalidad de un conjunto de datos (ej. Shapiro-Wilk, Kolmogorov-Smirnov).
+Pruebas No Paramétricas (2,00 horas): Introducción a las pruebas estadísticas que no requieren supuestos sobre la distribución de la población (ej. prueba de los signos, prueba de rangos con signo de Wilcoxon, prueba U de Mann-Whitney para muestras independientes, prueba de Kruskal-Wallis).
+Comparaciones Múltiples (2,00 horas): Procedimientos para realizar comparaciones entre múltiples pares de medias después de una prueba de ANOVA, controlando la tasa de error general (ej. método de Bonferroni, prueba de Tukey HSD, método de Scheffé).
+Sesiones de Prácticas (PC): Este capítulo cuenta con 2,00 horas de Prácticas Calificadas quincenales.
+Análisis de Varianza (ANOVA) (Total: 6,00 horas teóricas)
+
+ANOVA de un factor (4,00 horas): Metodología para comparar las medias de tres o más grupos bajo un solo factor de clasificación. Descomposición de la varianza, tabla ANOVA, pruebas F y supuestos del modelo.
+ANOVA de dos factores (2,00 horas): Extensión del ANOVA para analizar el efecto de dos factores sobre una variable respuesta, incluyendo la posibilidad de interacción entre los factores.
+Modelo de regresión lineal (Total: 10,00 horas teóricas)
+
+Supuestos e interpretación (3,00 horas): Desarrollo del modelo de regresión lineal simple y múltiple. Estimación de los coeficientes del modelo por mínimos cuadrados. Supuestos del modelo de regresión lineal (linealidad, independencia de errores, homocedasticidad, normalidad de errores). Interpretación de los coeficientes.
+Inferencia (4,00 horas): Pruebas de hipótesis sobre los coeficientes de regresión (pruebas t y prueba F para la significancia global del modelo). Construcción de intervalos de confianza para los coeficientes. Coeficiente de determinación (R 
+2
+ ) y R 
+2
+  ajustado.
+Predicción y diagnóstico (3,00 horas): Uso del modelo ajustado para la predicción (intervalos de confianza para la respuesta media e intervalos de predicción para observaciones individuales). Análisis de residuos para la verificación de supuestos y detección de observaciones influyentes.
+Diseño de experimentos (Total: 6,00 horas teóricas)
+
+Conceptos (2,00 horas): Principios fundamentales del diseño experimental: aleatorización, replicación y control local (bloqueo). Definición de unidad experimental, tratamientos, factores y niveles.
+Diseños comunes (2,00 horas): Estudio de diseños experimentales básicos como el Diseño Completamente al Azar (DCA) y el Diseño en Bloques Completamente al Azar (DBCA).
+Diseños factoriales (2,00 horas): Introducción a los diseños factoriales (ej. 2 
+k
+ ), que permiten estudiar el efecto de múltiples factores y sus interacciones de manera eficiente.
+Total de Horas Teóricas del Curso: 28,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Estadística Aplicada", es necesario haber aprobado el siguiente curso:
+
+Probabilidad y Estadística:
+Relevancia: Este curso es la base indispensable sobre la cual se construye "Estadística Aplicada". Los conceptos y técnicas introducidos en "Probabilidad y Estadística" son fundamentales y se asume su dominio. Específicamente:
+Teoría de la Probabilidad: Comprensión de variables aleatorias, funciones de distribución (discretas y continuas como la Normal, t-Student, Chi-cuadrado, F), esperanza y varianza.
+Inferencia Estadística Básica: Conocimiento de estimación puntual y por intervalos de confianza, así como la lógica y el procedimiento de las pruebas de hipótesis para parámetros poblacionales (medias, proporciones, varianzas).
+Muestreo y Distribuciones Muestrales: Entendimiento de cómo se obtienen las muestras y las propiedades de las distribuciones muestrales (ej. Teorema del Límite Central).
+Madurez Matemática y Notación: Familiaridad con la notación estadística y la capacidad de seguir razonamientos matemáticos y estadísticos. "Estadística Aplicada" expande estos temas a situaciones más complejas y introduce nuevas metodologías que requieren una comprensión sólida de los fundamentos estadísticos previos.

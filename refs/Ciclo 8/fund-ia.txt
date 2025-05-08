@@ -1,0 +1,64 @@
+Descripción General del Curso:
+El curso "Fundamentos de Inteligencia Artificial" introduce a los estudiantes los conceptos, técnicas y herramientas esenciales del campo de la inteligencia artificial. Se inicia con una sólida revisión de los fundamentos matemáticos necesarios, para luego explorar los principios de los agentes inteligentes y las técnicas de búsqueda heurística. Una parte importante del curso se dedica al aprendizaje automático (Machine Learning), cubriendo algoritmos de aprendizaje supervisado y no supervisado, así como el preprocesamiento de datos y la evaluación de modelos. Finalmente, se ofrece una introducción a la lógica difusa como un enfoque para manejar la imprecisión y la incertidumbre. El objetivo es que los estudiantes comprendan los principios básicos de la IA y puedan aplicar algunas de sus técnicas fundamentales para resolver problemas.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos Matemáticos (Total: 11,00 horas teóricas)
+
+Álgebra lineal: Vectores, matrices, SVD (2,00 horas): Operaciones con vectores y matrices, transformaciones lineales, valores y vectores propios, Descomposición en Valores Singulares (SVD) y sus aplicaciones.
+Cálculo: Gradientes, optimización (descenso) (2,00 horas): Derivadas parciales, cálculo de gradientes, y métodos de optimización basados en el descenso del gradiente.
+Probabilidad: Distribuciones, Bayes (2,00 horas): Conceptos de probabilidad, variables aleatorias, distribuciones de probabilidad comunes (discretas y continuas), Teorema de Bayes y su aplicación.
+Estadística: Estimación, intervalos de confianza (2,00 horas): Inferencia estadística, estimación de parámetros, construcción e interpretación de intervalos de confianza.
+Geometría: PCA y reducción dimensional (3,00 horas): Introducción al Análisis de Componentes Principales (PCA) como técnica de reducción de la dimensionalidad y su interpretación geométrica.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Agentes Inteligentes (Total: 10,00 horas teóricas)
+
+Tipos de agentes (reactivos, basados en metas) (3,00 horas): Definición de agentes inteligentes, arquitectura de agentes, y clasificación (agentes reactivos simples, basados en modelos, basados en metas, basados en utilidad, y agentes que aprenden).
+Entornos (estáticos/dinámicos, observables) (3,00 horas): Caracterización de los entornos en los que operan los agentes (completamente/parcialmente observable, determinista/estocástico, episódico/secuencial, estático/dinámico, discreto/continuo, agente único/multiagente).
+Búsqueda: BFS, DFS, A* (4,00 horas): Técnicas de resolución de problemas mediante búsqueda. Algoritmos de búsqueda no informada (Búsqueda en Anchura - BFS, Búsqueda en Profundidad - DFS) y búsqueda informada o heurística (Algoritmo A*).
+Preprocesamiento de Datos (Total: 6,00 horas teóricas)
+
+Limpieza: Missing values, outliers (2,00 horas): Técnicas para el tratamiento de datos faltantes (missing values) y la detección y manejo de valores atípicos (outliers).
+Transformación: Normalización, codificación (2,00 horas): Métodos para la transformación de datos, incluyendo normalización (ej. min-max, z-score) y codificación de variables categóricas (ej. one-hot encoding).
+Feature engineering: Selección de variables (2,00 horas): Creación de nuevas características a partir de las existentes (feature engineering) y técnicas para la selección de las variables más relevantes para el modelado.
+Machine Learning (Aprendizaje Automático) (Total: 17,00 horas teóricas)
+
+Aprendizaje supervisado vs. no supervisado (3,00 horas): Introducción a los paradigmas del aprendizaje automático: supervisado (clasificación, regresión) y no supervisado (clustering, reducción de dimensionalidad).
+Regresión lineal, logística (3,00 horas): Estudio de modelos de regresión lineal para predecir valores continuos y regresión logística para problemas de clasificación binaria.
+Clasificación: Árboles, KNN, SVM (4,00 horas): Algoritmos de clasificación como Árboles de Decisión, K-Vecinos más Cercanos (KNN) y Máquinas de Vectores de Soporte (SVM).
+Clustering: K-means, DBSCAN (4,00 horas): Algoritmos de agrupamiento no supervisado como K-Means y DBSCAN.
+Evaluación: Matriz de confusión, ROC-AUC (3,00 horas): Métricas y técnicas para evaluar el rendimiento de los modelos de aprendizaje automático, incluyendo la matriz de confusión, precisión, exhaustividad (recall), F1-score, y la curva ROC con el área bajo la curva (AUC).
+Introducción a Lógica Difusa (Total: 12,00 horas teóricas)
+
+Conjuntos difusos y funciones de membresía (4,00 horas): Concepto de conjuntos difusos (fuzzy sets) como extensión de los conjuntos clásicos. Definición y tipos de funciones de membresía.
+Operadores: T-normas, T-conormas (4,00 horas): Operaciones lógicas difusas (intersección, unión, negación) mediante el uso de T-normas y T-conormas (S-normas).
+Sistemas de inferencia (Mamdani, Takagi-Sugeno) (4,00 horas): Introducción a los sistemas de inferencia difusa (FIS), incluyendo los modelos de Mamdani y Takagi-Sugeno. Reglas difusas y proceso de defuzzificación.
+Total de Horas Teóricas del Curso: 56,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Fundamentos de Inteligencia Artificial", es necesario haber aprobado los siguientes cursos:
+
+Algoritmos Avanzados:
+
+Relevancia: La IA se basa en gran medida en el diseño y análisis de algoritmos.
+Técnicas de Búsqueda: Algoritmos como BFS, DFS y A* son fundamentales en la resolución de problemas y la planificación en IA, y se cubren típicamente en cursos de algoritmos.
+Optimización: Muchos problemas de IA, especialmente en machine learning, se formulan como problemas de optimización que requieren algoritmos eficientes.
+Análisis de Complejidad: Es crucial para evaluar la viabilidad de los algoritmos de IA.
+Estructuras de Datos: El conocimiento de estructuras de datos eficientes es necesario para implementar algoritmos de IA.
+Probabilidad y Estadística:
+
+Relevancia: La probabilidad y la estadística son la espina dorsal de gran parte de la IA moderna, especialmente del Machine Learning.
+Machine Learning: La mayoría de los algoritmos de aprendizaje automático tienen una base probabilística o estadística (ej. regresión, clasificadores bayesianos, evaluación de modelos).
+Manejo de Incertidumbre: La probabilidad permite modelar y razonar bajo incertidumbre, un aspecto clave de la IA. El Teorema de Bayes es central.
+Análisis de Datos: Las técnicas estadísticas son indispensables para el preprocesamiento de datos, la extracción de características y la interpretación de resultados.
+Evaluación de Modelos: La estimación de parámetros, los intervalos de confianza y las pruebas de hipótesis se utilizan para validar y comparar modelos de IA.
+Álgebra Lineal:
+
+Relevancia: El álgebra lineal proporciona el lenguaje matemático para representar y manipular datos en alta dimensión, lo cual es común en IA.
+Representación de Datos: Los datos de entrada a los algoritmos de IA (imágenes, texto, etc.) se representan frecuentemente como vectores y matrices.
+Algoritmos de Machine Learning: Muchos algoritmos, incluyendo regresión lineal, SVM, PCA y las bases de las redes neuronales, se formulan y resuelven utilizando operaciones de álgebra lineal.
+Reducción de Dimensionalidad: Técnicas como PCA se basan en conceptos como la descomposición en valores singulares (SVD).
+Optimización: Los métodos de optimización basados en gradientes, utilizados en el entrenamiento de modelos, operan sobre vectores y matrices. Estos prerrequisitos aseguran que los estudiantes posean la madurez matemática y las herramientas algorítmicas necesarias para comprender y aplicar los conceptos fundamentales de la Inteligencia Artificial.

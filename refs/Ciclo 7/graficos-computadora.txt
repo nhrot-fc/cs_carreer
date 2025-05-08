@@ -1,0 +1,51 @@
+Descripción General del Curso:
+El curso "Gráficos por Computadora" introduce a los estudiantes los principios teóricos y las técnicas prácticas para la generación y manipulación de imágenes sintéticas mediante una computadora. Se cubren los fundamentos matemáticos necesarios, el proceso de generación de imágenes en 2D y 3D, incluyendo transformaciones geométricas, el uso de primitivas gráficas, la configuración de cámaras virtuales, la aplicación de texturas, y los principios de iluminación y animación. Los estudiantes aprenderán a utilizar APIs gráficas como OpenGL para desarrollar aplicaciones interactivas y explorar conceptos avanzados de cinemática y rendering.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos (Total: 4,00 horas teóricas)
+
+Vectores y matrices (2,00 horas): Repaso y aplicación de conceptos de álgebra lineal esenciales para gráficos, como operaciones con vectores (producto punto, producto cruz), matrices y transformaciones lineales.
+OpenGL (2,00 horas): Introducción a la API gráfica OpenGL (Open Graphics Library), su arquitectura, el pipeline gráfico básico y la configuración inicial para el desarrollo de aplicaciones gráficas.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Generación de imágenes en 2D (Total: 7,00 horas teóricas)
+
+Proceso de generación (3,00 horas): Comprensión del pipeline de renderizado en 2D, incluyendo el sistema de coordenadas, viewport, y rasterización de primitivas.
+Formas básicas y transformaciones (4,00 horas): Dibujo de primitivas geométricas en 2D (líneas, polígonos, círculos). Aplicación de transformaciones geométricas en 2D: traslación, rotación y escalado.
+Generación de imágenes en 3D (Total: 5,00 horas teóricas)
+
+Primitivas básicas en 3D (2,00 horas): Extensión de las primitivas geométricas al espacio tridimensional (puntos, líneas, triángulos, polígonos).
+Creación de escenarios, personajes y configuración de cámara (3,00 horas): Modelado básico de escenas 3D, posicionamiento de objetos y personajes. Definición y manipulación de la cámara virtual (posición, orientación, campo de visión, proyecciones perspectiva y ortográfica).
+Uso de texturas (Total: 3,00 horas teóricas)
+
+Configuración de librerías y texturas (3,00 horas): Aplicación de texturas a superficies 3D para incrementar el realismo. Carga, mapeo de coordenadas de textura (UV mapping) y filtrado de texturas.
+Iluminación y animación (Total: 9,00 horas teóricas)
+
+Generación de movimiento, FPS (3,00 horas): Principios básicos de animación. Generación de movimiento mediante la actualización de parámetros a lo largo del tiempo. Concepto de cuadros por segundo (FPS).
+Sincronización (3,00 horas): Técnicas para la sincronización de la animación con la tasa de refresco de la pantalla (ej. VSync) y la gestión del tiempo en animaciones.
+Animaciones complejas (3,00 horas): Introducción a técnicas de animación más elaboradas, como sistemas de partículas o keyframing básico.
+Cinemática y animación avanzada (Total: 7,00 horas teóricas)
+
+Generación de storyboard y secuencias (3,00 horas): Planificación de animaciones complejas mediante storyboards. Creación y control de secuencias animadas.
+Rendering y unión de escenas (4,00 horas): Conceptos avanzados de rendering. Composición de múltiples objetos y efectos para crear escenas finales cohesivas.
+Total de Horas Teóricas del Curso: 35,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Gráficos por Computadora", es necesario haber aprobado los siguientes cursos:
+
+Álgebra lineal:
+
+Relevancia: El álgebra lineal es la base matemática fundamental de los gráficos por computadora.
+Vectores y Matrices: Son indispensables para representar puntos, direcciones, colores y, crucialmente, para realizar transformaciones geométricas (traslación, rotación, escalado, cizallamiento, proyecciones) en 2D y 3D.
+Sistemas de Coordenadas: La capacidad de trabajar con diferentes sistemas de coordenadas (objeto, mundo, vista, pantalla) y de transformar puntos entre ellos se basa enteramente en conceptos de álgebra lineal.
+Operaciones Geométricas: Operaciones como el producto punto y el producto cruz son esenciales para cálculos de iluminación, determinación de orientación de superficies, y otras operaciones geométricas 3D.
+Organización y Arquitectura de Computadoras:
+
+Relevancia: La generación de gráficos es una tarea computacionalmente intensiva que a menudo aprovecha hardware especializado.
+Interacción con Hardware Gráfico (GPU): Un entendimiento de la arquitectura de computadoras ayuda a comprender cómo la Unidad Central de Procesamiento (CPU) interactúa con la Unidad de Procesamiento Gráfico (GPU), que está optimizada para operaciones gráficas.
+Memoria: Conceptos como el framebuffer, la memoria de texturas y la gestión de la memoria son importantes para entender cómo se almacenan y acceden los datos gráficos.
+Rendimiento: Conocer la arquitectura subyacente ayuda a tomar decisiones de programación que optimicen el rendimiento de las aplicaciones gráficas, considerando aspectos como el pipeline de renderizado y el flujo de datos.
+APIs Gráficas: Aunque OpenGL es una abstracción, comprender cómo las llamadas a la API se traducen en operaciones a nivel de hardware es beneficioso. Una sólida comprensión de estos prerrequisitos permitirá a los estudiantes abordar con mayor eficacia los desafíos teóricos y prácticos del curso de Gráficos por Computadora.

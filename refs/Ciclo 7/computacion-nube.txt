@@ -1,0 +1,69 @@
+A continuación, se presenta una descripción completa del curso "Computación en la nube", junto con sus dependencias, basándose en la información proporcionada.
+
+Nombre del Curso: Computación en la Nube
+Créditos: 3,50 (inferido del título "Computación en la nube3,50")
+Horas de Laboratorio: Para el capítulo de "Introducción a la Nube", se especifican 2,00 horas de laboratorio cada quince días (Quincenal). Estas sesiones prácticas iniciales permitirán a los estudiantes familiarizarse con los conceptos y plataformas básicas de la nube.
+
+Descripción General del Curso:
+El curso "Computación en la Nube" proporciona una introducción exhaustiva a los principios, tecnologías, modelos de servicio y aplicaciones de la computación en la nube. Los estudiantes explorarán los diferentes modelos (IaaS, PaaS, SaaS), las ventajas y los desafíos de la adopción de la nube, y adquirirán conocimientos prácticos sobre los principales proveedores de servicios en la nube (como AWS, Azure y Google Cloud a través de sus servicios). Se cubrirán temas esenciales como la infraestructura virtualizada, contenedores, almacenamiento, redes en la nube, seguridad, gestión, monitoreo y prácticas de DevOps, incluyendo la infraestructura como código. El objetivo es que los estudiantes comprendan cómo diseñar, desplegar y gestionar aplicaciones y servicios en entornos de nube de manera eficiente y segura.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Introducción a la Nube (Total: 4,00 horas teóricas)
+
+Historia y evolución (1,00 hora): Orígenes de la computación en la nube, hitos importantes y su evolución hasta el estado actual.
+Modelos de servicio: IaaS, PaaS, SaaS (2,00 horas): Descripción detallada de los modelos de servicio fundamentales: Infraestructura como Servicio (IaaS), Plataforma como Servicio (PaaS) y Software como Servicio (SaaS), junto con modelos de despliegue (pública, privada, híbrida, comunitaria).
+Ventajas y desafíos (1,00 hora): Análisis de los beneficios (escalabilidad, elasticidad, costo-eficiencia, agilidad) y los retos (seguridad, cumplimiento, dependencia del proveedor, gestión) de la computación en la nube.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Infraestructura como Servicio (IaaS) (Total: 6,00 horas teóricas)
+
+EC2 (AWS), Azure VM, Google Compute Engine (3,00 horas): Estudio de los servicios de máquinas virtuales de los principales proveedores, incluyendo la creación, configuración y gestión de instancias.
+Redes: VPC, Subnets, Security Groups (3,00 horas): Configuración de redes virtuales privadas (VPC), subredes, tablas de enrutamiento y grupos de seguridad/firewalls para aislar y proteger los recursos en la nube.
+Plataforma como Servicio (PaaS) (Total: 4,00 horas teóricas)
+
+AWS Elastic Beanstalk, Azure App Service (2,00 horas): Uso de plataformas PaaS para el despliegue y gestión simplificada de aplicaciones sin necesidad de administrar la infraestructura subyacente.
+Bases de datos gestionadas (RDS, Cosmos DB) (2,00 horas): Introducción a los servicios de bases de datos gestionadas, tanto relacionales (como Amazon RDS) como NoSQL (como Azure Cosmos DB), sus ventajas y casos de uso.
+Virtualización y Contenedores (Total: 6,00 horas teóricas)
+
+Hipervisores (VMware, Hyper-V) (2,00 horas): Fundamentos de la virtualización, tipos de hipervisores y su papel en la creación de máquinas virtuales.
+Docker: Imágenes, contenedores, Dockerfile (2,00 horas): Introducción a la tecnología de contenedores con Docker. Creación de imágenes, gestión de contenedores y escritura de Dockerfiles.
+Kubernetes: Pods, despliegues básicos (2,00 horas): Orquestación de contenedores con Kubernetes. Conceptos básicos como Pods, Services y Deployments.
+Almacenamiento y Redes (Total: 6,00 horas teóricas)
+
+Almacenamiento: S3, Azure Blob Storage (3,00 horas): Estudio de los servicios de almacenamiento de objetos en la nube, sus características, casos de uso y niveles de almacenamiento.
+Redes: CDN (CloudFront), Load Balancers (3,00 horas): Uso de Redes de Entrega de Contenido (CDN) para mejorar el rendimiento y Balanceadores de Carga para distribuir el tráfico entre múltiples instancias.
+Seguridad y Cumplimiento (Total: 6,00 horas teóricas)
+
+IAM: Roles, políticas, MFA (2,00 horas): Gestión de Identidades y Accesos (IAM) en la nube. Definición de usuarios, grupos, roles y políticas de acceso. Implementación de Autenticación Multifactor (MFA).
+Cifrado (KMS, Azure Key Vault) (2,00 horas): Técnicas de cifrado de datos en reposo y en tránsito. Uso de servicios de gestión de claves (KMS).
+Estándares: GDPR, ISO 27001 (2,00 horas): Introducción a los principales estándares de cumplimiento y regulaciones relevantes para la seguridad de los datos en la nube.
+Gestión y Monitoreo (Total: 4,00 horas teóricas)
+
+Herramientas: CloudWatch, Azure Monitor (2,00 horas): Uso de herramientas nativas de la nube para el monitoreo de recursos, recolección de métricas, configuración de alarmas y visualización de logs.
+Optimización de costos (AWS Cost Explorer) (2,00 horas): Estrategias y herramientas para la gestión y optimización de los costos en la nube.
+DevOps en la Nube (Total: 6,00 horas teóricas)
+
+CI/CD: GitHub Actions, Azure DevOps (2,00 horas): Implementación de pipelines de Integración Continua y Despliegue Continuo (CI/CD) utilizando servicios en la nube o integrados.
+Infraestructura como Código: Terraform (4,00 horas): Gestión y aprovisionamiento de infraestructura en la nube utilizando herramientas de Infraestructura como Código (IaC) como Terraform.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Computación en la Nube", es necesario haber aprobado el siguiente curso y cursar otro de manera simultánea:
+
+Redes de Computadoras:
+
+Relevancia: La computación en la nube se sustenta enteramente en la conectividad de red.
+Fundamentos de Red: Conceptos como direccionamiento IP, subredes, enrutamiento, DNS, y protocolos como TCP/IP y HTTP son esenciales para configurar y operar servicios en la nube (VPCs, balanceadores de carga, CDNs).
+Servicios de Red en la Nube: Muchos servicios en la nube son intrínsecamente servicios de red que requieren una comprensión previa de sus análogos en redes tradicionales.
+Seguridad de Red: Los principios de seguridad de red (firewalls, grupos de seguridad) se aplican directamente a la protección de recursos en la nube.
+A la par de Sistemas Operativos (cursar simultáneamente):
+
+Relevancia: Los sistemas operativos son la base sobre la cual se ejecutan las máquinas virtuales y los contenedores, tecnologías fundamentales en la nube.
+Virtualización: Comprender cómo un SO gestiona el hardware es crucial para entender la virtualización (hipervisores) que permite la IaaS.
+Gestión de Recursos: Los principios de gestión de CPU, memoria y almacenamiento por parte del SO son análogos a cómo se gestionan y provisionan estos recursos en la nube.
+Contenedores: Tecnologías como Docker se basan en características de aislamiento a nivel del SO. Un entendimiento de los sistemas operativos ayuda a comprender cómo funcionan los contenedores.
+Administración de Sistemas: Las habilidades básicas de administración de sistemas operativos son a menudo necesarias para gestionar instancias en la nube.
+Seguridad: Conceptos de seguridad a nivel de SO (usuarios, permisos) son complementarios a la gestión de identidades y accesos en la nube. La combinación de estos conocimientos previos y concurrentes permite a los estudiantes abordar de manera efectiva los complejos entornos y servicios que ofrece la computación en la nube.

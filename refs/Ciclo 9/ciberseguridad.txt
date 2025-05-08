@@ -1,0 +1,65 @@
+Descripción General del Curso:
+El curso "Ciberseguridad y Hacking Ético" está diseñado para proporcionar a los estudiantes un conocimiento profundo de los principios de la ciberseguridad, las metodologías de ataque y las técnicas de defensa desde una perspectiva ética. Se exploran los fundamentos de la seguridad de la información, la criptografía aplicada, las fases del hacking ético (reconocimiento, escaneo, enumeración, obtención de acceso, escalada de privilegios, mantenimiento de acceso y borrado de huellas), así como la seguridad en aplicaciones web y redes. El curso también cubre aspectos defensivos, incluyendo el fortalecimiento de sistemas, la detección de intrusiones y la gestión de la seguridad, culminando con la respuesta a incidentes y una introducción al análisis forense. El objetivo es que los estudiantes comprendan las vulnerabilidades de los sistemas y redes, y aprendan a identificar y mitigar riesgos de manera responsable y legal.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Introducción (Total: 4,00 horas teóricas)
+
+Conceptos clave (2,00 horas): Definiciones fundamentales de ciberseguridad (confidencialidad, integridad, disponibilidad - CIA), amenazas, vulnerabilidades, riesgos, activos de información y tipos de atacantes.
+Ética del Hacking y aspectos legales (2,00 horas): Principios del hacking ético, diferencias entre hacking ético y malicioso. Marco legal y responsabilidades asociadas a las pruebas de penetración y la seguridad informática.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Criptografía aplicada (Total: 6,00 horas teóricas)
+
+Principios de criptografía (3,00 horas): Fundamentos de la criptografía simétrica y asimétrica, funciones hash, firmas digitales, certificados digitales e Infraestructura de Clave Pública (PKI).
+Protocolos criptográficos (3,00 horas): Aplicación de la criptografía en protocolos de comunicación seguros como SSL/TLS, SSH, PGP/GPG, y su importancia en la protección de datos en tránsito.
+Reconocimiento y Escaneo (Total: 5,00 horas teóricas)
+
+Recolección pasiva de información (2,00 horas): Técnicas de recopilación de información pública sobre un objetivo sin interacción directa (OSINT - Open Source Intelligence).
+Escaneo activo de redes y sistemas (3,00 horas): Uso de herramientas para el descubrimiento de hosts activos, escaneo de puertos, identificación de servicios y mapeo de la topología de red.
+Análisis de vulnerabilidades y enumeración (Total: 4,00 horas teóricas)
+
+Identificación de vulnerabilidades (2,00 horas): Uso de escáneres de vulnerabilidades, bases de datos de vulnerabilidades (ej. CVE) y metodologías para identificar debilidades en sistemas y aplicaciones.
+Enumeración de sistemas (2,00 horas): Técnicas para obtener información detallada sobre los sistemas objetivo, como usuarios, grupos, recursos compartidos, servicios en ejecución y configuraciones.
+System Hacking (Hacking de Sistemas) (Total: 9,00 horas teóricas)
+
+Obtención de acceso (4,00 horas): Explotación de vulnerabilidades identificadas para ganar acceso inicial a un sistema. Técnicas de cracking de contraseñas.
+Escalada de privilegios (3,00 horas): Métodos para aumentar los privilegios de acceso dentro de un sistema comprometido, desde un usuario estándar a administrador o root.
+Mantenimiento de acceso y borrado de huellas (2,00 horas): Técnicas para mantener el acceso persistente (ej. backdoors, rootkits) y para eliminar evidencias de la intrusión (ej. limpieza de logs).
+Hacking de Aplicaciones Web (Total: 7,00 horas teóricas)
+
+Vulnerabilidades Web comunes (4,00 horas): Estudio de las principales vulnerabilidades en aplicaciones web según clasificaciones como OWASP Top 10 (ej. Inyección SQL, Cross-Site Scripting - XSS, Cross-Site Request Forgery - CSRF, etc.).
+Herramientas y técnicas (3,00 horas): Uso de herramientas específicas para la auditoría y explotación de aplicaciones web (ej. Burp Suite, OWASP ZAP, sqlmap).
+Seguridad en redes e inalámbricas (Total: 6,00 horas teóricas)
+
+Ataques a nivel de red (3,00 horas): Técnicas de ataque como sniffing de tráfico, spoofing (ARP, IP, DNS), ataques de denegación de servicio (DoS) y denegación de servicio distribuido (DDoS).
+Seguridad en redes inalámbricas (3,00 horas): Vulnerabilidades en protocolos Wi-Fi (WEP, WPA/WPA2/WPA3), técnicas de cracking de contraseñas inalámbricas, ataques de puntos de acceso falsos (rogue APs) y de desautenticación.
+Defensa y contramedidas (Total: 4,00 horas teóricas)
+
+Fortalecimiento de sistemas (Hardening) (2,00 horas): Prácticas para asegurar sistemas operativos, aplicaciones y servicios mediante la correcta configuración, aplicación de parches y eliminación de funcionalidades innecesarias.
+Detección y prevención de intrusiones (2,00 horas): Uso de Sistemas de Detección de Intrusiones (IDS) y Sistemas de Prevención de Intrusiones (IPS), firewalls y otras tecnologías de seguridad perimetral.
+Gestión de la seguridad y respuesta (Total: 4,00 horas teóricas)
+
+Políticas y procedimientos de seguridad (2,00 horas): Desarrollo e implementación de políticas de seguridad, estándares y procedimientos para la gestión de la seguridad de la información.
+Respuesta a incidentes y forense básico (2,00 horas): Planificación y ejecución de la respuesta a incidentes de seguridad. Introducción a los principios del análisis forense digital para la recolección y preservación de evidencia.
+Total de Horas Teóricas del Curso: 49,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Ciberseguridad y Hacking Ético", es necesario haber aprobado los siguientes cursos:
+
+Sistemas Operativos:
+
+Relevancia: La mayoría de los ataques y defensas se realizan a nivel del sistema operativo.
+Funcionamiento Interno: Comprender la gestión de procesos, la memoria, el sistema de archivos, los permisos de usuario y los mecanismos de autenticación del SO es crucial para identificar y explotar vulnerabilidades, así como para fortalecer los sistemas.
+Llamadas al Sistema y APIs: Muchos exploits interactúan directamente con el SO a un nivel bajo.
+Vulnerabilidades Específicas del SO: Conocer las arquitecturas y configuraciones de diferentes SO ayuda a entender sus debilidades inherentes.
+Herramientas y Comandos: La familiaridad con la línea de comandos y las herramientas de administración del SO es esencial para el hacking ético.
+Redes de Computadoras:
+
+Relevancia: Gran parte de las actividades de ciberseguridad y hacking ético se centran en las redes y los servicios que se ejecutan sobre ellas.
+Protocolos de Red: Un entendimiento profundo de la pila TCP/IP (IP, TCP, UDP, ICMP), así como de protocolos de aplicación (HTTP, DNS, SMTP, FTP), es fundamental para el reconocimiento, escaneo, sniffing, spoofing y otros ataques de red.
+Arquitectura de Red: El conocimiento de dispositivos de red (routers, switches, firewalls), topologías, subredes y direccionamiento IP es necesario para analizar la infraestructura de un objetivo y planificar ataques o defensas.
+Seguridad en Redes: Conceptos como firewalls, VPNs, IDS/IPS se entienden mejor con una base sólida en redes.
+Redes Inalámbricas: La comprensión de los estándares Wi-Fi y sus protocolos de seguridad es indispensable para auditar y asegurar redes inalámbricas. Estos prerrequisitos aseguran que los estudiantes tengan la base técnica necesaria para comprender los mecanismos de ataque y defensa en sistemas y redes informáticas.

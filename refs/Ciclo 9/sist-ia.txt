@@ -1,0 +1,61 @@
+Descripción General del Curso:
+El curso "Sistemas de Inteligencia Artificial" profundiza en el diseño, implementación y aplicación de sistemas inteligentes complejos, con un fuerte énfasis en el aprendizaje automático avanzado y el aprendizaje profundo (Deep Learning). Basándose en los fundamentos de la IA, este curso explora métodos de ensemble, aprendizaje bayesiano, arquitecturas de redes neuronales especializadas (CNNs, RNNs/LSTMs, Transformers, GNNs), modelos generativos (GANs, VAEs, Diffusion Models) y aprendizaje por refuerzo. Adicionalmente, se abordan aspectos cruciales del ciclo de vida de los sistemas de IA, como MLOps (operaciones de machine learning) para el despliegue y monitoreo de modelos, así como consideraciones éticas y técnicas de explicabilidad (XAI). El objetivo es que los estudiantes adquieran la capacidad de desarrollar y gestionar sistemas de IA de vanguardia para resolver problemas del mundo real.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Advanced Machine Learning (Aprendizaje Automático Avanzado) (Total: 6,00 horas teóricas)
+
+Ensemble Methods: Bagging, Boosting (XGBoost) (2,00 horas): Técnicas de combinación de múltiples modelos para mejorar el rendimiento predictivo, como Bagging (ej. Random Forest) y Boosting (ej. AdaBoost, Gradient Boosting, XGBoost).
+Bayesian ML: Redes Bayesianas, MCMC (2,00 horas): Métodos de aprendizaje automático basados en el Teorema de Bayes, incluyendo Redes Bayesianas para modelar dependencias probabilísticas y métodos de Monte Carlo vía Cadenas de Markov (MCMC) para la inferencia.
+Clasificación multilabel y desbalanceada (2,00 horas): Abordaje de problemas de clasificación donde una instancia puede pertenecer a múltiples etiquetas simultáneamente y estrategias para manejar conjuntos de datos con distribuciones de clases desbalanceadas.
+Deep Learning Fundamentals (Fundamentos de Aprendizaje Profundo) (Total: 12,00 horas teóricas)
+
+Redes Neuronales: Backprop, Vanishing Grad (3,00 horas): Arquitectura de redes neuronales, algoritmo de retropropagación del error (Backpropagation), y problemas como el desvanecimiento/explosión del gradiente (Vanishing/Exploding Gradients).
+Regularización: Dropout, BatchNorm (3,00 horas): Técnicas para prevenir el sobreajuste (overfitting) en redes neuronales, como Dropout y Batch Normalization.
+Frameworks: TensorFlow/PyTorch (Gráficos) (3,00 horas): Introducción y uso práctico de frameworks populares de Deep Learning como TensorFlow o PyTorch, incluyendo la comprensión de sus paradigmas de grafos computacionales.
+Transfer Learning (Fine-tuning) (3,00 horas): Aplicación del aprendizaje por transferencia, utilizando modelos pre-entrenados y ajustándolos (fine-tuning) para tareas específicas con datos limitados.
+Arquitecturas Especializadas (Total: 12,00 horas teóricas)
+
+CNN: AlexNet, ResNet, Inception (3,00 horas): Estudio de Redes Neuronales Convolucionales (CNNs) y arquitecturas influyentes para el procesamiento de imágenes como AlexNet, ResNet e Inception.
+RNN/LSTM: Modelado secuencial (3,00 horas): Redes Neuronales Recurrentes (RNNs) y Long Short-Term Memory (LSTM) / Gated Recurrent Unit (GRU) para el modelado de datos secuenciales (ej. texto, series temporales).
+Transformers: Self-Attention, BERT (4,00 horas): Arquitectura Transformer, mecanismo de auto-atención (self-attention), y modelos pre-entrenados basados en Transformers como BERT para el Procesamiento de Lenguaje Natural (NLP).
+Graph Neural Networks (GNN) (2,00 horas): Introducción a las Redes Neuronales de Grafos (GNNs) para el aprendizaje sobre datos estructurados en forma de grafos.
+Modelos Generativos (Total: 6,00 horas teóricas)
+
+GANs: DCGAN, Wasserstein (2,00 horas): Redes Generativas Antagónicas (GANs), incluyendo arquitecturas como Deep Convolutional GANs (DCGAN) y Wasserstein GANs (WGAN) para la generación de datos sintéticos.
+VAEs: Latent space, reparametrización (2,00 horas): Autoencoders Variacionales (VAEs), su espacio latente y el truco de la reparametrización para el aprendizaje generativo.
+Diffusion Models (Fundamentos) (2,00 horas): Introducción a los fundamentos de los Modelos de Difusión como una técnica emergente para la generación de datos de alta calidad.
+Reinforcement Learning (Aprendizaje por Refuerzo) (Total: 6,00 horas teóricas)
+
+Q-Learning, Deep Q-Networks (DQN) (3,00 horas): Fundamentos del aprendizaje por refuerzo, incluyendo Q-Learning y su extensión con redes neuronales profundas (Deep Q-Networks).
+Policy Gradient (Actor-Critic) (3,00 horas): Métodos basados en gradiente de políticas, incluyendo enfoques Actor-Crítico para el aprendizaje por refuerzo.
+MLOps y Despliegue (Total: 6,00 horas teóricas)
+
+Pipelines: TFX, MLflow (2,00 horas): Creación y gestión de pipelines de Machine Learning para automatizar el ciclo de vida del modelo, utilizando herramientas como TensorFlow Extended (TFX) o MLflow.
+Serving: TensorFlow Serving, ONNX (2,00 horas): Despliegue de modelos de Machine Learning en producción utilizando servidores de modelos como TensorFlow Serving y formatos de intercambio como ONNX.
+Monitoreo: Drift de datos, logging (2,00 horas): Seguimiento del rendimiento de los modelos en producción, detección de deriva de datos (data drift) y gestión de logs.
+Ética y Explicabilidad (Total: 4,00 horas teóricas)
+
+Bias en modelos: Detección y mitigación (2,00 horas): Identificación y mitigación de sesgos (bias) en los datos y modelos de IA para promover la equidad y la justicia.
+XAI: SHAP, LIME (2,00 horas): Técnicas de Inteligencia Artificial Explicable (XAI) como SHAP y LIME para interpretar y comprender las decisiones de los modelos de caja negra.
+Total de Horas Teóricas del Curso: 52,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Sistemas de Inteligencia Artificial", es necesario haber aprobado los siguientes cursos:
+
+Fundamentos de Inteligencia Artificial:
+
+Relevancia: Este es el prerrequisito directo y más crucial. "Sistemas de Inteligencia Artificial" expande significativamente los temas introducidos en "Fundamentos de IA". Se espera que los estudiantes dominen:
+Conceptos Básicos de IA: Agentes inteligentes, técnicas de búsqueda.
+Fundamentos Matemáticos: Álgebra lineal, cálculo, probabilidad y estadística aplicados a la IA.
+Machine Learning Básico: Algoritmos de aprendizaje supervisado (regresión, clasificación como árboles de decisión, KNN, SVM) y no supervisado (clustering como K-means), preprocesamiento de datos y métricas de evaluación. Sin esta base, los temas avanzados como Deep Learning, modelos generativos o Reinforcement Learning serían inaccesibles.
+Procesamiento de Señales e Imágenes Digitales:
+
+Relevancia: Muchas de las arquitecturas y aplicaciones más impactantes de la IA avanzada, especialmente en Deep Learning, se centran en el procesamiento de señales (audio, series temporales) e imágenes (visión por computadora).
+Representación de Datos: El conocimiento de cómo se representan digitalmente las señales y las imágenes es fundamental para trabajar con arquitecturas como las CNNs.
+Operaciones Fundamentales: Conceptos como la convolución y el filtrado, estudiados en procesamiento de señales e imágenes, son operaciones centrales en las Redes Neuronales Convolucionales (CNNs).
+Extracción de Características: Aunque las redes profundas aprenden características automáticamente, la comprensión de las técnicas clásicas de extracción de características proporciona un contexto valioso.
+Dominio de Aplicación: Este curso proporciona el conocimiento del dominio necesario para aplicar la IA a problemas de visión por computadora, reconocimiento de voz, y otros campos relacionados con el análisis de señales e imágenes. La combinación de estos prerrequisitos asegura que los estudiantes tengan las herramientas conceptuales, matemáticas y de dominio necesarias para abordar los complejos y avanzados temas de "Sistemas de Inteligencia Artificial".

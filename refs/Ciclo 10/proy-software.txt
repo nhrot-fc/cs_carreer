@@ -1,0 +1,61 @@
+A continuación, se presenta una descripción completa del curso "Proyecto de Software", junto con sus dependencias, basándose en la información proporcionada. Esta descripción se considera actualizada a la fecha y hora de (Wednesday, May 7, 2025 at 9:34:41 PM -05) en Jesús María, Lima Province, Peru.
+
+Nombre del Curso: Proyecto de Software
+Créditos: 3,00 (inferido del título "Proyecto de Software3,00")
+Horas de Taller (TA): La información proporcionada en la tabla no detalla horas específicas de Taller (TA) para este curso. Es probable que gran parte del curso sea eminentemente práctico, aplicando los conceptos en un proyecto real.
+
+Descripción General del Curso:
+El curso "Proyecto de Software" es una experiencia práctica e integradora donde los estudiantes aplican los conocimientos, metodologías y herramientas de la ingeniería de software para desarrollar un sistema de software completo, desde su concepción hasta el despliegue y la documentación final. Trabajando en equipos y utilizando principalmente metodologías ágiles como Scrum o Kanban, los estudiantes atravesarán todas las fases del ciclo de vida del desarrollo de software, incluyendo la definición de requisitos, el diseño arquitectónico y detallado, la implementación con control de versiones, la realización de pruebas exhaustivas (unitarias, de integración, E2E), la gestión de la calidad, y el despliegue utilizando prácticas modernas de CI/CD y tecnologías de contenedores y nube. El objetivo es simular un entorno de desarrollo profesional y consolidar las competencias para la gestión y ejecución de proyectos de software.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno (aunque la naturaleza del curso es fundamentalmente práctica):
+
+Inicio del Proyecto (Total: 4,00 horas teóricas)
+
+Metodologías ágiles (Scrum/Kanban) (1,50 horas): Aplicación práctica de Scrum (sprints, roles, artefactos, ceremonias) o Kanban para la gestión del proyecto.
+Roles del equipo (PO, Scrum Master, Devs) (1,50 horas): Definición y asunción de roles dentro del equipo de desarrollo ágil (Product Owner, Scrum Master, Equipo de Desarrollo).
+Herramientas (Jira, Trello) (1,00 hora): Uso de herramientas de gestión de proyectos ágiles para la planificación, seguimiento de tareas y colaboración.
+Requerimientos (Total: 6,00 horas teóricas)
+
+Técnicas de elicitación (entrevistas, user stories) (2,00 horas): Recopilación y definición de requisitos funcionales y no funcionales mediante técnicas como entrevistas con stakeholders y la redacción de historias de usuario.
+Priorización (MoSCoW, matriz de trazabilidad) (2,00 horas): Métodos para la priorización de requisitos (ej. MoSCoW - Must have, Should have, Could have, Won't have) y mantenimiento de la trazabilidad de los requisitos.
+Diagramas UML (casos de uso, flujos) (2,00 horas): Modelado de requisitos utilizando diagramas UML como casos de uso y diagramas de actividad o flujo para representar la interacción del usuario y los procesos del sistema.
+Diseño del Sistema (Total: 6,00 horas teóricas)
+
+Arquitectura (MVC, microservicios) (2,00 horas): Definición de la arquitectura del software, considerando patrones como Modelo-Vista-Controlador (MVC) o arquitecturas de microservicios, según la naturaleza del proyecto.
+Diagramas de clases y secuencia (2,00 horas): Diseño detallado utilizando diagramas de clases UML para la estructura estática y diagramas de secuencia para el comportamiento dinámico e interacciones entre objetos.
+Diseño de base de datos (ER, SQL/NoSQL) (2,00 horas): Modelado de la base de datos utilizando diagramas Entidad-Relación (ER) y diseño del esquema para bases de datos SQL o NoSQL, según corresponda.
+Implementación (Total: 8,00 horas teóricas)
+
+Versionamiento (Git/GitFlow) (2,00 horas): Uso efectivo del sistema de control de versiones Git, aplicando flujos de trabajo como GitFlow para la gestión de ramas y colaboración.
+Pruebas unitarias (Jest, pytest) (2,00 horas): Desarrollo de pruebas unitarias automatizadas para verificar la correctitud de los componentes individuales del software, utilizando frameworks como Jest (para JavaScript) o pytest (para Python).
+Integración continua (GitHub Actions) (2,00 horas): Configuración de pipelines de Integración Continua (CI) para automatizar la construcción y las pruebas del software con cada cambio, utilizando herramientas como GitHub Actions.
+Documentación técnica (Swagger, MkDocs) (2,00 horas): Creación de documentación técnica relevante, como la documentación de APIs (ej. con Swagger/OpenAPI) o manuales técnicos (ej. con MkDocs).
+Pruebas y QA (Aseguramiento de la Calidad) (Total: 6,00 horas teóricas)
+
+Pruebas de integración y E2E (Cypress) (2,00 horas): Realización de pruebas de integración para verificar la interacción entre componentes y pruebas de extremo a extremo (End-to-End) para validar el sistema completo desde la perspectiva del usuario, utilizando herramientas como Cypress.
+Gestión de bugs (Jira/ZenHub) (2,00 horas): Seguimiento y gestión de defectos (bugs) utilizando sistemas de seguimiento de incidencias.
+Optimización de rendimiento (Lighthouse) (2,00 horas): Evaluación y optimización básica del rendimiento de la aplicación, utilizando herramientas como Lighthouse para aplicaciones web.
+Despliegue y CI/CD (Integración Continua / Despliegue Continuo) (Total: 9,00 horas teóricas)
+
+Contenedores (Docker) (3,00 horas): Uso de Docker para la creación de contenedores que empaqueten la aplicación y sus dependencias, facilitando el despliegue consistente.
+Despliegue en nube (AWS/Azure) (3,00 horas): Despliegue de la aplicación en plataformas en la nube como Amazon Web Services (AWS) o Microsoft Azure.
+Monitoreo (Grafana, Prometheus) (3,00 horas): Implementación de herramientas de monitoreo para observar el comportamiento y el rendimiento de la aplicación en producción.
+Cierre y Documentación (Total: 3,00 horas teóricas)
+
+Manual de usuario y técnico (3,00 horas): Elaboración de la documentación final del proyecto, incluyendo manuales de usuario y manuales técnicos detallados.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Proyecto de Software", es necesario haber aprobado el siguiente curso:
+
+Ingeniería de Software:
+Relevancia: "Ingeniería de Software" proporciona el marco teórico, metodológico y práctico que se aplica directamente en el "Proyecto de Software". Este curso es esencialmente la culminación y aplicación de los principios de la ingeniería de software.
+Metodologías y Ciclo de Vida: El conocimiento de los modelos de ciclo de vida del software, especialmente las metodologías ágiles (Scrum, Kanban) enseñadas en Ingeniería de Software, es fundamental para la gestión y ejecución del proyecto.
+Ingeniería de Requisitos: Las técnicas para la elicitación, análisis, especificación, validación y gestión de requisitos son aplicadas directamente en la fase inicial del proyecto.
+Diseño de Software: Los principios de diseño arquitectónico y detallado, el uso de patrones de diseño y la modelización (ej. UML) son cruciales para definir la estructura y el comportamiento del sistema a desarrollar.
+Construcción y Pruebas: Las prácticas de codificación, el control de versiones, y las estrategias y niveles de prueba (unitarias, integración, sistema) son habilidades fundamentales que se ponen en práctica.
+Gestión de la Configuración y Calidad: La gestión de cambios, el control de versiones y los principios de aseguramiento de la calidad del software (tanto del proceso como del producto) son aplicados a lo largo del proyecto.
+Gestión de Proyectos: Conceptos de estimación, planificación, seguimiento y gestión de riesgos, aunque a menudo introductorios en un curso de Ingeniería de Software, son vitales para el éxito del proyecto. El curso "Proyecto de Software" permite a los estudiantes integrar y aplicar todos estos conocimientos en un contexto realista, desarrollando un producto de software significativo y enfrentando los desafíos prácticos del desarrollo en equipo.

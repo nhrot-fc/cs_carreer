@@ -1,0 +1,47 @@
+Descripción General del Curso:
+El curso "Diseño de base de datos" profundiza en los aspectos avanzados del diseño, implementación, gestión y optimización de sistemas de bases de datos. Basándose en los fundamentos de las bases de datos relacionales, este curso explora técnicas avanzadas de SQL, la arquitectura interna de los sistemas de gestión de bases de datos (SGBD) incluyendo el almacenamiento, la indexación y el procesamiento de consultas. Se presta especial atención a la gestión de transacciones, el control de concurrencia y los mecanismos de recuperación ante fallos. Además, se analizan diversas arquitecturas de sistemas de bases de datos, el ajuste del rendimiento, la seguridad, y se introduce a los conceptos de Data Warehousing y bases de datos NoSQL.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+SQL Avanzado (Total: 5,00 horas teóricas)
+
+SQL Intermedio / Avanzado (5,00 horas): Dominio de construcciones SQL complejas, incluyendo funciones de ventana (window functions), expresiones comunes de tabla (CTEs), subconsultas correlacionadas avanzadas, y elementos de SQL procedural (ej. variables, control de flujo, procedimientos almacenados básicos en dialectos como PL/SQL o T-SQL).
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Procesamiento Avanzado (Total: 16,00 horas teóricas)
+
+Estructura de almacenamiento y archivos (4,00 horas): Cómo los SGBD organizan los datos en disco, incluyendo la gestión de páginas, bloques, extensiones (extents) y diferentes organizaciones de archivos (ej. montículo, secuencial indexado).
+Indexación y Hashing (4,00 horas): Estudio detallado de estructuras de indexación como Árboles B+ (B+ Trees), índices hash (estáticos y dinámicos), índices bitmap, y consideraciones para la selección de índices.
+Algoritmos de procesamiento de queries (4,00 horas): Análisis de los algoritmos utilizados por los SGBD para ejecutar operaciones relacionales como selección, proyección, join (ej. nested loop join, sort-merge join, hash join) y ordenamiento.
+Optimización de queries (4,00 horas): Principios de la optimización de consultas, incluyendo la reescritura de consultas, la optimización basada en costos, el uso de estadísticas del catálogo y la generación de planes de ejecución.
+Gestión de transacciones y recuperación (Total: 9,00 horas teóricas)
+
+Transacciones y concurrencia (3,00 horas): Propiedades ACID de las transacciones (Atomicidad, Consistencia, Aislamiento, Durabilidad). Problemas derivados del acceso concurrente (pérdida de actualizaciones, lecturas sucias, lecturas no repetibles, lecturas fantasma). Concepto de serializabilidad.
+Técnicas de control de concurrencia (3,00 horas): Estudio de protocolos de bloqueo (locking) de dos fases (2PL), bloqueo a diferentes granularidades, ordenamiento por marcas de tiempo (timestamp ordering) y control de concurrencia optimista. Detección y prevención de interbloqueos (deadlocks).
+Sistemas de recuperación (3,00 horas): Técnicas para asegurar la durabilidad y la recuperación ante fallos, incluyendo el uso de bitácoras (logs), puntos de control (checkpoints) y algoritmos de recuperación como ARIES.
+Arquitecturas de sistemas de bases de datos (Total: 12,00 horas teóricas)
+
+Centralizadas y cliente-servidor. Paralelas y distribuidas. (6,00 horas): Exploración de diferentes arquitecturas de SGBD: sistemas centralizados, cliente-servidor, bases de datos paralelas (memoria compartida, disco compartido, nada compartido) y bases de datos distribuidas (fragmentación, replicación, transparencia).
+Ajuste de rendimiento y seguridad (3,00 horas): Técnicas para el ajuste (tuning) del rendimiento de la base de datos a nivel de consultas, índices, configuración del SGBD. Mecanismos de seguridad en bases de datos: autenticación, autorización (GRANT/REVOKE), vistas y cifrado.
+Data Warehousing y NoSQL (3,00 horas): Introducción a los conceptos de Almacenamiento de Datos (Data Warehousing), modelado dimensional (esquemas estrella y copo de nieve), y una visión general de las bases de datos NoSQL (clave-valor, documentales, columnares, grafos) y sus casos de uso.
+Total de Horas Teóricas del Curso: 42,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Diseño de base de datos", es necesario haber aprobado los siguientes cursos:
+
+Sistemas Operativos:
+
+Relevancia: Los Sistemas Gestores de Bases de Datos (SGBD) interactúan intensamente con el sistema operativo para gestionar recursos de bajo nivel.
+Gestión de Archivos y Almacenamiento: Un SGBD maneja grandes volúmenes de datos almacenados en disco. Comprender cómo el SO gestiona los sistemas de archivos, el buffering de E/S y la interacción con los dispositivos de almacenamiento es crucial para entender el almacenamiento y la recuperación en bases de datos.
+Gestión de Memoria: Los SGBD implementan sus propios gestores de buffer (buffer pools) pero operan dentro del marco de la memoria virtual proporcionada por el SO. El conocimiento de la gestión de memoria del SO ayuda a entender el rendimiento de la base de datos.
+Concurrencia y Procesos/Hilos: La gestión de múltiples transacciones concurrentes en un SGBD se apoya en los mecanismos de procesos, hilos y sincronización que ofrece el SO.
+Planificación de E/S: La eficiencia de las operaciones de E/S es crítica para el rendimiento de las bases de datos, y el SO juega un papel en su planificación.
+Fundamentos de Bases de Datos:
+
+Relevancia: Este curso es una continuación directa y avanzada de "Fundamentos de Bases de Datos". Se asume un dominio de los conceptos introductorios:
+Modelo Relacional y Diseño: Conocimiento del modelo relacional, normalización, y modelado Entidad-Relación.
+SQL Básico: Habilidad para escribir consultas DDL y DML básicas, que es el punto de partida para el "SQL Avanzado" de este curso.
+Conceptos de SGBD: Una introducción a qué es un SGBD, sus funciones principales y su arquitectura general.
+Indexación Básica: Una comprensión inicial de por qué se usan los índices y cómo funcionan a un nivel básico. "Diseño de base de datos" profundiza en los mecanismos internos de los SGBD y en técnicas avanzadas de diseño, gestión y optimización, que solo pueden ser abordadas con una sólida base en los fundamentos.

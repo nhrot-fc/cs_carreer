@@ -1,0 +1,49 @@
+Descripción General del Curso:
+El curso "Desarrollo Web" está diseñado para proporcionar a los estudiantes un conocimiento integral y habilidades prácticas en la creación de aplicaciones web modernas, cubriendo tanto el desarrollo del lado del cliente (Front-End) como del lado del servidor (Back-End). Los estudiantes aprenderán a construir interfaces de usuario interactivas, desarrollar APIs robustas, gestionar bases de datos relacionales y NoSQL, implementar sistemas de autenticación, y desplegar aplicaciones en la nube utilizando prácticas de DevOps. Se explorarán tecnologías y frameworks actuales para equipar a los estudiantes con las competencias necesarias para el ciclo de vida completo del desarrollo web.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Back-End (Total: 18,00 horas teóricas)
+
+Node.js/Express o Python/Django (6,00 horas): Desarrollo de la lógica del servidor utilizando frameworks populares como Express.js (con Node.js) o Django (con Python). Creación de rutas, manejo de peticiones y respuestas.
+Bases de datos: SQL (PostgreSQL) y NoSQL (MongoDB) (6,00 horas): Integración de bases de datos en aplicaciones web. Modelado, conexión y manipulación de datos utilizando sistemas de gestión de bases de datos relacionales como PostgreSQL (SQL) y bases de datos NoSQL orientadas a documentos como MongoDB.
+Autenticación: JWT, OAuth2.0 (6,00 horas): Implementación de mecanismos de autenticación y autorización seguros, como JSON Web Tokens (JWT) para sesiones y el protocolo OAuth2.0 para la delegación de autorización.
+APIs y Comunicación (Total: 16,00 horas teóricas)
+
+RESTful API Design (Swagger/Postman) (8,00 horas): Diseño y construcción de Interfaces de Programación de Aplicaciones (APIs) siguiendo los principios REST. Uso de herramientas como Swagger/OpenAPI para la documentación y Postman para las pruebas de APIs.
+GraphQL (Apollo Server/Client) (4,00 horas): Introducción a GraphQL como alternativa a REST para la construcción de APIs. Implementación de servidores y clientes GraphQL utilizando herramientas como Apollo.
+WebSockets (Socket.io) (4,00 horas): Desarrollo de aplicaciones web con comunicación bidireccional en tiempo real utilizando WebSockets, a través de librerías como Socket.io.
+Fundamentos de Diseño Web (Total: 12,00 horas teóricas)
+
+HTML5: Estructura semántica, formularios (3,00 horas): Creación de la estructura de páginas web utilizando HTML5 semántico. Diseño y validación de formularios para la entrada de datos del usuario.
+CSS3: Flexbox, Grid, animaciones (3,00 horas): Estilización de páginas web utilizando CSS3, incluyendo técnicas avanzadas de layout como Flexbox y Grid, así como la creación de animaciones y transiciones.
+JavaScript ES6+: DOM, eventos, async/await (6,00 horas): Programación del lado del cliente con JavaScript moderno (ECMAScript 6 y versiones posteriores). Manipulación del Document Object Model (DOM), manejo de eventos y programación asíncrona con promesas y async/await.
+Front-End (Total: 10,00 horas teóricas)
+
+Frameworks: React/Vue.js (componentes) (5,00 horas): Desarrollo de interfaces de usuario interactivas y reutilizables utilizando frameworks modernos de JavaScript como React o Vue.js, basados en una arquitectura de componentes.
+State Management (Redux/Vuex) (5,00 horas): Gestión del estado de la aplicación en el lado del cliente utilizando librerías como Redux (para React) o Vuex (para Vue.js) para manejar flujos de datos complejos.
+Despliegue y DevOps (Total: 7,00 horas teóricas)
+
+AWS (4,00 horas): Introducción a los servicios de Amazon Web Services (AWS) para el despliegue y alojamiento de aplicaciones web (ej. EC2, S3, RDS, Elastic Beanstalk).
+CI/CD: GitHub Actions (3,00 horas): Prácticas de Integración Continua y Despliegue Continuo (CI/CD) utilizando herramientas como GitHub Actions para automatizar los procesos de construcción, prueba y despliegue de aplicaciones.
+Total de Horas Teóricas del Curso: 63,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Desarrollo Web", es necesario haber aprobado los siguientes cursos y cursar uno de manera simultánea:
+
+Lenguajes de Programación:
+
+Relevancia: El desarrollo web es intrínsecamente una actividad de programación. Un curso previo en lenguajes de programación asegura que los estudiantes comprendan los conceptos fundamentales como variables, tipos de datos, estructuras de control, funciones, objetos y paradigmas de programación, que son esenciales para aprender y utilizar lenguajes como JavaScript, Python u otros en el contexto del desarrollo web.
+Fundamentos de Bases de Datos:
+
+Relevancia: Casi todas las aplicaciones web dinámicas requieren la persistencia y gestión de datos. Este curso proporciona el conocimiento necesario sobre modelado de datos (Entidad-Relación), lenguajes de consulta (SQL) y los principios de las bases de datos relacionales y NoSQL, lo cual es crucial para el desarrollo back-end y la integración de bases de datos como PostgreSQL y MongoDB, mencionadas en el temario.
+A la par de Redes de Computadoras (cursar simultáneamente):
+
+Relevancia: Las aplicaciones web operan sobre redes, principalmente Internet, utilizando el protocolo HTTP/HTTPS.
+Modelo Cliente-Servidor: Es fundamental entender la arquitectura cliente-servidor sobre la cual se construyen las aplicaciones web.
+Protocolos Web: Conocimientos sobre HTTP/HTTPS, TCP/IP, DNS son esenciales para comprender cómo se comunican los navegadores con los servidores web.
+APIs y Comunicación: Temas como RESTful APIs, GraphQL y WebSockets dependen directamente de los principios de comunicación en red.
+Seguridad y Despliegue: Aspectos de seguridad de red y cómo las aplicaciones se exponen y acceden a través de internet son importantes. Cursar "Redes de Computadoras" de manera simultánea permite a los estudiantes contextualizar el funcionamiento de las aplicaciones web dentro de la infraestructura de red global y comprender mejor los mecanismos de comunicación involucrados.

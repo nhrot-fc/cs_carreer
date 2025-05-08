@@ -1,0 +1,47 @@
+Descripción General del Curso:
+El curso "Procesamiento de Señales e Imágenes" introduce a los estudiantes los fundamentos teóricos y las técnicas prácticas para el análisis, manipulación y transformación de señales unidimensionales (como audio o series temporales) e imágenes bidimensionales. Se exploran conceptos clave del procesamiento digital de señales, incluyendo el análisis en el dominio de la frecuencia, el diseño de filtros digitales, y la aplicación de sistemas lineales e invariantes en el tiempo (LTI). Posteriormente, el curso se adentra en el procesamiento digital de imágenes, cubriendo temas como la mejora de imágenes, el filtrado espacial y no lineal, la segmentación, y una introducción a la visión por computadora y las aplicaciones del aprendizaje profundo en este campo.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Procesamiento Digital de Señales (Total: 16,00 horas teóricas)
+
+Aplicación de señales discretas y sistemas LTI (5,00 horas): Muestreo de señales continuas, señales y secuencias discretas. Propiedades y análisis de sistemas Lineales e Invariantes en el Tiempo (LTI) en el dominio del tiempo discreto, incluyendo la convolución.
+Espectro de frecuencia (2,00 horas): Representación de señales en el dominio de la frecuencia utilizando la Transformada de Fourier de Tiempo Discreto (DTFT) y la Transformada Discreta de Fourier (DFT).
+Análisis del espectro (3,00 horas): Interpretación del espectro de frecuencia, propiedades de la DFT, y el uso de la Transformada Rápida de Fourier (FFT) para el cálculo eficiente del espectro.
+Filtros digitales (6,00 horas): Diseño e implementación de filtros digitales, incluyendo filtros de Respuesta Finita al Impulso (FIR) y filtros de Respuesta Infinita al Impulso (IIR). Técnicas de diseño y análisis de sus respuestas en frecuencia.
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Procesamiento Digital de Imágenes (Total: 19,00 horas teóricas)
+
+Introducción (3,00 horas): Fundamentos de la formación de imágenes digitales, representación de imágenes, muestreo y cuantización, tipos de imágenes y relaciones entre píxeles.
+Mejora de imágenes en el dominio espacial (3,00 horas): Técnicas para mejorar la calidad visual de las imágenes, como el ajuste de brillo y contraste, la ecualización del histograma, y el filtrado espacial mediante máscaras de convolución (suavizado, realce de bordes).
+Filtros no lineales (2,00 horas): Aplicación de filtros no lineales para la reducción de ruido y mejora de imágenes, como el filtro de mediana y filtros morfológicos básicos.
+Segmentación de imágenes (6,00 horas): Técnicas para particionar una imagen en sus regiones u objetos constituyentes, incluyendo detección de discontinuidades (puntos, líneas, bordes), umbralización (thresholding), y crecimiento de regiones.
+Visión por computadora (3,00 horas): Introducción a los conceptos y tareas fundamentales de la visión por computadora, como la extracción de características, el reconocimiento de objetos y el análisis de movimiento.
+Aprendizaje Profundo (2,00 horas): Breve introducción a cómo las técnicas de aprendizaje profundo (Deep Learning), especialmente las redes neuronales convolucionales (CNNs), se aplican en el procesamiento de imágenes y la visión por computadora.
+Total de Horas Teóricas del Curso: 35,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Procesamiento de Señales e Imágenes", es necesario haber aprobado los siguientes cursos:
+
+Series y transformadas:
+
+Relevancia: Este curso es fundamental porque proporciona las herramientas matemáticas esenciales para el análisis en el dominio de la frecuencia.
+Análisis de Fourier: La Serie de Fourier y la Transformada de Fourier (continua y discreta) son cruciales para descomponer señales e imágenes en sus componentes de frecuencia, lo que permite el diseño de filtros y la comprensión de cómo los sistemas afectan a diferentes frecuencias.
+Transformada Z: Es la herramienta principal para el análisis y diseño de sistemas LTI discretos y filtros digitales.
+Convolución: El concepto de convolución, estudiado en el contexto de las transformadas, es la operación matemática clave que describe la salida de los sistemas LTI.
+Algoritmos avanzados:
+
+Relevancia: Muchas técnicas de procesamiento de señales e imágenes son inherentemente algorítmicas y pueden ser computacionalmente intensivas.
+Diseño y Análisis de Algoritmos: La capacidad de diseñar algoritmos eficientes (por ejemplo, para la FFT, operaciones de filtrado, o algoritmos de segmentación) y analizar su complejidad es vital.
+Optimización: Algunos problemas en este campo, como la reconstrucción de imágenes o ciertos tipos de filtrado, pueden formularse como problemas de optimización.
+Estructuras de Datos: El uso de estructuras de datos adecuadas puede mejorar significativamente la eficiencia de los algoritmos de procesamiento.
+Álgebra Lineal:
+
+Relevancia: El álgebra lineal proporciona el lenguaje y las herramientas para representar y manipular señales e imágenes.
+Vectores y Matrices: Las señales discretas se representan como vectores y las imágenes como matrices. Numerosas operaciones (filtros, transformaciones geométricas, análisis de componentes) se expresan y realizan mediante operaciones matriciales.
+Transformaciones Lineales: Muchas operaciones en el procesamiento de señales e imágenes, como las transformaciones geométricas o ciertos tipos de filtros, son transformaciones lineales.
+Espacios Vectoriales: Comprender las señales e imágenes como elementos de espacios vectoriales permite un tratamiento más formal y general de sus propiedades.
+Sistemas de Ecuaciones Lineales: Surgen en diversos problemas, como en la reconstrucción de señales o en ciertos métodos de filtrado. Una sólida base en estos tres cursos es crucial para el éxito en el estudio y aplicación de las técnicas de Procesamiento de Señales e Imágenes.

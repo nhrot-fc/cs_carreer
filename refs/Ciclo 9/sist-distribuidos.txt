@@ -1,0 +1,52 @@
+Descripción General del Curso:
+El curso "Sistemas Distribuidos" introduce a los estudiantes los principios fundamentales, el diseño y la implementación de sistemas que consisten en múltiples computadoras autónomas que se comunican a través de una red y colaboran para lograr un objetivo común. Se exploran los desafíos inherentes a estos sistemas, como la concurrencia, la falta de un reloj global, la posibilidad de fallos parciales y la seguridad. Los temas cubren diversos estilos arquitectónicos, mecanismos de comunicación (como RPC y mensajería), gestión de procesos y nombres, sincronización, consistencia de datos, replicación, tolerancia a fallos y seguridad en entornos distribuidos.
+
+Contenido Detallado del Curso:
+
+El curso se organiza en los siguientes capítulos y subtemas, con una carga horaria teórica específica para cada uno:
+
+Fundamentos y Arquitecturas (Total: 7,00 horas teóricas)
+
+Introducción (1,00 hora): Definición, características, ventajas y desventajas de los sistemas distribuidos. Ejemplos de aplicaciones distribuidas. Desafíos clave.
+Estilos arquitectónicos y modelos (3,00 horas): Exploración de diferentes estilos arquitectónicos (ej. cliente-servidor, peer-to-peer, arquitecturas en capas, microservicios) y modelos de sistemas distribuidos (ej. basados en objetos, basados en componentes).
+Middleware (3,00 horas): Papel del middleware en la simplificación del desarrollo de aplicaciones distribuidas. Tipos y ejemplos de middleware (ej. para comunicación, coordinación, persistencia).
+Laboratorio: Este capítulo cuenta con 2,00 horas de laboratorio quincenales.
+Comunicación (Total: 6,00 horas teóricas)
+
+Protocolos y tipos (2,00 horas): Revisión de los protocolos de red subyacentes. Tipos de comunicación en sistemas distribuidos (síncrona vs. asíncrona, persistente vs. transitoria).
+RPC (Remote Procedure Call) (2,00 horas): Concepto y mecanismos de la Llamada a Procedimiento Remoto (RPC). Semántica, generación de stubs, y manejo de parámetros.
+Comunicación orientada a mensajes (MOM) (2,00 horas): Paradigma de comunicación basado en el intercambio de mensajes. Sistemas de colas de mensajes (Message Queuing Systems) y Middleware Orientado a Mensajes (MOM).
+Procesos y Naming (Nombres) (Total: 6,00 horas teóricas)
+
+Procesos (2,00 horas): Gestión de procesos en entornos distribuidos. Hilos (threads) en sistemas distribuidos. Migración de código y agentes móviles.
+Conceptos de Naming (2,00 horas): Importancia de los nombres en sistemas distribuidos. Nombres, identificadores y direcciones. Mecanismos de resolución de nombres.
+Naming estructurado (2,00 horas): Ejemplos de sistemas de nombres estructurados como DNS (Domain Name System), nombres jerárquicos y nombres basados en atributos.
+Sincronización y consistencia (Total: 8,00 horas teóricas)
+
+Sincronización de relojes (3,00 horas): El problema de la ausencia de un reloj global. Sincronización de relojes físicos. Relojes lógicos (Lamport) y relojes vectoriales para ordenar eventos.
+Exclusión mutua (3,00 horas): Algoritmos para garantizar la exclusión mutua en el acceso a recursos compartidos en un entorno distribuido (centralizados, distribuidos, basados en tokens).
+Consistencia y replicación (2,00 horas): Modelos de consistencia de datos (ej. estricta, secuencial, causal, eventual). Técnicas de replicación de datos para mejorar la disponibilidad y el rendimiento.
+Tolerancia a fallos y seguridad (Total: 8,00 horas teóricas)
+
+Fundamentos de tolerancia a fallos (2,00 horas): Conceptos básicos de fiabilidad y disponibilidad. Tipos de fallos en sistemas distribuidos. Uso de redundancia para la tolerancia a fallos.
+Comunicación fiable y commit (3,00 horas): Protocolos para la comunicación fiable entre grupos de procesos. Protocolos de commit distribuido (ej. Two-Phase Commit - 2PC, Three-Phase Commit - 3PC) para transacciones atómicas.
+Seguridad (3,00 horas): Desafíos de seguridad en sistemas distribuidos. Establecimiento de canales seguros (ej. SSL/TLS), autenticación, autorización y control de acceso.
+Total de Horas Teóricas del Curso: 35,00 horas.
+
+Dependencias del Curso (Prerrequisitos):
+
+Para cursar "Sistemas Distribuidos", es necesario haber aprobado los siguientes cursos:
+
+Redes de Computadoras:
+
+Relevancia: Los sistemas distribuidos se basan fundamentalmente en la comunicación a través de redes.
+Protocolos de Comunicación: Un entendimiento sólido de la pila de protocolos TCP/IP (IP, TCP, UDP), así como de protocolos de aplicación como HTTP y DNS, es esencial para comprender cómo los componentes de un sistema distribuido interactúan.
+Conceptos de Red: El conocimiento sobre direccionamiento, enrutamiento, latencia, ancho de banda y la fiabilidad de las redes es crucial para diseñar y analizar el rendimiento y la robustez de los sistemas distribuidos.
+Modelos de Red: La familiaridad con modelos como cliente-servidor y peer-to-peer, estudiados en redes, es directamente aplicable.
+Sistemas Operativos:
+
+Relevancia: Los componentes de un sistema distribuido se ejecutan como procesos o hilos gestionados por sistemas operativos.
+Procesos e Hilos: La comprensión de cómo los SO crean, gestionan y planifican procesos e hilos es fundamental, ya que las aplicaciones distribuidas a menudo emplean múltiples procesos o hilos que pueden ejecutarse en diferentes máquinas.
+Comunicación Inter-Procesos (IPC): Los mecanismos de IPC a nivel de SO (como sockets, tuberías, memoria compartida) son la base o la inspiración para muchas formas de comunicación en sistemas distribuidos.
+Concurrencia y Sincronización: Los problemas de concurrencia y las primitivas de sincronización (semáforos, mutex) estudiadas en el contexto de un SO son cruciales para manejar el acceso concurrente y la coordinación en entornos distribuidos, aunque a menudo se requieren algoritmos de sincronización distribuida más complejos.
+Gestión de Recursos: La forma en que un SO gestiona la memoria, el almacenamiento y otros recursos proporciona un contexto para entender la gestión de recursos en un sistema distribuido. Estos prerrequisitos aseguran que los estudiantes posean el conocimiento fundamental sobre cómo funcionan las computadoras individualmente y cómo se comunican entre sí, lo cual es indispensable para abordar los desafíos específicos de los sistemas distribuidos.
